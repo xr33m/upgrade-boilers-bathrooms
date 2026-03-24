@@ -1,34 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Star } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema, generateReviewSchema } from '../components/SEO';
-import { supabase, Review } from '../lib/supabase';
+import { reviews as staticReviews } from '../data/reviews';
 import { DOMAIN } from '../constants/business';
 import { TestimonialsSection } from '../components/TestimonialsSection';
 
 export default function Reviews() {
-  const [reviews, setReviews] = useState<Review[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchReviews();
-  }, []);
-
-  async function fetchReviews() {
-    try {
-      const { data, error } = await supabase
-        .from('reviews')
-        .select('*')
-        .eq('approved', true)
-        .order('created_at', { ascending: false });
-
-      if (error) throw error;
-      setReviews(data || []);
-    } catch (error) {
-      console.error('Error fetching reviews:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [reviews] = useState(staticReviews);
 
   const averageRating = reviews.length > 0
     ? (reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length).toFixed(1)
@@ -78,16 +56,7 @@ export default function Reviews() {
         </div>
       </section>
 
-      {loading ? (
-        <section className="py-16 bg-white">
-          <div className="text-center py-12">
-            <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600"></div>
-            <p className="mt-4 text-slate-600">Loading reviews...</p>
-          </div>
-        </section>
-      ) : (
-        <TestimonialsSection />
-      )}
+      <TestimonialsSection />
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">

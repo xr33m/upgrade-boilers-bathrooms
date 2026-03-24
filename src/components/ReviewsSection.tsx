@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
-import { supabase, Review } from '../lib/supabase';
+import { reviews as staticReviews, Review } from '../data/reviews';
 
 function ReviewCard({ review }: { review: Review }) {
   return (
@@ -46,18 +46,17 @@ function ReviewCard({ review }: { review: Review }) {
 }
 
 export default function ReviewsSection() {
-  const [reviews, setReviews] = useState<Review[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [reviews] = useState<Review[]>(staticReviews.slice(0, 6));
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [averageRating, setAverageRating] = useState(0);
+  const [averageRating] = useState(
+    staticReviews.length > 0
+      ? staticReviews.reduce((sum, review) => sum + review.rating, 0) / staticReviews.length
+      : 0
+  );
   const [visibleCards, setVisibleCards] = useState(1);
   const titleRef = useRef<HTMLDivElement>(null);
   const [titleVisible, setTitleVisible] = useState(false);
   const autoplayRef = useRef<NodeJS.Timeout>();
-
-  useEffect(() => {
-    fetchReviews();
-  }, []);
 
   useEffect(() => {
     setVisibleCards(1);
@@ -96,30 +95,6 @@ export default function ReviewsSection() {
     };
   }, [reviews.length, visibleCards]);
 
-  async function fetchReviews() {
-    try {
-      const { data, error } = await supabase
-        .from('reviews')
-        .select('*')
-        .eq('approved', true)
-        .order('created_at', { ascending: false })
-        .limit(6);
-
-      if (error) throw error;
-      const reviewsData = data || [];
-      setReviews(reviewsData);
-
-      if (reviewsData.length > 0) {
-        const totalRating = reviewsData.reduce((sum, review) => sum + (review.rating || 5), 0);
-        setAverageRating(totalRating / reviewsData.length);
-      }
-    } catch (error) {
-      console.error('Error fetching reviews:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
-
   function handlePrevious() {
     setCurrentIndex((prev) => Math.max(0, prev - 1));
     if (autoplayRef.current) {
@@ -135,7 +110,7 @@ export default function ReviewsSection() {
     }
   }
 
-  if (loading || reviews.length === 0) {
+  if (reviews.length === 0) {
     return null;
   }
 

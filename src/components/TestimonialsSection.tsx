@@ -1,31 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Star } from 'lucide-react';
-import { supabase, Review } from '../lib/supabase';
+import { reviews as staticReviews, Review } from '../data/reviews';
 
 export function TestimonialsSection() {
-  const [reviews, setReviews] = useState<Review[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchReviews();
-  }, []);
-
-  async function fetchReviews() {
-    try {
-      const { data, error } = await supabase
-        .from('reviews')
-        .select('*')
-        .eq('approved', true)
-        .order('created_at', { ascending: false });
-
-      if (error) throw error;
-      setReviews(data || []);
-    } catch (error) {
-      console.error('Error fetching reviews:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [reviews] = useState<Review[]>(staticReviews);
 
   function renderStars(rating: number) {
     return (
@@ -39,17 +17,6 @@ export function TestimonialsSection() {
           />
         ))}
       </div>
-    );
-  }
-
-  if (loading) {
-    return (
-      <section className="relative w-full pt-12 pb-20 px-4 bg-white">
-        <div className="mx-auto max-w-5xl text-center py-12">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600"></div>
-          <p className="mt-4 text-slate-600">Loading customer reviews...</p>
-        </div>
-      </section>
     );
   }
 
