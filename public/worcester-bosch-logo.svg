@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <ellipse cx="50" cy="40" rx="40" ry="35" fill="#666"/>
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#666">Worcester</text>
+  <text x="100" y="60" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#E30613">BOSCH</text>
+</svg>

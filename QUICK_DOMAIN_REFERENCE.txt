@@ -1,0 +1,40 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    DOMAIN UPDATE - QUICK REFERENCE                        ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+WHEN YOU HAVE YOUR ACTUAL DOMAIN:
+
+Step 1: Update Domain
+  $ node scripts/update-domain.mjs https://your-domain.com
+
+Step 2: Generate Sitemap
+  $ node scripts/generate-sitemap.mjs
+
+Step 3: Build & Deploy
+  $ npm run build
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT HAPPENS AUTOMATICALLY:
+
+✓ All page canonical tags update
+✓ Schema markup uses new domain
+✓ Sitemap URLs updated
+✓ Robots.txt sitemap reference updated
+✓ All SEO components use new domain
+
+═══════════════════════════════════════════════════════════════════════════
+
+MAIN FILES:
+
+• src/constants/business.ts    - DOMAIN constant (centralized)
+• public/robots.txt            - Sitemap reference
+• public/sitemap.xml           - All page URLs (regenerate)
+• src/components/SEO.tsx       - Uses DOMAIN from business.ts
+
+═══════════════════════════════════════════════════════════════════════════
+
+DOCUMENTATION:
+
+See DOMAIN_SETUP.md for complete guide
+See SEO_CHECKLIST.md for SEO status
