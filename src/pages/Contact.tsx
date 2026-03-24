@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
-import { supabase } from '../lib/supabase';
 
 export default function Contact() {
   const navigate = useNavigate();
@@ -16,38 +15,45 @@ export default function Contact() {
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setError('');
+    setSuccess(false);
+
+    const form = e.target as HTMLFormElement;
 
     try {
-      const { error: supabaseError } = await supabase
-        .from('bookings')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            service: formData.service,
-            message: formData.message,
-            status: 'new'
-          }
-        ]);
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
 
-      if (supabaseError) throw supabaseError;
+      if (response.ok) {
+        setSuccess(true);
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          service: '',
+          message: ''
+        });
 
-      localStorage.setItem('bookingData', JSON.stringify({
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone
-      }));
-
-      navigate('/booking-confirmation');
+        setTimeout(() => {
+          navigate('/booking-confirmation');
+        }, 1500);
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (err) {
-      console.error('Booking error:', err);
-      setError('Failed to submit booking. Please try again or call us directly.');
+      console.error('Form submission error:', err);
+      setError('Failed to submit form. Please try again or call us directly.');
+    } finally {
       setLoading(false);
     }
   };
@@ -157,7 +163,18 @@ export default function Contact() {
                   </div>
                 )}
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                {success && (
+                  <div className="bg-green-50 border border-green-200 text-green-800 p-4 rounded-lg mb-6">
+                    Thank you! Your message has been sent successfully. Redirecting...
+                  </div>
+                )}
+
+                <form
+                  onSubmit={handleSubmit}
+                  action="https://formspree.io/f/YOUR_FORM_ID"
+                  method="POST"
+                  className="space-y-6"
+                >
                   <div>
                     <label htmlFor="name" className="block font-semibold mb-2 text-slate-700">
                       Your Name *
@@ -165,6 +182,7 @@ export default function Contact() {
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
@@ -180,6 +198,7 @@ export default function Contact() {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
@@ -195,6 +214,7 @@ export default function Contact() {
                     <input
                       type="tel"
                       id="phone"
+                      name="phone"
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({...formData, phone: e.target.value})}
@@ -209,6 +229,7 @@ export default function Contact() {
                     </label>
                     <select
                       id="service"
+                      name="service"
                       required
                       value={formData.service}
                       onChange={(e) => setFormData({...formData, service: e.target.value})}
@@ -233,6 +254,7 @@ export default function Contact() {
                     </label>
                     <textarea
                       id="message"
+                      name="message"
                       required
                       rows={6}
                       value={formData.message}
