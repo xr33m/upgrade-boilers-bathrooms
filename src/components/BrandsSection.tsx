@@ -7,6 +7,10 @@ interface Brand {
 
 const brands: Brand[] = [
   {
+    name: 'Worcester Bosch',
+    logo: '/worcester-upgrade.webp',
+  },
+  {
     name: 'Ideal Heating',
     logo: '/ideal-logo.webp',
   },
@@ -15,16 +19,16 @@ const brands: Brand[] = [
     logo: '/vaillant_upgrade.webp',
   },
   {
-    name: 'Wilo',
-    logo: '/wilo_upgrade.webp',
-  },
-  {
-    name: 'Worcester Bosch',
-    logo: '/worcester-upgrade.webp',
+    name: 'Baxi',
+    logo: '/Baxi-Large-Logo.webp',
   },
   {
     name: 'Potterton',
     logo: '/potterton_upgrade.webp',
+  },
+  {
+    name: 'Wilo',
+    logo: '/wilo_upgrade.webp',
   },
   {
     name: 'Gas Safe',
@@ -41,6 +45,10 @@ const brands: Brand[] = [
   {
     name: 'Water Safe',
     logo: '/water-safe-logo.webp',
+  },
+  {
+    name: 'SNIPEF',
+    logo: '/upgrade-snipef.webp',
   }
 ];
 

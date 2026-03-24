@@ -246,14 +246,21 @@ export default function BoilerInstallation() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               {[
-                { name: 'Worcester Bosch', desc: 'Market-leading reliability with extended warranties' },
-                { name: 'Ideal', desc: 'Trusted British manufacturing with great value' },
-                { name: 'Vaillant', desc: 'German engineering excellence' },
-                { name: 'Baxi', desc: 'Affordable quality heating solutions' }
+                { name: 'Worcester Bosch', desc: 'Market-leading reliability with extended warranties', logo: '/worcester-upgrade.webp' },
+                { name: 'Ideal', desc: 'Trusted British manufacturing with great value', logo: '/ideal-logo.webp' },
+                { name: 'Vaillant', desc: 'German engineering excellence', logo: '/vaillant_upgrade.webp' },
+                { name: 'Baxi', desc: 'Affordable quality heating solutions', logo: '/Baxi-Large-Logo.webp' }
               ].map((brand, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold mb-2 text-slate-900">{brand.name}</h3>
-                  <p className="text-slate-600">{brand.desc}</p>
+                <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                  <div className="h-20 flex items-center justify-center mb-4">
+                    <img
+                      src={brand.logo}
+                      alt={brand.name}
+                      className="max-h-16 max-w-full object-contain"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-slate-900 text-center">{brand.name}</h3>
+                  <p className="text-slate-600 text-center text-sm">{brand.desc}</p>
                 </div>
               ))}
             </div>
@@ -275,7 +282,7 @@ export default function BoilerInstallation() {
             <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
               <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.pexels.com/photos/5691624/pexels-photo-5691624.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/emergency-boiler-upgrade.webp"
                   alt="Emergency boiler replacement Glasgow"
                   className="w-full h-full object-cover"
                 />
@@ -422,7 +429,7 @@ export default function BoilerInstallation() {
           { name: 'Worcester Bosch', logo: '/worcester-upgrade.webp' },
           { name: 'Ideal', logo: '/ideal-logo.webp' },
           { name: 'Vaillant', logo: '/vaillant_upgrade.webp' },
-          { name: 'Baxi', logo: '/baxi-logo.svg' }
+          { name: 'Baxi', logo: '/Baxi-Large-Logo.webp' }
         ]}
         relatedServices={[
           { label: 'Boiler Repairs', path: '/boiler-repairs' },
