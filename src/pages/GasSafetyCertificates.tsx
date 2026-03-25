@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Phone, CheckCircle2, AlertTriangle, Shield } from 'lucide-react';
+import { Phone, CheckCircle2, AlertTriangle, Shield, Calendar, FileCheck, Wrench } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
-import ProcessSection from '../components/ProcessSection';
+import AnimatedProcessSection from '../components/AnimatedProcessSection';
 import FAQSection from '../components/FAQSection';
 import AreasWeCover from '../components/AreasWeCover';
 import { gasSafetyFaqs } from '../lib/links';
@@ -591,31 +591,36 @@ export default function GasSafetyCertificates() {
         </div>
       </section>
 
-      <ProcessSection
-        title="How We Conduct Your Gas Safety Check"
-        subtitle="Professional, thorough, compliant – every time"
+      <AnimatedProcessSection
+        title="Your CP12 Gas Safety Check Process"
+        subtitle="Comprehensive inspection ensuring full legal compliance and tenant safety"
         steps={[
           {
             step: 1,
-            title: 'Book Your Appointment',
-            description: 'Contact us to schedule your CP12 check at a time that suits you and your tenant. We offer flexible appointments including evenings and weekends.'
+            icon: Calendar,
+            title: 'Schedule Your Check',
+            description: 'Book your CP12 inspection at a time convenient for you and your tenant. We offer flexible scheduling including evenings and weekends to minimize disruption.'
           },
           {
             step: 2,
-            title: 'Engineer Inspection',
-            description: 'Our Gas Safe registered engineer conducts a comprehensive inspection of all gas appliances, pipework, flues, safety devices, and ventilation.'
+            icon: Shield,
+            title: 'Comprehensive Inspection',
+            description: 'Our Gas Safe registered engineer arrives on time and conducts a thorough inspection of all gas appliances, pipework, flues, safety devices, ventilation, and carbon monoxide detection.'
           },
           {
             step: 3,
-            title: 'Testing & Analysis',
-            description: 'We perform gas pressure tests, flue gas analysis, safety device checks, and carbon monoxide assessments to current regulations.'
+            icon: Wrench,
+            title: 'Testing & Verification',
+            description: 'We perform detailed gas pressure tests, flue gas analysis, combustion checks, safety device operation tests, and carbon monoxide level assessments to current UK regulations.'
           },
           {
             step: 4,
-            title: 'Certificate Issued',
-            description: 'If all checks pass, your CP12 certificate is issued same-day. Digital copies sent immediately, with printed copies available.'
+            icon: FileCheck,
+            title: 'Certificate Delivery',
+            description: 'Upon successful completion, your official CP12 certificate is issued same-day. Digital copies emailed immediately with printed certificates posted to you and your tenant.'
           }
         ]}
+        accentColor="blue"
         relatedServices={[
           { label: 'Boiler Servicing', path: '/boilers/servicing' },
           { label: 'Lead Testing', path: '/landlords/lead-testing' },

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Phone, Zap, Clock, AlertTriangle, CheckCircle2, Shield, FileText } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
-import ProcessSection from '../components/ProcessSection';
+import AnimatedProcessSection from '../components/AnimatedProcessSection';
 import FAQSection from '../components/FAQSection';
 import AreasWeCover from '../components/AreasWeCover';
 import { propertyManagersFaqs } from '../lib/links';
@@ -605,31 +605,36 @@ export default function PropertyManagers() {
         </div>
       </section>
 
-      <ProcessSection
-        title="Our Property Manager Service"
-        subtitle="Integrated support for letting agencies and property managers"
+      <AnimatedProcessSection
+        title="How We Support Property Managers"
+        subtitle="Streamlined service delivery designed specifically for letting agencies and property managers"
         steps={[
           {
             step: 1,
-            title: 'Rapid Response',
-            description: 'Same-day or emergency appointments for reactive plumbing and heating issues.'
+            icon: Clock,
+            title: 'Rapid Response Coordination',
+            description: 'Same-day or emergency appointments for reactive plumbing and heating issues. We prioritize property manager calls to minimize tenant disruption and protect your reputation.'
           },
           {
             step: 2,
-            title: 'Professional Service',
-            description: 'Gas Safe and WaterSafe engineers provide comprehensive repairs and maintenance.'
+            icon: Shield,
+            title: 'Professional Engineer Visit',
+            description: 'Gas Safe and WaterSafe engineers arrive on time, communicate professionally with tenants, and provide comprehensive repairs and maintenance with minimal property disruption.'
           },
           {
             step: 3,
-            title: 'Documentation',
-            description: 'Detailed photographic reports forwarded directly to landlords with transparent pricing.'
+            icon: FileText,
+            title: 'Detailed Documentation',
+            description: 'Receive photographic job reports with before/after images, clear fault explanations, work completed, and transparent pricing—ready to forward directly to landlords.'
           },
           {
             step: 4,
-            title: 'Compliance Management',
-            description: 'All safety certifications tracked and scheduled with automatic annual reminders.'
+            icon: CheckCircle2,
+            title: 'Compliance Tracking',
+            description: 'All safety certifications are tracked and scheduled with automatic annual reminders. We manage your compliance calendar so certificates never expire.'
           }
         ]}
+        accentColor="orange"
         relatedServices={[
           { label: 'Gas Safety Certificates', path: '/landlords/gas-safety-certificates' },
           { label: 'Boiler Services', path: '/boilers/servicing' },
