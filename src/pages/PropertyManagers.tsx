@@ -4,6 +4,7 @@ import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadc
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import ProcessSection from '../components/ProcessSection';
 import FAQSection from '../components/FAQSection';
+import AreasWeCover from '../components/AreasWeCover';
 import { propertyManagersFaqs } from '../lib/links';
 
 export default function PropertyManagers() {
@@ -561,47 +562,6 @@ export default function PropertyManagers() {
             </div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Areas We Cover – Property Managers Glasgow
-            </h2>
-
-            <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg mb-12">
-              <p className="text-slate-700 mb-4">
-                We support property managers and letting agents across:
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">Glasgow City Centre</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">West End</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">Southside</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">Bearsden & Milngavie</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">East Kilbride</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">Paisley</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-orange-600 font-bold">•</span>
-                  <span className="text-slate-700">Greater Glasgow</span>
-                </div>
-              </div>
-            </div>
-
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
               What You Can Expect From Us
             </h2>
 
@@ -698,6 +658,12 @@ export default function PropertyManagers() {
           </div>
         </div>
       </section>
+
+      <AreasWeCover
+        title="Areas We Cover – Property Managers Glasgow"
+        subtitle="We support property managers and letting agents across Greater Glasgow"
+        accentColor="orange"
+      />
 
       <FAQSection
         faqs={propertyManagersFaqs}

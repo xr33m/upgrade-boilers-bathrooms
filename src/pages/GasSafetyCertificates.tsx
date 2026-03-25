@@ -4,6 +4,7 @@ import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadc
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import ProcessSection from '../components/ProcessSection';
 import FAQSection from '../components/FAQSection';
+import AreasWeCover from '../components/AreasWeCover';
 import { gasSafetyFaqs } from '../lib/links';
 
 export default function GasSafetyCertificates() {
@@ -549,44 +550,6 @@ export default function GasSafetyCertificates() {
             </div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Areas We Cover – CP12 Gas Safety Glasgow
-            </h2>
-
-            <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg mb-12">
-              <p className="text-slate-700 mb-4">We provide landlord gas safety checks across:</p>
-              <div className="grid md:grid-cols-2 gap-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">Glasgow City Centre</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">West End</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">Southside</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">Bearsden & Milngavie</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">East Kilbride</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">Paisley</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span className="text-slate-700">Greater Glasgow</span>
-                </div>
-              </div>
-            </div>
-
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
               Why Choose Upgrade Boilers & Bathrooms?
             </h2>
 
@@ -681,6 +644,12 @@ export default function GasSafetyCertificates() {
           </div>
         </div>
       </section>
+
+      <AreasWeCover
+        title="Areas We Cover – CP12 Gas Safety Glasgow"
+        subtitle="We provide landlord gas safety checks across Greater Glasgow"
+        accentColor="blue"
+      />
 
       <FAQSection
         faqs={gasSafetyFaqs}
