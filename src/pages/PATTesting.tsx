@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Zap, ClipboardCheck, AlertTriangle, CheckCircle2, FileText, Shield } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
+import AreasWeServe from '../components/AreasWeServe';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import ProcessSection from '../components/ProcessSection';
 import FAQSection from '../components/FAQSection';
@@ -521,45 +522,6 @@ export default function PATTesting() {
               </p>
             </div>
 
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Areas We Cover – PAT Testing Glasgow
-            </h2>
-
-            <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg mb-12">
-              <p className="text-slate-700 mb-4">
-                We provide landlord PAT testing across:
-              </p>
-              <div className="grid md:grid-cols-2 gap-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">Glasgow City Centre</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">West End</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">Southside</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">Bearsden & Milngavie</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">East Kilbride</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">Paisley</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
-                  <span className="text-slate-700">Greater Glasgow</span>
-                </div>
-              </div>
-            </div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
               Why Choose Upgrade Boilers & Bathrooms?
@@ -628,6 +590,8 @@ export default function PATTesting() {
           { label: 'Landlord Services', path: '/landlords' },
         ]}
       />
+
+      <AreasWeServe />
 
       <section className="py-16 bg-violet-900 text-white">
         <div className="container mx-auto px-4 text-center">

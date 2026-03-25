@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Droplet, ClipboardCheck, AlertTriangle, CheckCircle2, FileText, ThermometerSun, Shield, Calendar, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import AreasWeServe from '../components/AreasWeServe';
 import { BUSINESS_INFO } from '../constants/business';
 
 export default function LegionellaRiskAssessments() {
@@ -326,7 +327,7 @@ export default function LegionellaRiskAssessments() {
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
               <p className="text-slate-800 text-lg leading-relaxed">
-                If you manage multiple properties, we can coordinate assessments efficiently and align them with <Link to="/landlords/gas-safety-certificates" className="text-blue-600 hover:text-blue-800 font-semibold underline">annual gas safety inspections</Link> or <Link to="/boilers/servicing" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler servicing</Link>.
+                If you manage multiple properties, we can coordinate assessments efficiently and align them with <Link to="/landlords/gas-safety-certificates" className="text-blue-600 hover:text-blue-800 font-semibold underline">annual gas safety inspections</Link> or <Link to="/boilers/servicing" className=\"text-blue-600 hover:text-blue-800 font-semibold underline">boiler servicing</Link>.
               </p>
             </div>
           </div>
@@ -444,36 +445,7 @@ export default function LegionellaRiskAssessments() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <MapPin className="w-10 h-10 text-blue-600" />
-              Areas We Cover in Glasgow
-            </h2>
-            <p className="text-xl text-slate-700 mb-8">
-              We provide Legionella Risk Assessments throughout Greater Glasgow including:
-            </p>
-
-            <div className="grid md:grid-cols-4 gap-3">
-              {[
-                'G1', 'G2', 'G3', 'G4', 'G5', 'G11', 'G12', 'G13', 'G20', 'G21', 'G31', 'G32',
-                'G41', 'G42', 'G43', 'G44', 'G45', 'G46', 'G51', 'G52', 'G53', 'G61', 'G62', 'G64'
-              ].map((postcode, index) => (
-                <div key={index} className="bg-blue-50 p-3 rounded-lg border border-blue-200 text-center">
-                  <p className="text-slate-800 font-semibold">{postcode}</p>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-blue-100 p-4 rounded-lg mt-6 text-center">
-              <p className="text-slate-800 font-semibold">
-                G71–G77 and surrounding areas
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AreasWeServe />
 
       <section className="py-12 md:py-16 bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">

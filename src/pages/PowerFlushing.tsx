@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Droplets, AlertCircle, CheckCircle2, AlertTriangle, Zap, Clock, DollarSign, Shield, Wrench, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import AreasWeServe from '../components/AreasWeServe';
 import { BUSINESS_INFO } from '../constants/business';
 
 export default function PowerFlushing() {
@@ -682,35 +683,7 @@ export default function PowerFlushing() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Areas We Cover – Power Flushing Glasgow
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-6 mb-12">
-              {[
-                { area: 'Glasgow City Centre', postcodes: 'G1–G5' },
-                { area: 'West End', postcodes: 'G11–G13' },
-                { area: 'Southside', postcodes: 'G41–G46' },
-                { area: 'Bearsden & Milngavie', postcodes: 'North Glasgow' },
-                { area: 'East Kilbride', postcodes: 'South Lanarkshire' },
-                { area: 'Paisley', postcodes: 'West of Glasgow' },
-                { area: 'Greater Glasgow', postcodes: 'All surrounding areas' }
-              ].map((location, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200 flex items-center gap-4">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0" />
-                  <div>
-                    <p className="font-bold text-slate-900">{location.area}</p>
-                    <p className="text-slate-600 text-sm">{location.postcodes}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <AreasWeServe />
 
       <section className="py-12 md:py-16 bg-slate-50">
         <div className="container mx-auto px-4">
