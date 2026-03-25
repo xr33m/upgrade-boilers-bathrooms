@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import { Phone, CheckCircle2, TrendingDown, Shield, Calendar, Zap, ThermometerSun, PhoneCall, ClipboardCheck, Wrench, Truck } from 'lucide-react';
+import { Phone, CheckCircle2, TrendingDown, Shield, Calendar, Zap, MapPin, ThermometerSun, PhoneCall, ClipboardCheck, Wrench, Truck } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import EnhancedProcessSection from '../components/EnhancedProcessSection';
 import FAQSection from '../components/FAQSection';
-import AreasWeServe from '../components/AreasWeServe';
 import { boilerInstallationFaqs } from '../lib/links';
 
 export default function BoilerInstallation() {
@@ -359,7 +358,35 @@ export default function BoilerInstallation() {
         </div>
       </section>
 
-      <AreasWeServe />
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+              <MapPin className="w-10 h-10 text-blue-600" />
+              Areas We Cover – Boiler Installation Glasgow
+            </h2>
+            <p className="text-xl text-slate-700 mb-8">
+              We install boilers throughout:
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              {[
+                'Glasgow City Centre (G1–G5)',
+                'West End (G11–G13)',
+                'Southside (G41–G46)',
+                'East Glasgow (G31–G32)',
+                'Bearsden & Milngavie',
+                'East Kilbride',
+                'Paisley & surrounding areas'
+              ].map((area, index) => (
+                <div key={index} className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                  <p className="text-slate-800 font-semibold">{area}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       <FAQSection
         faqs={boilerInstallationFaqs}

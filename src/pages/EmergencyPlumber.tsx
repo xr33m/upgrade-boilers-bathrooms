@@ -157,7 +157,7 @@ export default function EmergencyPlumber() {
                   </div>
                 </div>
                 <p className="text-lg text-slate-700 mt-6">
-                  If your boiler is beyond repair, we can arrange urgent boiler replacement. See our <Link to="/boilers/repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler repair</Link> and <Link to="/boilers/installation" className=\"text-blue-600 hover:text-blue-800 font-semibold underline">boiler installation</Link> services for more details.
+                  If your boiler is beyond repair, we can arrange urgent boiler replacement. See our <Link to="/boilers/repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler repair</Link> and <Link to="/boilers/installation" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler installation</Link> services for more details.
                 </p>
               </div>
             )
@@ -310,7 +310,7 @@ export default function EmergencyPlumber() {
                   </div>
                 </div>
                 <p className="text-lg text-slate-700">
-                  We diagnose heating system faults quickly and aim to restore warmth and hot water as soon as possible. See our <Link to="/heating" className="text-blue-600 hover:text-blue-800 font-semibold underline">heating services</Link> and <Link to="/heating/radiator-repairs" className=\"text-blue-600 hover:text-blue-800 font-semibold underline">radiator repairs</Link> for more information.
+                  We diagnose heating system faults quickly and aim to restore warmth and hot water as soon as possible. See our <Link to="/heating" className="text-blue-600 hover:text-blue-800 font-semibold underline">heating services</Link> and <Link to="/heating/radiator-repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">radiator repairs</Link> for more information.
                 </p>
               </div>
             )
@@ -429,6 +429,15 @@ export default function EmergencyPlumber() {
             </div>
           </div>
         }
+
+        areas={{
+          heading: "Areas We Cover in Glasgow",
+          intro: "24/7 emergency response across Greater Glasgow including:",
+          areas: [
+            'G1', 'G2', 'G3', 'G4', 'G5', 'G11', 'G12', 'G13', 'G20', 'G21', 'G31', 'G32',
+            'G41', 'G42', 'G43', 'G44', 'G45', 'G46', 'G51', 'G52', 'G53', 'G61', 'G62', 'G64'
+          ]
+        }}
 
         faqs={emergencyPlumberFaqs}
 

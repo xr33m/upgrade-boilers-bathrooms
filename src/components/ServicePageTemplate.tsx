@@ -2,7 +2,6 @@ import React from 'react';
 import { Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { BUSINESS_INFO } from '../constants/business';
-import AreasWeServe from './AreasWeServe';
 
 interface HeroSection {
   title: string;
@@ -43,6 +42,12 @@ interface ProcessSectionData {
   steps: ProcessStep[];
 }
 
+interface AreasSection {
+  heading: string;
+  intro?: string;
+  areas: string[];
+}
+
 interface FAQItem {
   question: string;
   answer: string;
@@ -63,6 +68,7 @@ interface ServicePageProps {
   contentBlocks?: ContentBlock[];
   whyChooseUs?: React.ReactNode;
   process?: ProcessSectionData;
+  areas?: AreasSection;
   faqs?: FAQItem[];
   finalCTA: CTASection;
 }
@@ -74,6 +80,7 @@ export default function ServicePageTemplate({
   contentBlocks,
   whyChooseUs,
   process,
+  areas,
   faqs,
   finalCTA,
 }: ServicePageProps) {
@@ -267,7 +274,32 @@ export default function ServicePageTemplate({
       )}
 
       {/* AREAS SECTION */}
-      <AreasWeServe />
+      {areas && (
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                {areas.heading}
+              </h2>
+              {areas.intro && (
+                <p className="text-lg text-slate-700 mb-8">
+                  {areas.intro}
+                </p>
+              )}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                {areas.areas.map((area, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-slate-50 p-4 rounded-lg border border-slate-200 text-center"
+                  >
+                    <p className="text-slate-800 font-semibold">{area}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FAQ SECTION */}
       {faqs && faqs.length > 0 && (

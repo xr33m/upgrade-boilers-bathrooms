@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, AlertCircle, CheckCircle2, Shield, Wrench, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
-import AreasWeServe from '../components/AreasWeServe';
 import { BUSINESS_INFO } from '../constants/business';
 
 export default function CastIronPipes() {
@@ -372,7 +371,35 @@ export default function CastIronPipes() {
         </div>
       </section>
 
-      <AreasWeServe />
+      <section className="py-12 md:py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+              <MapPin className="w-10 h-10 text-slate-600" />
+              Areas We Cover – Cast Iron Drain Repairs Glasgow
+            </h2>
+            <p className="text-xl text-slate-700 mb-8">
+              We serve:
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              {[
+                'Glasgow City Centre (G1–G5)',
+                'West End (G11–G13)',
+                'Southside (G41–G46)',
+                'East Glasgow (G31–G32)',
+                'Bearsden & Milngavie',
+                'East Kilbride',
+                'Paisley & surrounding areas'
+              ].map((area, index) => (
+                <div key={index} className="bg-white p-4 rounded-lg border border-slate-200">
+                  <p className="text-slate-800 font-semibold">{area}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, Wind, CheckCircle2, Zap, TrendingDown, Leaf, AlertCircle, Home, Gauge, Droplet, MapPin, Award } from 'lucide-react';
 import SEO from '../components/SEO';
-import AreasWeServe from '../components/AreasWeServe';
 import { BUSINESS_INFO } from '../constants/business';
 
 export default function AirSourceHeatPumps() {
@@ -594,7 +593,35 @@ export default function AirSourceHeatPumps() {
         </div>
       </section>
 
-      <AreasWeServe />
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
+              Areas We Cover – Heat Pump Installation Glasgow
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-16">
+              {[
+                { name: 'Glasgow City Centre', detail: 'G1–G5 postcodes' },
+                { name: 'West End', detail: 'G11–G13 postcodes' },
+                { name: 'Southside', detail: 'G41–G46 postcodes' },
+                { name: 'East Kilbride', detail: 'South Lanarkshire' },
+                { name: 'Bearsden & Milngavie', detail: 'North of the city' },
+                { name: 'Paisley', detail: 'West of Glasgow' },
+                { name: 'Surrounding Areas', detail: 'Greater Glasgow region' }
+              ].map((area, idx) => (
+                <div key={idx} className="bg-green-50 p-8 rounded-xl shadow-lg border-2 border-green-200 flex items-start gap-3">
+                  <MapPin className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-lg font-semibold text-slate-900">{area.name}</p>
+                    <p className="text-slate-600">{area.detail}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="py-12 md:py-16 bg-slate-50">
         <div className="container mx-auto px-4">

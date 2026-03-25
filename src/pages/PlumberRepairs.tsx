@@ -223,6 +223,28 @@ export default function PlumberRepairs() {
           }
         ]}
 
+        areas={{
+          heading: "Areas We Cover in Glasgow",
+          intro: "We provide plumbing repairs across:",
+          areas: [
+            'Glasgow City Centre',
+            'West End',
+            'Partick',
+            'Hillhead',
+            'Finnieston',
+            'Merchant City',
+            'Southside',
+            'Shawlands',
+            'Pollokshields',
+            'Giffnock',
+            'Bearsden',
+            'Milngavie',
+            'Newton Mearns',
+            'East Kilbride',
+            'Bishopbriggs'
+          ]
+        }}
+
         faqs={plumbingRepairsFaqs}
 
         finalCTA={{
