@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { BUSINESS_INFO } from '../constants/business';
 import AreasWeCover from './AreasWeCover';
 import { GLASGOW_POSTCODES } from '../data/areas';
+import { AnimatedSection, FadeIn, AnimatedCard } from './AnimatedSection';
 
 interface HeroSection {
   title: string;
@@ -116,14 +117,14 @@ export default function ServicePageTemplate({
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 hover:scale-105 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 hover:scale-105 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
               >
                 Book Online
               </Link>
@@ -134,37 +135,42 @@ export default function ServicePageTemplate({
 
       {/* INTRODUCTION SECTION */}
       {introduction && (
-        <section className="py-12 md:py-16 bg-white">
+        <AnimatedSection variant="white" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              {introduction}
+              <FadeIn>
+                {introduction}
+              </FadeIn>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       )}
 
       {/* PROBLEMS / SERVICE BREAKDOWN SECTION */}
       {problems && (
-        <section className={`py-12 md:py-16 ${problems.gridColumns === 1 ? 'bg-white' : 'bg-slate-50'}`}>
+        <AnimatedSection variant={problems.gridColumns === 1 ? 'white' : 'light-grey'} className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                {problems.heading}
-              </h2>
-              {problems.intro && (
-                <p className="text-lg text-slate-700 mb-12 leading-relaxed font-semibold">
-                  {problems.intro}
-                </p>
-              )}
+              <FadeIn>
+                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                  {problems.heading}
+                </h2>
+                {problems.intro && (
+                  <p className="text-lg text-slate-700 mb-12 leading-relaxed font-semibold">
+                    {problems.intro}
+                  </p>
+                )}
+              </FadeIn>
               <div className={`grid gap-6 ${
                 problems.gridColumns === 1
                   ? 'grid-cols-1'
                   : `grid-cols-1 md:grid-cols-${problems.gridColumns || 2} lg:grid-cols-${problems.gridColumns || 2}`
               }`}>
                 {problems.problems.map((problem, idx) => (
-                  <div
+                  <AnimatedCard
                     key={idx}
-                    className="bg-white p-6 md:p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+                    delay={idx * 100}
+                    className="bg-white p-6 md:p-8 rounded-xl border border-slate-200 shadow-sm"
                   >
                     {problem.icon && (
                       <div className="mb-4">
@@ -177,81 +183,89 @@ export default function ServicePageTemplate({
                     <p className="text-slate-700 leading-relaxed">
                       {problem.description}
                     </p>
-                  </div>
+                  </AnimatedCard>
                 ))}
               </div>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       )}
 
       {/* CONTENT BLOCKS SECTION */}
-      {contentBlocks && contentBlocks.map((block, idx) => (
-        <section
-          key={idx}
-          className={`py-12 md:py-16 bg-${block.backgroundColor || 'white'}`}
-        >
-          <div className="container mx-auto px-4">
-            <div className={`max-w-6xl mx-auto ${block.imageUrl ? 'grid md:grid-cols-2 gap-8 items-center' : ''}`}>
-              {block.imagePosition === 'right' && block.imageUrl && (
-                <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg order-2">
-                  <img
-                    src={block.imageUrl}
-                    alt={block.imageAlt || block.heading}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              )}
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                  {block.heading}
-                </h2>
-                <div className="text-lg text-slate-700 leading-relaxed space-y-4">
-                  {block.content}
-                </div>
+      {contentBlocks && contentBlocks.map((block, idx) => {
+        const variant = block.backgroundColor === 'slate-50' ? 'light-grey' :
+                       block.backgroundColor === 'blue-50' ? 'blue' : 'white';
+        return (
+          <AnimatedSection
+            key={idx}
+            variant={variant}
+            className="py-12 md:py-16"
+          >
+            <div className="container mx-auto px-4">
+              <div className={`max-w-6xl mx-auto ${block.imageUrl ? 'grid md:grid-cols-2 gap-8 items-center' : ''}`}>
+                {block.imagePosition === 'right' && block.imageUrl && (
+                  <FadeIn direction="right" className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg order-2">
+                    <img
+                      src={block.imageUrl}
+                      alt={block.imageAlt || block.heading}
+                      className="w-full h-full object-cover"
+                    />
+                  </FadeIn>
+                )}
+                <FadeIn direction={block.imagePosition === 'right' ? 'left' : 'right'}>
+                  <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                    {block.heading}
+                  </h2>
+                  <div className="text-lg text-slate-700 leading-relaxed space-y-4">
+                    {block.content}
+                  </div>
+                </FadeIn>
+                {block.imagePosition === 'left' && block.imageUrl && (
+                  <FadeIn direction="left" className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg">
+                    <img
+                      src={block.imageUrl}
+                      alt={block.imageAlt || block.heading}
+                      className="w-full h-full object-cover"
+                    />
+                  </FadeIn>
+                )}
               </div>
-              {block.imagePosition === 'left' && block.imageUrl && (
-                <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg">
-                  <img
-                    src={block.imageUrl}
-                    alt={block.imageAlt || block.heading}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              )}
             </div>
-          </div>
-        </section>
-      ))}
+          </AnimatedSection>
+        );
+      })}
 
       {/* WHY CHOOSE US SECTION */}
       {whyChooseUs && (
-        <section className="py-12 md:py-16 bg-white">
+        <AnimatedSection variant="white" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {whyChooseUs}
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       )}
 
       {/* PROCESS SECTION */}
       {process && (
-        <section className="py-12 md:py-16 bg-slate-50">
+        <AnimatedSection variant="light-grey" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-                {process.heading}
-              </h2>
-              {process.subtitle && (
-                <p className="text-center text-slate-700 text-lg mb-12">
-                  {process.subtitle}
-                </p>
-              )}
+              <FadeIn className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                  {process.heading}
+                </h2>
+                {process.subtitle && (
+                  <p className="text-slate-700 text-lg">
+                    {process.subtitle}
+                  </p>
+                )}
+              </FadeIn>
               <div className="space-y-6">
-                {process.steps.map((item) => (
-                  <div
+                {process.steps.map((item, idx) => (
+                  <AnimatedCard
                     key={item.step}
+                    delay={idx * 150}
                     className="flex items-start gap-6 bg-white p-8 rounded-lg shadow-sm border border-slate-200"
                   >
                     <div className="bg-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl flex-shrink-0">
@@ -267,12 +281,12 @@ export default function ServicePageTemplate({
                         </p>
                       )}
                     </div>
-                  </div>
+                  </AnimatedCard>
                 ))}
               </div>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       )}
 
       {/* AREAS SECTION */}
@@ -287,16 +301,19 @@ export default function ServicePageTemplate({
 
       {/* FAQ SECTION */}
       {faqs && faqs.length > 0 && (
-        <section className="py-12 md:py-16 bg-slate-50">
+        <AnimatedSection variant="light-grey" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-                Frequently Asked Questions
-              </h2>
+              <FadeIn>
+                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
+                  Frequently Asked Questions
+                </h2>
+              </FadeIn>
               <div className="space-y-6">
                 {faqs.map((faq, idx) => (
-                  <div
+                  <AnimatedCard
                     key={idx}
+                    delay={idx * 100}
                     className="bg-white p-6 md:p-8 rounded-lg shadow-sm border border-slate-200"
                   >
                     <h3 className="text-xl font-bold text-slate-900 mb-4">
@@ -305,42 +322,35 @@ export default function ServicePageTemplate({
                     <p className="text-slate-700 leading-relaxed">
                       {faq.answer}
                     </p>
-                  </div>
+                  </AnimatedCard>
                 ))}
               </div>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       )}
 
       {/* FINAL CTA SECTION */}
-      <section
-        className={`py-12 md:py-16 ${
-          finalCTA.isDark
-            ? 'bg-blue-900 text-white'
-            : 'bg-white text-slate-900'
-        }`}
+      <AnimatedSection
+        variant={finalCTA.isDark ? 'blue' : 'white'}
+        className="py-12 md:py-16"
       >
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2
-              className={`text-3xl md:text-4xl font-bold mb-6 ${
-                finalCTA.isDark ? 'text-white' : 'text-slate-900'
-              }`}
-            >
-              {finalCTA.heading}
-            </h2>
-            <p
-              className={`text-xl mb-8 leading-relaxed ${
+            <FadeIn>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                {finalCTA.heading}
+              </h2>
+              <p className={`text-xl mb-8 leading-relaxed ${
                 finalCTA.isDark ? 'text-blue-100' : 'text-slate-700'
-              }`}
-            >
-              {finalCTA.description}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              }`}>
+                {finalCTA.description}
+              </p>
+            </FadeIn>
+            <FadeIn delay={200} className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg ${
+                className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl hover:scale-105 ${
                   finalCTA.isDark
                     ? 'bg-orange-500 hover:bg-orange-600 text-white'
                     : 'bg-blue-600 hover:bg-blue-700 text-white'
@@ -352,7 +362,7 @@ export default function ServicePageTemplate({
               {finalCTA.secondaryButtonText && (
                 <Link
                   to="/contact"
-                  className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg ${
+                  className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl hover:scale-105 ${
                     finalCTA.isDark
                       ? 'bg-white hover:bg-gray-100 text-blue-900'
                       : 'bg-slate-100 hover:bg-slate-200 text-slate-900'
@@ -361,10 +371,10 @@ export default function ServicePageTemplate({
                   {finalCTA.secondaryButtonText}
                 </Link>
               )}
-            </div>
+            </FadeIn>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
     </>
   );
 }

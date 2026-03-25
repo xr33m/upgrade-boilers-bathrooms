@@ -55,24 +55,24 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-blue-400">Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/boilers" className="hover:text-blue-400 transition">Boiler Services</Link></li>
-              <li><Link to="/boilers/installation" className="hover:text-blue-400 transition">Boiler Installation</Link></li>
-              <li><Link to="/boilers/servicing" className="hover:text-blue-400 transition">Boiler Servicing</Link></li>
-              <li><Link to="/boilers/repairs" className="hover:text-blue-400 transition">Boiler Repairs</Link></li>
-              <li><Link to="/heating" className="hover:text-blue-400 transition">Heating Services</Link></li>
-              <li><Link to="/plumbing" className="hover:text-blue-400 transition">Plumbing Services</Link></li>
-              <li><Link to="/bathroom-installations" className="hover:text-blue-400 transition">Bathroom Installations</Link></li>
+              <li><Link to="/boilers" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Boiler Services</Link></li>
+              <li><Link to="/boilers/installation" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Boiler Installation</Link></li>
+              <li><Link to="/boilers/servicing" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Boiler Servicing</Link></li>
+              <li><Link to="/boilers/repairs" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Boiler Repairs</Link></li>
+              <li><Link to="/heating" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Heating Services</Link></li>
+              <li><Link to="/plumbing" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Plumbing Services</Link></li>
+              <li><Link to="/bathroom-installations" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Bathroom Installations</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4 text-blue-400">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-blue-400 transition">Home</Link></li>
-              <li><Link to="/about" className="hover:text-blue-400 transition">About Us</Link></li>
-              <li><Link to="/landlords" className="hover:text-blue-400 transition">Landlord Services</Link></li>
-              <li><Link to="/reviews" className="hover:text-blue-400 transition">Customer Reviews</Link></li>
-              <li><Link to="/contact" className="hover:text-blue-400 transition">Contact Us</Link></li>
+              <li><Link to="/" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Home</Link></li>
+              <li><Link to="/about" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">About Us</Link></li>
+              <li><Link to="/landlords" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Landlord Services</Link></li>
+              <li><Link to="/reviews" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Customer Reviews</Link></li>
+              <li><Link to="/contact" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -94,10 +94,10 @@ export default function Footer() {
             <div className="mt-6">
               <h4 className="font-semibold mb-2">Follow Us</h4>
               <div className="flex gap-4">
-                <a href={BUSINESS_INFO.socialMedia.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition" aria-label="Facebook">
+                <a href={BUSINESS_INFO.socialMedia.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out" aria-label="Facebook">
                   <Facebook className="w-6 h-6" />
                 </a>
-                <a href={BUSINESS_INFO.socialMedia.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition" aria-label="Twitter">
+                <a href={BUSINESS_INFO.socialMedia.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 hover:translate-x-1 transition-all duration-300 ease-out" aria-label="Twitter">
                   <Twitter className="w-6 h-6" />
                 </a>
               </div>

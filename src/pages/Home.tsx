@@ -8,6 +8,7 @@ import BrandsSection from '../components/BrandsSection';
 import AboutSection from '../components/AboutSection';
 import FAQSection from '../components/FAQSection';
 import ReviewsSection from '../components/ReviewsSection';
+import { AnimatedSection, FadeIn } from '../components/AnimatedSection';
 
 export default function Home() {
   return (
@@ -57,13 +58,13 @@ export default function Home() {
                 <div className="flex flex-col gap-3 mb-8 md:hidden">
                   <a
                     href="tel:07523172416"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-base transition shadow-xl text-center w-full transform hover:scale-105"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
                   >
                     Call 07523 172416
                   </a>
                   <Link
                     to="/contact"
-                    className="bg-white hover:bg-gray-100 text-slate-900 px-6 py-3 rounded-lg font-bold text-base transition shadow-xl text-center w-full transform hover:scale-105"
+                    className="bg-white hover:bg-gray-100 text-slate-900 px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
                   >
                     Book Online
                   </Link>
@@ -87,13 +88,13 @@ export default function Home() {
                 <div className="hidden md:flex gap-4">
                   <a
                     href="tel:07523172416"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-xl transform hover:scale-105"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-xl hover:shadow-2xl transform hover:scale-105"
                   >
                     Call Now
                   </a>
                   <Link
                     to="/contact"
-                    className="bg-white hover:bg-gray-100 text-slate-900 px-8 py-4 rounded-lg font-bold text-lg transition shadow-xl transform hover:scale-105"
+                    className="bg-white hover:bg-gray-100 text-slate-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-xl hover:shadow-2xl transform hover:scale-105"
                   >
                     Book Online
                   </Link>
@@ -104,22 +105,24 @@ export default function Home() {
         </div>
       </section>
 
-      <AboutSection />
+      <AnimatedSection variant="white">
+        <AboutSection />
+      </AnimatedSection>
 
-      <section className="py-12 md:py-16 bg-gradient-to-b from-white via-slate-50 to-slate-100">
+      <AnimatedSection variant="light-grey" className="py-12 md:py-16">
         <div className="container mx-auto px-3 md:px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-8 md:mb-12">
+            <FadeIn className="text-center mb-8 md:mb-12">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-3 md:mb-4">
                 Professional Plumbing & Heating Services
               </h2>
               <p className="text-base md:text-xl text-slate-600 max-w-3xl mx-auto px-2">
                 Comprehensive plumbing and heating solutions for homes and businesses across Glasgow
               </p>
-            </div>
+            </FadeIn>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
-              <Link to="/boilers" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+              <Link to="/boilers" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-500 to-blue-600">
                   <img
                     src="/boiler-services-upgrade-home.webp"
@@ -138,7 +141,7 @@ export default function Home() {
                 </div>
               </Link>
 
-              <Link to="/heating" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+              <Link to="/heating" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-orange-500 to-orange-600">
                   <img
                     src="/heating-systems-upgrade-home.webp"
@@ -157,7 +160,7 @@ export default function Home() {
                 </div>
               </Link>
 
-              <Link to="/plumbing" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+              <Link to="/plumbing" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-cyan-500 to-cyan-600">
                   <img
                     src="/plumbing-services-upgrade-home.webp"
@@ -176,7 +179,7 @@ export default function Home() {
                 </div>
               </Link>
 
-              <Link to="/bathroom-installations" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+              <Link to="/bathroom-installations" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-teal-500 to-teal-600">
                   <img
                     src="/bathroom-installations-upgrade-home.webp"
@@ -195,7 +198,7 @@ export default function Home() {
                 </div>
               </Link>
 
-              <Link to="/landlords" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+              <Link to="/landlords" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-green-500 to-green-600">
                   <img
                     src="/landlord-services-upgrade-home.webp"
@@ -228,28 +231,36 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="text-center">
+            <FadeIn className="text-center" delay={200}>
               <Link
                 to="/services"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 hover:scale-105 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
               >
                 View All Services
                 <ArrowRight className="w-5 h-5" />
               </Link>
-            </div>
+            </FadeIn>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
-      <ReviewsSection />
+      <AnimatedSection variant="white">
+        <ReviewsSection />
+      </AnimatedSection>
 
-      <WhyChooseUs />
+      <AnimatedSection variant="light-grey">
+        <WhyChooseUs />
+      </AnimatedSection>
 
-      <ThreeStepsSection />
+      <AnimatedSection variant="white">
+        <ThreeStepsSection />
+      </AnimatedSection>
 
-      <BrandsSection />
+      <AnimatedSection variant="light-grey">
+        <BrandsSection />
+      </AnimatedSection>
 
-      <section className="py-12 md:py-16 bg-slate-900 text-white relative overflow-hidden">
+      <AnimatedSection variant="blue" className="py-12 md:py-16 relative overflow-hidden">
         <div className="container mx-auto px-3 md:px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-6 md:space-y-8">
@@ -330,11 +341,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
-<FAQSection />
+      <AnimatedSection variant="white">
+        <FAQSection />
+      </AnimatedSection>
 
-      <section className="py-12 md:py-16 bg-blue-900 text-white">
+      <AnimatedSection variant="blue" className="py-12 md:py-16">
         <div className="container mx-auto px-3 md:px-4 text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">
             Need a Plumber or Heating Engineer in Glasgow?
@@ -352,7 +365,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
     </>
   );
 }
