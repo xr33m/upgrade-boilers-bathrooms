@@ -20,11 +20,11 @@ export default function RelatedServices({ services, title = "Related Services" }
               <Link
                 key={index}
                 to={service.path}
-                className="block p-6 bg-white border-2 border-slate-200 rounded-lg hover:border-blue-500 hover:shadow-lg transition group"
+                className="block p-6 bg-white border-2 border-slate-200 rounded-lg hover:border-secondary hover:shadow-lg transition group"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
-                    <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition mb-2">
+                    <h3 className="text-lg font-bold text-slate-900 group-hover:text-primary transition mb-2">
                       {service.label}
                     </h3>
                     {service.description && (
@@ -33,7 +33,7 @@ export default function RelatedServices({ services, title = "Related Services" }
                       </p>
                     )}
                   </div>
-                  <ArrowRight className="w-5 h-5 text-blue-600 flex-shrink-0 mt-1 group-hover:translate-x-1 transition" />
+                  <ArrowRight className="w-5 h-5 text-primary flex-shrink-0 mt-1 group-hover:translate-x-1 transition" />
                 </div>
               </Link>
             ))}

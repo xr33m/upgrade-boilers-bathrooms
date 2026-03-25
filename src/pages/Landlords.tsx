@@ -35,7 +35,7 @@ export default function Landlords() {
             <p className="text-xl text-green-100 mb-6">
               Comprehensive gas safety, plumbing and heating services for landlords across Glasgow. Fast, reliable service to keep your properties compliant and tenants happy.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary-600 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
@@ -67,25 +67,25 @@ export default function Landlords() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <Link to="/landlords/gas-safety-certificates" className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-green-500 transition block">
-                <Shield className="w-12 h-12 text-green-600 mb-4" />
+                <Shield className="w-12 h-12 text-secondary mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Gas Safety Certificates</h3>
                 <p className="text-slate-700 mb-4">
                   Comprehensive gas safety inspections and CP12 certificates. We check all gas appliances, flues, and pipework to ensure they meet legal safety standards.
                 </p>
                 <div className="bg-white p-4 rounded border border-green-200">
-                  <div className="text-3xl font-bold text-green-600 mb-1">£65</div>
+                  <div className="text-3xl font-bold text-secondary mb-1">£65</div>
                   <div className="text-sm text-slate-600">Gas Safety Certificate + Service</div>
                 </div>
               </Link>
 
               <Link to="/landlords/lead-testing" className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-green-500 transition block">
-                <FileCheck className="w-12 h-12 text-blue-600 mb-4" />
+                <FileCheck className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Lead Testing</h3>
                 <p className="text-slate-700 mb-4">
                   Professional lead water testing to ensure compliance with water safety regulations and protect your tenants' health.
                 </p>
                 <div className="bg-white p-4 rounded border border-blue-200">
-                  <div className="text-3xl font-bold text-blue-600 mb-1">£95</div>
+                  <div className="text-3xl font-bold text-primary mb-1">£95</div>
                   <div className="text-sm text-slate-600">Per property</div>
                 </div>
               </Link>
@@ -115,25 +115,25 @@ export default function Landlords() {
               </Link>
 
               <Link to="/landlords/property-managers" className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-green-500 transition block">
-                <Shield className="w-12 h-12 text-orange-600 mb-4" />
+                <Shield className="w-12 h-12 text-accent mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Property Manager Services</h3>
                 <p className="text-slate-700 mb-4">
                   Reactive plumbing, heating, and compliance support for letting agents and property managers. Same-day response and portfolio support.
                 </p>
                 <div className="bg-white p-4 rounded border border-orange-200">
-                  <div className="text-3xl font-bold text-orange-600 mb-1">From £170</div>
+                  <div className="text-3xl font-bold text-accent mb-1">From £170</div>
                   <div className="text-sm text-slate-600">Emergency call-out + hourly rates</div>
                 </div>
               </Link>
 
               <Link to="/landlords/private-landlords" className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-green-500 transition block">
-                <Shield className="w-12 h-12 text-blue-600 mb-4" />
+                <Shield className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Private Landlords</h3>
                 <p className="text-slate-700 mb-4">
                   Trusted safety certification and plumbing services for private landlords. Complete compliance, automatic reminders, and reactive support.
                 </p>
                 <div className="bg-white p-4 rounded border border-blue-200">
-                  <div className="text-3xl font-bold text-blue-600 mb-1">From £65</div>
+                  <div className="text-3xl font-bold text-primary mb-1">From £65</div>
                   <div className="text-sm text-slate-600">Gas Safety Certificate + Service</div>
                 </div>
               </Link>
@@ -145,7 +145,7 @@ export default function Landlords() {
 
             <div className="space-y-4 mb-12">
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Fast Turnaround</h3>
                   <p className="text-slate-600">Same-day or next-day appointments for gas safety certificates. Digital certificates issued immediately.</p>
@@ -153,7 +153,7 @@ export default function Landlords() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Tenant-Friendly Service</h3>
                   <p className="text-slate-600">Our engineers are professional, respectful, and efficient. We work around tenant schedules to minimize disruption.</p>
@@ -161,7 +161,7 @@ export default function Landlords() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Multi-Property Discounts</h3>
                   <p className="text-slate-600">Managing multiple properties? We offer competitive rates and discounts for landlords with portfolio agreements.</p>
@@ -169,7 +169,7 @@ export default function Landlords() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Proper Documentation</h3>
                   <p className="text-slate-600">Clear, detailed certificates and reports. Digital copies sent immediately, with paper copies available on request.</p>
@@ -177,7 +177,7 @@ export default function Landlords() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Reminder Service</h3>
                   <p className="text-slate-600">We'll remind you when certificates are due for renewal, so you never miss a deadline.</p>
@@ -189,27 +189,27 @@ export default function Landlords() {
               Gas Safety Certificate Requirements
             </h2>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-8">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-8">
               <h3 className="text-xl font-bold mb-3 text-blue-900">What's Checked?</h3>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>All gas appliances (boilers, fires, cookers)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>Gas pipework and connections</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>Flues and ventilation</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>Carbon monoxide emissions</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>Safety device operation</span>
                 </li>
               </ul>
@@ -247,46 +247,46 @@ export default function Landlords() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white border-2 border-slate-200 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Essential</h3>
-                <div className="text-3xl font-bold text-blue-600 mb-4">£65</div>
+                <div className="text-3xl font-bold text-primary mb-4">£65</div>
                 <p className="text-slate-600 mb-4">Per property, per year</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Gas safety certificate</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Boiler service</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Digital certificate</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 relative">
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-secondary text-white px-3 py-1 rounded-full text-sm font-bold">
                   POPULAR
                 </div>
                 <h3 className="text-xl font-bold mb-3">Complete</h3>
-                <div className="text-3xl font-bold text-green-600 mb-4">£150</div>
+                <div className="text-3xl font-bold text-secondary mb-4">£150</div>
                 <p className="text-slate-600 mb-4">Per property, per year</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Everything in Essential</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Priority emergency repairs</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>10% discount on repairs</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Renewal reminders</span>
                   </li>
                 </ul>
@@ -294,23 +294,23 @@ export default function Landlords() {
 
               <div className="bg-white border-2 border-slate-200 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Portfolio</h3>
-                <div className="text-3xl font-bold text-purple-600 mb-4">POA</div>
+                <div className="text-3xl font-bold text-primary-600 mb-4">POA</div>
                 <p className="text-slate-600 mb-4">5+ properties</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Discounted rates</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Dedicated account manager</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Flexible payment terms</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Priority scheduling</span>
                   </li>
                 </ul>
@@ -333,7 +333,7 @@ export default function Landlords() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-secondary hover:bg-secondary-600 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Get Quote
             </Link>
           </div>

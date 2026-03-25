@@ -12,7 +12,7 @@ interface AnimatedSectionProps {
 const variantStyles: Record<SectionVariant, string> = {
   'white': 'bg-white text-gray-900',
   'light-grey': 'bg-gray-50 text-gray-900',
-  'blue': 'bg-blue-600 text-white',
+  'blue': 'bg-primary text-white',
 };
 
 export function AnimatedSection({

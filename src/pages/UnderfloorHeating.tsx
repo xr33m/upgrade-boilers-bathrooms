@@ -54,23 +54,23 @@ export default function UnderfloorHeating() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-8 h-8 text-green-600" />
+                  <Zap className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Energy Efficient</h3>
                 <p className="text-slate-600 text-sm">Lower running costs than radiators</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Home className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Space Saving</h3>
                 <p className="text-slate-600 text-sm">No radiators needed on walls</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Settings className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Settings className="w-8 h-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Easy Control</h3>
                 <p className="text-slate-600 text-sm">Smart thermostats and zoning available</p>
@@ -84,8 +84,8 @@ export default function UnderfloorHeating() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl border-2 border-slate-200">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Zap className="w-6 h-6 text-blue-600" />
+                  <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900">Electric Underfloor Heating</h3>
                 </div>
@@ -95,38 +95,38 @@ export default function UnderfloorHeating() {
                 <h4 className="font-bold text-slate-900 mb-3">Best For:</h4>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Bathrooms and kitchens</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Single room installations</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Extensions and conservatories</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Renovation projects</span>
                   </li>
                 </ul>
                 <h4 className="font-bold text-slate-900 mb-3">Key Features:</h4>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Fast installation (1-2 days)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Low floor build-up (as little as 3mm)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Quick heat-up time</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Suitable for all floor types</span>
                   </li>
                 </ul>
@@ -145,19 +145,19 @@ export default function UnderfloorHeating() {
                 <h4 className="font-bold text-slate-900 mb-3">Best For:</h4>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Whole house heating</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">New build properties</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Major renovations</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Heat pump installations</span>
                   </li>
                 </ul>
@@ -183,26 +183,26 @@ export default function UnderfloorHeating() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <h3 className="text-xl font-bold mb-4 text-slate-900">Benefits of Underfloor Heating</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold text-slate-900 mb-3">Comfort & Efficiency</h4>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Even heat distribution from floor to ceiling</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Up to 25% more efficient than radiators</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Lower operating temperatures save energy</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>No cold spots or drafts</span>
                     </li>
                   </ul>
@@ -211,19 +211,19 @@ export default function UnderfloorHeating() {
                   <h4 className="font-bold text-slate-900 mb-3">Design & Lifestyle</h4>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>More usable wall space without radiators</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Silent operation - no noise</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Better for allergies - no dust circulation</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Compatible with all floor finishes</span>
                     </li>
                   </ul>

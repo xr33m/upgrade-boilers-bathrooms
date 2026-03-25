@@ -33,7 +33,7 @@ export default function AirSourceHeatPumps() {
               Looking to reduce your energy bills and future-proof your home? Upgrade Boilers & Bathrooms provide professional air source heat pump installation and servicing across Glasgow and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -67,15 +67,15 @@ export default function AirSourceHeatPumps() {
                 <div className="bg-green-50 rounded-xl p-8 border-2 border-green-200 mb-6">
                   <ul className="space-y-3 text-slate-700">
                     <li className="flex items-center gap-3">
-                      <Zap className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <Zap className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="font-semibold">Central heating</span>
                     </li>
                     <li className="flex items-center gap-3">
-                      <Droplet className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <Droplet className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="font-semibold">Hot water</span>
                     </li>
                     <li className="flex items-center gap-3">
-                      <Home className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <Home className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="font-semibold">Consistent indoor comfort</span>
                     </li>
                   </ul>
@@ -89,12 +89,12 @@ export default function AirSourceHeatPumps() {
             <h3 className="text-2xl font-bold text-slate-900 mb-8 text-center">Key Benefits</h3>
             <div className="grid md:grid-cols-5 gap-4 mb-16">
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border-2 border-green-200 shadow-lg text-center">
-                <Leaf className="w-8 h-8 text-green-600 mx-auto mb-3" />
+                <Leaf className="w-8 h-8 text-secondary mx-auto mb-3" />
                 <p className="font-bold text-slate-900 mb-2">Lower Carbon Emissions</p>
                 <p className="text-sm text-slate-700">Reduces your household's carbon footprint significantly</p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border-2 border-blue-200 shadow-lg text-center">
-                <TrendingDown className="w-8 h-8 text-blue-600 mx-auto mb-3" />
+                <TrendingDown className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="font-bold text-slate-900 mb-2">Energy Efficiency</p>
                 <p className="text-sm text-slate-700">300–400% efficient - 3–4kW heat per 1kW electricity</p>
               </div>
@@ -104,12 +104,12 @@ export default function AirSourceHeatPumps() {
                 <p className="text-sm text-slate-700">Grants and interest-free loans via Home Energy Scotland</p>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border-2 border-orange-200 shadow-lg text-center">
-                <Gauge className="w-8 h-8 text-orange-600 mx-auto mb-3" />
+                <Gauge className="w-8 h-8 text-accent mx-auto mb-3" />
                 <p className="font-bold text-slate-900 mb-2">Stable Heating</p>
                 <p className="text-sm text-slate-700">Steady, consistent warmth rather than high bursts</p>
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border-2 border-purple-200 shadow-lg text-center">
-                <Wind className="w-8 h-8 text-purple-600 mx-auto mb-3" />
+                <Wind className="w-8 h-8 text-primary-600 mx-auto mb-3" />
                 <p className="font-bold text-slate-900 mb-2">Future-Proofing</p>
                 <p className="text-sm text-slate-700">UK moves toward low-carbon heating targets</p>
               </div>
@@ -221,16 +221,16 @@ export default function AirSourceHeatPumps() {
               <div className="space-y-6">
                 <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200">
                   <div className="flex items-start gap-4">
-                    <Leaf className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                    <Leaf className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-bold text-slate-900 mb-2">Reduced Energy Bills</p>
                       <p className="text-slate-700">Save up to £500+ per year on heating compared to gas boilers</p>
                     </div>
                   </div>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
+                <div className="bg-primary-50 p-6 rounded-xl border-2 border-blue-200">
                   <div className="flex items-start gap-4">
-                    <Zap className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                    <Zap className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-bold text-slate-900 mb-2">Government Support</p>
                       <p className="text-slate-700">Boiler Upgrade Scheme: up to £7,500 grant towards installation</p>
@@ -246,9 +246,9 @@ export default function AirSourceHeatPumps() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-purple-50 p-6 rounded-xl border-2 border-purple-200">
+                <div className="bg-primary-50 p-6 rounded-xl border-2 border-purple-200">
                   <div className="flex items-start gap-4">
-                    <Home className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                    <Home className="w-6 h-6 text-primary-600 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-bold text-slate-900 mb-2">Future-Proof Investment</p>
                       <p className="text-slate-700">UK phasing out gas boilers – heat pumps are the future standard</p>
@@ -284,7 +284,7 @@ export default function AirSourceHeatPumps() {
                     'Available outdoor unit space'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="text-slate-700 font-medium">{item}</span>
                     </li>
                   ))}
@@ -323,7 +323,7 @@ export default function AirSourceHeatPumps() {
                 />
               </div>
               <div>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Typical installation takes 3–4 days and includes:</p>
                   <ul className="space-y-3">
                     {[
@@ -335,7 +335,7 @@ export default function AirSourceHeatPumps() {
                       'System commissioning & performance setup'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -366,23 +366,23 @@ export default function AirSourceHeatPumps() {
                   <p className="text-slate-700 font-semibold mb-4">Regular servicing ensures:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Efficiency remains high</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Warranty remains valid</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Early fault detection</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Safe operation</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Long lifespan</span>
                     </li>
                   </ul>
@@ -391,11 +391,11 @@ export default function AirSourceHeatPumps() {
               <div>
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg mb-6">
                   <p className="text-slate-700 mb-2 text-lg">Annual Heat Pump Service</p>
-                  <p className="text-5xl font-bold text-green-600 mb-2">£264</p>
+                  <p className="text-5xl font-bold text-secondary mb-2">£264</p>
                   <p className="text-slate-700 text-sm">Comprehensive annual maintenance and performance check</p>
                 </div>
 
-                <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
                   <p className="text-slate-700 font-semibold mb-4">Service includes:</p>
                   <ul className="space-y-2 text-slate-700 text-sm">
                     {[
@@ -407,7 +407,7 @@ export default function AirSourceHeatPumps() {
                       'Performance optimisation'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <Wind className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                        <Wind className="w-4 h-4 text-primary flex-shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -440,7 +440,7 @@ export default function AirSourceHeatPumps() {
               ))}
             </div>
 
-            <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
+            <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 text-center">
               <p className="text-slate-700 leading-relaxed">
                 <span className="font-semibold">We can guide you through the application process</span> and explain funding options during your survey. Let us help you access available support for your heat pump installation.
               </p>
@@ -469,7 +469,7 @@ export default function AirSourceHeatPumps() {
                 return (
                   <div key={idx} className="bg-white p-8 rounded-xl shadow-lg border-2 border-green-200">
                     <div className="flex items-start gap-4">
-                      <Icon className="w-8 h-8 text-green-600 flex-shrink-0 mt-1" />
+                      <Icon className="w-8 h-8 text-secondary flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="text-lg font-bold text-slate-900 mb-2">{item.title}</h3>
                         <p className="text-slate-700">{item.desc}</p>
@@ -481,7 +481,7 @@ export default function AirSourceHeatPumps() {
             </div>
 
             <div className="mt-12 bg-green-50 p-8 rounded-2xl border-2 border-green-200 text-center">
-              <AlertCircle className="w-8 h-8 text-green-600 mx-auto mb-4" />
+              <AlertCircle className="w-8 h-8 text-secondary mx-auto mb-4" />
               <p className="text-lg text-slate-700 font-semibold">
                 Heat pumps are technical systems — correct sizing and installation makes all the difference.
               </p>
@@ -509,7 +509,7 @@ export default function AirSourceHeatPumps() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   We follow strict UK water supply regulations to ensure your heat pump system is safe, compliant, and protects both your home and water supply.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <p className="text-slate-700 font-semibold mb-4">We ensure:</p>
                   <ul className="space-y-3">
                     {[
@@ -519,7 +519,7 @@ export default function AirSourceHeatPumps() {
                       'Full regulatory compliance'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -556,7 +556,7 @@ export default function AirSourceHeatPumps() {
                     'Have suitable outdoor space'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -577,7 +577,7 @@ export default function AirSourceHeatPumps() {
                     'Uncertain about long-term commitment'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                      <AlertCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -585,7 +585,7 @@ export default function AirSourceHeatPumps() {
               </div>
             </div>
 
-            <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
+            <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 text-center">
               <p className="text-lg text-slate-700 font-semibold">
                 We'll always provide honest advice following a survey. No pressure, just expert guidance.
               </p>
@@ -666,7 +666,7 @@ export default function AirSourceHeatPumps() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               Get Free Survey
             </Link>
           </div>

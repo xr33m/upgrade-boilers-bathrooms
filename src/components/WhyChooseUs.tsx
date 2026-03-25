@@ -33,8 +33,8 @@ export default function WhyChooseUs() {
     <section className="py-16 md:py-24 text-white relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Waves
-          backgroundColor="#1e40af"
-          strokeColor="#60a5fa"
+          backgroundColor="#0B3C5D"
+          strokeColor="#C8A96A"
           pointerSize={0.5}
         />
       </div>
@@ -53,8 +53,8 @@ export default function WhyChooseUs() {
           <div className="hidden md:grid md:grid-cols-3 gap-8 md:gap-0 items-center">
             <div className="space-y-12 md:text-right">
               <div className="flex items-center gap-4 md:flex-row-reverse md:justify-start justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <Award className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <Award className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="md:text-right text-center">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Quality Of Workmanship</h3>
@@ -62,8 +62,8 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="flex items-center gap-4 md:flex-row-reverse md:justify-start justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <Headphones className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <Headphones className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="md:text-right text-center">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Aftersales Care</h3>
@@ -71,8 +71,8 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="flex items-center gap-4 md:flex-row-reverse md:justify-start justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <Phone className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <Phone className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="md:text-right text-center">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Emergency Call Outs</h3>
@@ -82,7 +82,7 @@ export default function WhyChooseUs() {
 
             <div className="flex items-center justify-center py-8">
               <div className="relative">
-                <div className="absolute inset-0 rounded-full bg-amber-500 blur-3xl opacity-60 animate-pulse"></div>
+                <div className="absolute inset-0 rounded-full bg-secondary blur-3xl opacity-60 animate-pulse"></div>
                 <div className="w-48 h-48 rounded-full bg-gradient-to-br from-slate-900 via-black to-slate-900 flex items-center justify-center shadow-2xl relative z-10 border-2 border-slate-700">
                   <img
                     src="/upgrade-logo-removebg-preview.webp"
@@ -95,8 +95,8 @@ export default function WhyChooseUs() {
 
             <div className="space-y-12">
               <div className="flex items-center gap-4 justify-center md:justify-start">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <Star className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <Star className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Fully Satisfied</h3>
@@ -104,8 +104,8 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="flex items-center gap-4 justify-center md:justify-start">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <Users className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <Users className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Fully Equipped Team</h3>
@@ -113,8 +113,8 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="flex items-center gap-4 justify-center md:justify-start">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-4 border-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/50">
-                  <BadgeCheck className="w-10 h-10 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary/30 to-white/10 backdrop-blur-md border-4 border-secondary flex items-center justify-center flex-shrink-0 shadow-lg shadow-secondary/50">
+                  <BadgeCheck className="w-10 h-10 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                 </div>
                 <div className="text-center md:text-left">
                   <h3 className="text-lg font-bold text-white bg-black/70 rounded-lg px-3 py-2 inline-block">Experts In The Industry</h3>
@@ -129,8 +129,8 @@ export default function WhyChooseUs() {
                 const Icon = benefit.icon;
                 return (
                   <div key={index} className="flex flex-col items-center text-center">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-2 border-amber-400 flex items-center justify-center mb-2 shadow-md shadow-amber-500/50">
-                      <Icon className="w-7 h-7 text-amber-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500/30 to-white/10 backdrop-blur-md border-2 border-amber-400 flex items-center justify-center mb-2 shadow-md shadow-secondary/50">
+                      <Icon className="w-7 h-7 text-secondary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
                     </div>
                     <h3 className="text-sm font-bold leading-tight px-2 py-1 text-white bg-black/70 rounded inline-block">
                       {benefit.title}
@@ -142,7 +142,7 @@ export default function WhyChooseUs() {
 
             <div className="flex items-center justify-center pt-4">
               <div className="relative">
-                <div className="absolute inset-0 rounded-full bg-amber-500 blur-2xl opacity-60 animate-pulse"></div>
+                <div className="absolute inset-0 rounded-full bg-secondary blur-2xl opacity-60 animate-pulse"></div>
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-slate-900 via-black to-slate-900 flex items-center justify-center shadow-2xl relative z-10 border-2 border-slate-700">
                   <img
                     src="/upgrade-logo-removebg-preview.webp"

@@ -28,20 +28,20 @@ export default function AreasWeCover({
 
   const accentColorClasses = {
     blue: {
-      icon: 'text-blue-600',
-      iconBg: 'bg-blue-600',
+      icon: 'text-primary',
+      iconBg: 'bg-primary',
       border: 'border-blue-200',
-      bg: 'bg-blue-50'
+      bg: 'bg-primary-50'
     },
     green: {
-      icon: 'text-green-600',
-      iconBg: 'bg-green-600',
+      icon: 'text-secondary',
+      iconBg: 'bg-secondary',
       border: 'border-green-200',
       bg: 'bg-green-50'
     },
     orange: {
-      icon: 'text-orange-600',
-      iconBg: 'bg-orange-600',
+      icon: 'text-accent',
+      iconBg: 'bg-accent-600',
       border: 'border-orange-200',
       bg: 'bg-orange-50'
     },

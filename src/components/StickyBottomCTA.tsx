@@ -11,12 +11,12 @@ export function StickyBottomCTA() {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-600 to-blue-700 shadow-2xl border-t-2 border-blue-500 backdrop-blur-sm">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-primary to-primary-700 shadow-2xl border-t-2 border-secondary backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
         <div className="flex items-center justify-center gap-3 sm:gap-4">
           <button
             onClick={handleCallClick}
-            className="flex items-center gap-2 bg-white text-blue-600 px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold shadow-lg hover:bg-blue-50 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-out group"
+            className="flex items-center gap-2 bg-white text-primary px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-50 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-out group"
             aria-label="Call now"
           >
             <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
@@ -25,7 +25,7 @@ export function StickyBottomCTA() {
 
           <button
             onClick={handleQuoteClick}
-            className="flex items-center gap-2 bg-orange-500 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold shadow-lg hover:bg-orange-600 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-out group"
+            className="flex items-center gap-2 bg-accent text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold shadow-lg hover:bg-accent-600 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-out group"
             aria-label="Get a quote"
           >
             <FileText className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />

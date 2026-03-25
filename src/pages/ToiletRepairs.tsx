@@ -32,7 +32,7 @@ export default function ToiletRepairs() {
               Looking for professional toilet repairs in Glasgow? Whether your toilet is blocked, leaking, constantly running, overflowing, or refusing to flush, our experienced local plumbers provide fast and reliable toilet repair services across Greater Glasgow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -62,14 +62,14 @@ export default function ToiletRepairs() {
                     'Commercial WC systems'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                       <span className="text-lg text-slate-700">{item}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="bg-orange-50 border-l-4 border-orange-500 p-5 rounded-lg mt-6">
                   <p className="text-slate-800 font-medium">
-                    If your toilet isn't working properly, don't ignore it. Small toilet faults quickly become major <Link to="/plumbing" className="text-blue-600 hover:text-blue-800 font-semibold underline">plumbing problems</Link>.
+                    If your toilet isn't working properly, don't ignore it. Small toilet faults quickly become major <Link to="/plumbing" className="text-primary hover:text-blue-800 font-semibold underline">plumbing problems</Link>.
                   </p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function ToiletRepairs() {
                     <span className="text-3xl">🚽</span> Blocked Toilet Repairs Glasgow
                   </h3>
                   <p className="text-lg text-slate-700 mb-4">
-                    Blocked toilets are one of the most searched <Link to="/plumbing" className="text-blue-600 hover:text-blue-800 font-semibold underline">plumbing problems</Link> in Glasgow.
+                    Blocked toilets are one of the most searched <Link to="/plumbing" className="text-primary hover:text-blue-800 font-semibold underline">plumbing problems</Link> in Glasgow.
                   </p>
                   <div className="bg-slate-50 rounded-lg p-6 mb-4">
                     <h4 className="font-bold text-lg mb-3">Common causes include:</h4>
@@ -172,7 +172,7 @@ export default function ToiletRepairs() {
                         'Partial soil pipe blockage'
                       ].map((item, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <span className="text-blue-600 font-bold">•</span>
+                          <span className="text-primary font-bold">•</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -205,12 +205,12 @@ export default function ToiletRepairs() {
                       'Overflow pipe'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <Droplet className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <Droplet className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
                   </ul>
-                  <div className="bg-blue-50 border-l-4 border-blue-600 p-5 rounded-lg mb-4">
+                  <div className="bg-primary-50 border-l-4 border-primary p-5 rounded-lg mb-4">
                     <h4 className="font-bold mb-2">Even a slow toilet leak can cause:</h4>
                     <ul className="space-y-1 text-slate-700">
                       <li>• Damaged flooring</li>
@@ -260,7 +260,7 @@ export default function ToiletRepairs() {
                       'Scale build-up inside mechanism'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -297,7 +297,7 @@ export default function ToiletRepairs() {
                       'Airlock in system'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <Wrench className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <Wrench className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -336,7 +336,7 @@ export default function ToiletRepairs() {
                         'Siphons'
                       ].map((item, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                           <span>{item}</span>
                         </li>
                       ))}
@@ -378,13 +378,13 @@ export default function ToiletRepairs() {
                     'In-wall fill valves'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="bg-blue-600 rounded-lg p-6">
+              <div className="bg-primary rounded-lg p-6">
                 <p className="text-lg font-semibold mb-2">
                   Where access is restricted, additional work may be required.
                 </p>
@@ -412,7 +412,7 @@ export default function ToiletRepairs() {
                     'The toilet is structurally sound'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -429,7 +429,7 @@ export default function ToiletRepairs() {
                     'There are repeated internal failures'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <AlertTriangle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                      <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -437,7 +437,7 @@ export default function ToiletRepairs() {
               </div>
             </div>
 
-            <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
+            <div className="bg-primary-50 rounded-xl p-6 border-l-4 border-primary">
               <p className="text-lg text-slate-800 mb-4 leading-relaxed">
                 In most cases, toilet repairs are far more cost-effective than full replacement.
               </p>
@@ -449,7 +449,7 @@ export default function ToiletRepairs() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-blue-600 text-white">
+      <section className="py-12 md:py-16 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
@@ -463,7 +463,7 @@ export default function ToiletRepairs() {
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-white text-slate-900 rounded-xl p-8">
-                <div className="text-4xl font-bold text-blue-600 mb-2">From £190</div>
+                <div className="text-4xl font-bold text-primary mb-2">From £190</div>
                 <h3 className="text-2xl font-bold mb-4">Standard Close-Coupled Toilet Repair</h3>
                 <ul className="space-y-2 text-slate-700">
                   {[
@@ -475,7 +475,7 @@ export default function ToiletRepairs() {
                     'Running toilet repair'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -483,7 +483,7 @@ export default function ToiletRepairs() {
               </div>
 
               <div className="bg-white text-slate-900 rounded-xl p-8">
-                <div className="text-4xl font-bold text-blue-600 mb-2">From £250</div>
+                <div className="text-4xl font-bold text-primary mb-2">From £250</div>
                 <h3 className="text-2xl font-bold mb-4">Accessible Concealed Cistern Repair</h3>
                 <p className="text-slate-700 mb-4">
                   Includes all standard repairs for concealed cistern systems with accessible access panels.
@@ -505,7 +505,7 @@ export default function ToiletRepairs() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Toilet Repairs for <Link to="/landlords" className="text-blue-600 hover:text-blue-800 underline">Landlords</Link> & Letting Agents
+              Toilet Repairs for <Link to="/landlords" className="text-primary hover:text-blue-800 underline">Landlords</Link> & Letting Agents
             </h2>
             <p className="text-xl text-slate-700 mb-8">
               We regularly provide toilet repairs for:
@@ -521,7 +521,7 @@ export default function ToiletRepairs() {
                   'Commercial premises'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
-                    <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-lg text-slate-700">{item}</span>
                   </li>
                 ))}
@@ -537,10 +537,10 @@ export default function ToiletRepairs() {
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="font-bold text-lg mb-3">We can also combine toilet repairs with:</h3>
                   <ul className="space-y-2 text-slate-700">
-                    <li>• <Link to="/plumbing" className="text-blue-600 hover:text-blue-800 underline">General plumbing repairs</Link></li>
-                    <li>• <Link to="/plumbing/emergency-plumber" className="text-blue-600 hover:text-blue-800 underline">Emergency plumbing callouts</Link></li>
-                    <li>• <Link to="/boilers/servicing" className="text-blue-600 hover:text-blue-800 underline">Boiler servicing</Link></li>
-                    <li>• <Link to="/landlords" className="text-blue-600 hover:text-blue-800 underline">Landlord safety inspections</Link></li>
+                    <li>• <Link to="/plumbing" className="text-primary hover:text-blue-800 underline">General plumbing repairs</Link></li>
+                    <li>• <Link to="/plumbing/emergency-plumber" className="text-primary hover:text-blue-800 underline">Emergency plumbing callouts</Link></li>
+                    <li>• <Link to="/boilers/servicing" className="text-primary hover:text-blue-800 underline">Boiler servicing</Link></li>
+                    <li>• <Link to="/landlords" className="text-primary hover:text-blue-800 underline">Landlord safety inspections</Link></li>
                   </ul>
                 </div>
               </div>
@@ -553,7 +553,7 @@ export default function ToiletRepairs() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <MapPin className="w-10 h-10 text-blue-600" />
+              <MapPin className="w-10 h-10 text-primary" />
               Areas We Cover – Toilet Repairs Glasgow
             </h2>
             <p className="text-xl text-slate-700 mb-8">
@@ -569,7 +569,7 @@ export default function ToiletRepairs() {
                 'G61–G64 (Bearsden & Milngavie)',
                 'G71–G77 and surrounding areas'
               ].map((area, index) => (
-                <div key={index} className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <div key={index} className="bg-primary-50 p-4 rounded-lg border border-blue-200">
                   <p className="text-slate-800 font-semibold">{area}</p>
                 </div>
               ))}
@@ -628,7 +628,7 @@ export default function ToiletRepairs() {
           </p>
           <p className="text-2xl font-bold mb-8">Fast diagnosis. Clear pricing. Reliable workmanship.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

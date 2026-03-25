@@ -46,7 +46,7 @@ export default function PrivateLandlords() {
             <p className="text-xl text-blue-100 mb-6">
               Full Landlord Compliance & Reactive Support in One Place. Managing rental property in Glasgow comes with increasing legal responsibility. We provide dependable plumbing, heating and landlord safety certification services trusted by landlords across Greater Glasgow.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
@@ -57,7 +57,7 @@ export default function PrivateLandlords() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <h2 className="text-2xl font-bold text-blue-900 mb-4">As part of our Landlord Promise</h2>
               <p className="text-slate-700">
                 We'll remind you when your safety certifications are due — so you never fall out of compliance.
@@ -170,7 +170,7 @@ export default function PrivateLandlords() {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+              <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
                   <Zap className="w-6 h-6" />
                   Lead Water Testing
@@ -183,19 +183,19 @@ export default function PrivateLandlords() {
                 </p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold">•</span>
+                    <span className="text-primary font-bold">•</span>
                     <span>Visual inspection</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold">•</span>
+                    <span className="text-primary font-bold">•</span>
                     <span>Laboratory testing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold">•</span>
+                    <span className="text-primary font-bold">•</span>
                     <span>Certification</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold">•</span>
+                    <span className="text-primary font-bold">•</span>
                     <span>Remedial guidance</span>
                   </li>
                 </ul>
@@ -329,22 +329,22 @@ export default function PrivateLandlords() {
               Access via Keys & Key Safes
             </h2>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
                 We are insured and experienced in accessing properties via:
               </p>
 
               <div className="space-y-2 mb-4">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Agency-held keys</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Key safes</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Void properties</span>
                 </div>
               </div>
@@ -572,31 +572,31 @@ export default function PrivateLandlords() {
 
               <div className="grid md:grid-cols-2 gap-2">
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">Glasgow City Centre</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">West End</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">Southside</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">Bearsden & Milngavie</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">East Kilbride</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">Paisley</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold">•</span>
+                  <span className="text-primary font-bold">•</span>
                   <span className="text-slate-700">Surrounding Greater Glasgow areas</span>
                 </div>
               </div>
@@ -606,7 +606,7 @@ export default function PrivateLandlords() {
               Our Landlord Promise
             </h2>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
                 We created our Landlord Promise because managing property is busy enough.
               </p>
@@ -617,27 +617,27 @@ export default function PrivateLandlords() {
 
               <div className="space-y-2">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Remind you before certifications expire</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Pre-book renewal appointments</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Provide structured documentation</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Communicate clearly</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Handle tenant coordination</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Keep properties clean and tidy</span>
                 </div>
               </div>
@@ -653,36 +653,36 @@ export default function PrivateLandlords() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Gas Safe Registered Engineers</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">WaterSafe Approved</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Experienced with landlord portfolios</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Fast turnaround</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Clear written documentation</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Photographic reporting</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">12-month aftercare guarantee</span>
               </div>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 font-semibold">
                 We operate as a professional, organised partner — not just a trades company.
               </p>
@@ -738,7 +738,7 @@ export default function PrivateLandlords() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Get in Touch Today
             </Link>
           </div>

@@ -34,7 +34,7 @@ export default function ColdWaterTanks() {
               Do you have an overflowing cold water tank in the loft? Noisy ball valve? Rust flakes in your water? Upgrade Boilers & Bathrooms provide professional cold water tank repairs, cleaning, chlorination and full replacements across Glasgow and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -61,7 +61,7 @@ export default function ColdWaterTanks() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Cold water storage tanks (usually located in loft spaces) supply water to gravity-fed hot water cylinders, bathroom taps, toilets, and some heating systems.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-6">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-6">
                   <p className="text-slate-700 font-semibold mb-3">If faults are ignored, they can cause:</p>
                   <ul className="space-y-2 text-slate-700">
                     {[
@@ -71,7 +71,7 @@ export default function ColdWaterTanks() {
                       'System failure'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <AlertCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -93,9 +93,9 @@ export default function ColdWaterTanks() {
 
             <div className="space-y-12 mb-16">
               <div className="grid md:grid-cols-2 gap-8 items-start">
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">1</div>
+                    <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">1</div>
                     <h3 className="text-2xl font-bold text-slate-900">Overflowing or Constantly Filling Tank</h3>
                   </div>
                   <p className="text-slate-700 mb-4 font-semibold">Often caused by:</p>
@@ -130,7 +130,7 @@ export default function ColdWaterTanks() {
 
                 <div className="order-1 md:order-2 bg-green-50 rounded-xl p-8 border-2 border-green-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">2</div>
+                    <div className="bg-secondary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">2</div>
                     <h3 className="text-2xl font-bold text-slate-900">Noisy Ball Cock / Hammering Sounds</h3>
                   </div>
                   <p className="text-slate-700 mb-4 font-semibold">This can indicate:</p>
@@ -148,8 +148,8 @@ export default function ColdWaterTanks() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-orange-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">3</div>
-                    <Wrench className="w-8 h-8 text-orange-600" />
+                    <div className="bg-accent-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">3</div>
+                    <Wrench className="w-8 h-8 text-accent" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Minor Tank Leaks</h3>
                   <p className="text-slate-700">
@@ -171,10 +171,10 @@ export default function ColdWaterTanks() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">5</div>
-                    <Shield className="w-8 h-8 text-blue-600" />
+                    <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">5</div>
+                    <Shield className="w-8 h-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Water Contamination</h3>
                   <p className="text-slate-700">
@@ -240,7 +240,7 @@ export default function ColdWaterTanks() {
                       'Compliant float valves'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2 text-slate-700">
-                        <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -294,9 +294,9 @@ export default function ColdWaterTanks() {
             <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
               <div>
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                  In some properties, especially where upgrading to <Link to={serviceLinks.boilers.installation} className="text-blue-600 hover:text-blue-700 font-semibold">combi boilers</Link>, <Link to={serviceLinks.plumbing.hotWaterTanks} className="text-blue-600 hover:text-blue-700 font-semibold">unvented cylinders</Link>, or pressurised systems, the cold water storage tank may no longer be required.
+                  In some properties, especially where upgrading to <Link to={serviceLinks.boilers.installation} className="text-primary hover:text-blue-700 font-semibold">combi boilers</Link>, <Link to={serviceLinks.plumbing.hotWaterTanks} className="text-primary hover:text-blue-700 font-semibold">unvented cylinders</Link>, or pressurised systems, the cold water storage tank may no longer be required.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 mb-4 font-semibold">Benefits of Mains-Fed Systems:</p>
                   <ul className="space-y-3">
                     {[
@@ -307,7 +307,7 @@ export default function ColdWaterTanks() {
                       'Fewer contamination risks'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2 text-slate-700">
-                        <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -389,7 +389,7 @@ export default function ColdWaterTanks() {
                       'Rust or debris in bath'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2 text-slate-700">
-                        <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <AlertCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -416,7 +416,7 @@ export default function ColdWaterTanks() {
                   { num: 6, text: 'System recommissioning' }
                 ].map((item) => (
                   <li key={item.num} className="flex items-start gap-4">
-                    <span className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold flex-shrink-0">{item.num}</span>
+                    <span className="inline-flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full font-bold flex-shrink-0">{item.num}</span>
                     <span className="text-lg text-slate-700 mt-1">{item.text}</span>
                   </li>
                 ))}
@@ -439,15 +439,15 @@ export default function ColdWaterTanks() {
                 <li className="text-slate-600">• East Glasgow (G31–G32)</li>
                 <li className="flex items-start gap-2">
                   <span>•</span>
-                  <Link to={serviceLinks.areas.bearsden} className="text-blue-600 hover:text-blue-700 font-semibold">Bearsden & Milngavie</Link>
+                  <Link to={serviceLinks.areas.bearsden} className="text-primary hover:text-blue-700 font-semibold">Bearsden & Milngavie</Link>
                 </li>
                 <li className="flex items-start gap-2">
                   <span>•</span>
-                  <Link to={serviceLinks.areas.eastKilbride} className="text-blue-600 hover:text-blue-700 font-semibold">East Kilbride</Link>
+                  <Link to={serviceLinks.areas.eastKilbride} className="text-primary hover:text-blue-700 font-semibold">East Kilbride</Link>
                 </li>
                 <li className="flex items-start gap-2">
                   <span>•</span>
-                  <Link to={serviceLinks.areas.paisley} className="text-blue-600 hover:text-blue-700 font-semibold">Paisley & surrounding areas</Link>
+                  <Link to={serviceLinks.areas.paisley} className="text-primary hover:text-blue-700 font-semibold">Paisley & surrounding areas</Link>
                 </li>
               </ul>
             </div>

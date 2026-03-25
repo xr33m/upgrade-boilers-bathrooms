@@ -50,7 +50,7 @@ export default function ProcessSection({
                 key={index}
                 className="flex items-start gap-4 bg-white p-6 rounded-lg shadow-sm border border-slate-200"
               >
-                <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0">
+                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0">
                   {step.step}
                 </div>
                 <div className="flex-1">
@@ -85,7 +85,7 @@ export default function ProcessSection({
           )}
 
           {relatedServices && relatedServices.length > 0 && (
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
               <h3 className="text-lg font-bold text-slate-900 mb-4">
                 Related Services
               </h3>
@@ -94,7 +94,7 @@ export default function ProcessSection({
                   <Link
                     key={index}
                     to={service.path}
-                    className="text-blue-600 hover:text-blue-800 font-semibold hover:underline flex items-center gap-2"
+                    className="text-primary hover:text-blue-800 font-semibold hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
                     {service.label}

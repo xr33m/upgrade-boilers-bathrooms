@@ -117,7 +117,7 @@ export default function ServicePageTemplate({
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 hover:scale-105 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 hover:scale-105 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
@@ -268,7 +268,7 @@ export default function ServicePageTemplate({
                     delay={idx * 150}
                     className="flex items-start gap-6 bg-white p-8 rounded-lg shadow-sm border border-slate-200"
                   >
-                    <div className="bg-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl flex-shrink-0">
+                    <div className="bg-primary text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl flex-shrink-0">
                       {item.step}
                     </div>
                     <div className="flex-1">
@@ -352,8 +352,8 @@ export default function ServicePageTemplate({
                 href={`tel:${BUSINESS_INFO.phone}`}
                 className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl hover:scale-105 ${
                   finalCTA.isDark
-                    ? 'bg-orange-500 hover:bg-orange-600 text-white'
-                    : 'bg-blue-600 hover:bg-blue-700 text-white'
+                    ? 'bg-accent hover:bg-accent-600 text-white'
+                    : 'bg-primary hover:bg-primary-700 text-white'
                 }`}
               >
                 <Phone className="w-6 h-6" />

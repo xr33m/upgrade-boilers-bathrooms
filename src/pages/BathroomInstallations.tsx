@@ -36,10 +36,10 @@ export default function BathroomInstallations() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Bathroom Installations in Glasgow
             </h1>
-            <p className="text-xl text-purple-100 mb-6">
+            <p className="text-xl text-primary-100 mb-6">
               Transform your bathroom with our complete design, supply and installation service. From contemporary wet rooms to traditional family bathrooms.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
@@ -59,44 +59,44 @@ export default function BathroomInstallations() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-purple-500 transition">
-                <Ruler className="w-12 h-12 text-purple-600 mb-4" />
+                <Ruler className="w-12 h-12 text-primary-600 mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Design & Planning</h3>
                 <p className="text-slate-700 mb-4">
                   Free design consultation and 3D planning. We'll help you choose the perfect layout, fixtures and finishes for your space and budget.
                 </p>
                 <ul className="space-y-2 text-slate-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Free home surveys</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>3D bathroom design</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Expert product advice</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200 hover:border-purple-500 transition">
-                <Bath className="w-12 h-12 text-blue-600 mb-4" />
+                <Bath className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Full Installation</h3>
                 <p className="text-slate-700 mb-4">
                   Complete bathroom fitting including plumbing, tiling, electrics, plastering and decorating. One team, one project manager, no hassle.
                 </p>
                 <ul className="space-y-2 text-slate-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>All trades coordinated</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Guaranteed timescales</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>12 month guarantee</span>
                   </li>
                 </ul>
@@ -122,19 +122,19 @@ export default function BathroomInstallations() {
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Complete removal of existing bathroom suite</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Installation of bath, toilet, basin and all sanitaryware</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">All plumbing and waste connections certified</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Usually completed within 5-7 days</span>
                   </div>
                 </div>
@@ -168,19 +168,19 @@ export default function BathroomInstallations() {
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Professional tanking with 25-year guarantee</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Creates more space in smaller bathrooms</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Perfect for accessibility and mobility needs</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Modern, minimalist design aesthetic</span>
                   </div>
                 </div>
@@ -200,19 +200,19 @@ export default function BathroomInstallations() {
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Electric, mixer, and power shower installations</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Custom glass shower enclosures and screens</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Digital and smart shower systems</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Advice on best shower type for your water system</span>
                   </div>
                 </div>
@@ -246,19 +246,19 @@ export default function BathroomInstallations() {
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Wall and floor tiling with precision finish</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Large format, ceramic, porcelain, and natural stone</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Waterproof backing and professional grouting</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Mosaic features and bespoke designs</span>
                   </div>
                 </div>
@@ -276,7 +276,7 @@ export default function BathroomInstallations() {
                 <p className="text-slate-700 mb-4">
                   We provide a detailed schedule before work begins so you know exactly what to expect each day. Our team works efficiently to minimize disruption to your home while never compromising on quality. Most clients are able to use a second toilet during the installation, but we can work with you to find solutions if this isn't possible.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
+                <div className="bg-primary-50 border-l-4 border-primary p-4 rounded">
                   <p className="font-semibold text-slate-900 mb-2">What affects installation time?</p>
                   <ul className="space-y-1 text-slate-700 text-sm">
                     <li>• Size of bathroom and complexity of design</li>
@@ -316,15 +316,15 @@ export default function BathroomInstallations() {
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Space-saving fixtures and smart storage</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">All plumbing and electrical work included</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Ventilation and building regulation compliance</span>
                   </div>
                 </div>
@@ -344,35 +344,35 @@ export default function BathroomInstallations() {
 
             <div className="space-y-6 mb-12">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Free Design Consultation</h3>
                   <p className="text-slate-700">We visit your home to measure up, discuss your requirements, and show you design options. This service is completely free with no obligation.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Design & Quote</h3>
                   <p className="text-slate-700">We create a detailed 3D design and provide a fixed-price quote covering all materials and labor. No hidden costs.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Schedule & Prepare</h3>
                   <p className="text-slate-700">Once you're happy with the design and price, we order materials and schedule your installation for a convenient date.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Professional Installation</h3>
                   <p className="text-slate-700">Our team completes your bathroom to the highest standards. Most bathrooms are finished within 5-7 days.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Final Inspection & Handover</h3>
                   <p className="text-slate-700">We walk through your new bathroom with you, ensure everything works perfectly, and provide care and maintenance advice.</p>
@@ -380,30 +380,30 @@ export default function BathroomInstallations() {
               </div>
             </div>
 
-            <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-lg mb-12">
-              <h3 className="text-xl font-bold mb-3 text-purple-900 flex items-center gap-2">
+            <div className="bg-primary-50 border-l-4 border-purple-600 p-6 rounded-lg mb-12">
+              <h3 className="text-xl font-bold mb-3 text-primary-900 flex items-center gap-2">
                 <Sparkles className="w-6 h-6" />
                 Why Choose Us for Your Bathroom?
               </h3>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Over 14 years experience in bathroom installations</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Fully qualified plumbers, tilers and electricians</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Fixed prices with no hidden extras</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Access to trade prices on all bathroom products</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Comprehensive 12 month guarantee on all work</span>
                 </li>
               </ul>
@@ -452,20 +452,20 @@ export default function BathroomInstallations() {
         ]}
       />
 
-      <section className="py-16 bg-purple-900 text-white">
+      <section className="py-16 bg-primary-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready for Your Dream Bathroom?
           </h2>
-          <p className="text-xl mb-8 text-purple-100 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
             Book your free design consultation today and let's start planning your perfect bathroom
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-white hover:bg-gray-100 text-purple-900 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-white hover:bg-gray-100 text-primary-900 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-primary-600 hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Book Free Consultation
             </Link>
           </div>

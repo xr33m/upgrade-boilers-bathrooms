@@ -62,42 +62,42 @@ export default function BoilerRepairs() {
           heading: "Common Boiler Problems We Fix",
           problems: [
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "No Heating or Hot Water",
               description: "Caused by thermostat issues, airlocks, broken diaphragms, or faulty motorized valves."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Boiler Losing Pressure",
               description: "Usually caused by leaks in the system or faulty pressure relief valves."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Strange Noises",
               description: "Banging, whistling, or gurgling sounds from kettling, air in system, or pump failure."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Boiler Keeps Switching Off",
               description: "Low pressure, thermostat problems, closed valves, or pump circulation issues."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Radiators Not Heating",
               description: "Caused by sludge buildup, air in radiators, or faulty circulation pump."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Boiler Leaking Water",
               description: "Corroded pipes, damaged seals, or faulty pressure valves need immediate attention."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Error Codes Displayed",
               description: "Fault codes indicate specific problems. We diagnose and fix all error codes quickly."
             },
             {
-              icon: <Wrench className="w-6 h-6 text-blue-600" />,
+              icon: <Wrench className="w-6 h-6 text-primary" />,
               title: "Pilot Light Goes Out",
               description: "Broken thermocouples, debris in pilot light, or draught issues on older boilers."
             }
@@ -112,7 +112,7 @@ export default function BoilerRepairs() {
             content: (
               <div>
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="text-center p-6 bg-blue-50 rounded-lg">
+                  <div className="text-center p-6 bg-primary-50 rounded-lg">
                     <h3 className="text-xl font-bold mb-2 text-slate-900">Fast Response</h3>
                     <p className="text-slate-700">Emergency call-outs within 2 hours. Same-day appointments for non-urgent repairs.</p>
                   </div>
@@ -120,32 +120,32 @@ export default function BoilerRepairs() {
                     <h3 className="text-xl font-bold mb-2 text-slate-900">Fixed Right First Time</h3>
                     <p className="text-slate-700">Our vans stock common parts so we can complete most repairs on the first visit.</p>
                   </div>
-                  <div className="text-center p-6 bg-purple-50 rounded-lg">
+                  <div className="text-center p-6 bg-primary-50 rounded-lg">
                     <h3 className="text-xl font-bold mb-2 text-slate-900">12 Month Guarantee</h3>
                     <p className="text-slate-700">All repairs backed by our comprehensive 12 month parts and labour warranty.</p>
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
                   <h3 className="text-xl font-bold mb-3 text-blue-900">Transparent Pricing</h3>
                   <p className="text-slate-700 mb-4">
                     We provide upfront quotes before starting any work. No hidden costs, no surprises. You'll know exactly what you're paying before we begin the repair.
                   </p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Standard call-out fee: £60 (Mon-Fri, 8am-6pm)</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Evening & weekend call-out: £85</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Emergency call-out: £120 (24/7 availability)</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Call-out fee deducted if you proceed with repair</span>
                     </li>
                   </ul>
@@ -180,19 +180,19 @@ export default function BoilerRepairs() {
                   <h3 className="text-xl font-bold mb-3 text-green-900">Consider Repairing If:</h3>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>Your boiler is less than 8 years old</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>This is the first major fault</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>The repair cost is under £400</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                       <span>Your boiler has been regularly serviced</span>
                     </li>
                   </ul>

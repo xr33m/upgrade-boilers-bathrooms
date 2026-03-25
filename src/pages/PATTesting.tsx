@@ -33,7 +33,7 @@ export default function PATTesting() {
       <section className="bg-gradient-to-br from-violet-900 to-slate-900 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <nav className="text-sm mb-4 text-violet-200">
+            <nav className="text-sm mb-4 text-primary-200">
               <Link to="/" className="hover:text-white">Home</Link>
               <span className="mx-2">/</span>
               <Link to="/landlords" className="hover:text-white">Landlord Services</Link>
@@ -43,10 +43,10 @@ export default function PATTesting() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               PAT Testing Glasgow
             </h1>
-            <p className="text-xl text-violet-100 mb-6">
+            <p className="text-xl text-primary-100 mb-6">
               Portable Appliance Testing for Landlords. Professional electrical safety testing from £45. Protect your tenants and stay compliant with expert PAT checks across Greater Glasgow.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               Book Your Test
             </a>
@@ -69,23 +69,23 @@ export default function PATTesting() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Visual inspection</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Plug and cable checks</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Earth continuity testing</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Insulation resistance testing</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Functional checks</span>
               </div>
             </div>
@@ -127,23 +127,23 @@ export default function PATTesting() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Reduces risk of electrical accidents</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Demonstrates proactive safety management</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Protects tenants</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Protects you legally</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Supports insurance compliance</span>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function PATTesting() {
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
               PAT Testing From £45 – Glasgow
             </h2>
-            <div className="bg-violet-50 border border-violet-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-violet-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
                 Prices start from £45, depending on number of appliances.
               </p>
@@ -160,19 +160,19 @@ export default function PATTesting() {
               </p>
               <div className="space-y-2">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Clear pricing</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Fast turnaround</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Certification for your records</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Documentation of failed appliances</span>
                 </div>
               </div>
@@ -190,48 +190,48 @@ export default function PATTesting() {
 
             <div className="grid md:grid-cols-3 gap-3 mb-12">
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Kettles</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Microwaves</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Toasters</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Washing machines</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Tumble dryers</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Heaters</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Vacuum cleaners</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Extension leads</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Desk lamps</span>
               </div>
               <div className="flex items-start gap-2">
-                <span className="text-violet-600 font-bold">•</span>
+                <span className="text-primary-600 font-bold">•</span>
                 <span className="text-slate-700">Fridges (plug-in units)</span>
               </div>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 font-semibold">
                 Tenant-owned appliances are excluded.
               </p>
@@ -280,15 +280,15 @@ export default function PATTesting() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-violet-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary-600 flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Every 12–15 months</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-violet-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary-600 flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Or at change of tenancy</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-violet-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-primary-600 flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Or during annual safety checks</span>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function PATTesting() {
             <div className="space-y-6 mb-12">
               <div className="bg-white border border-slate-200 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                  <span className="bg-violet-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">1</span>
+                  <span className="bg-primary-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">1</span>
                   Property Assessment
                 </h3>
                 <p className="text-slate-700">
@@ -333,25 +333,25 @@ export default function PATTesting() {
 
               <div className="bg-white border border-slate-200 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                  <span className="bg-violet-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">2</span>
+                  <span className="bg-primary-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">2</span>
                   On-Site Inspection
                 </h3>
                 <p className="text-slate-700 mb-4">We perform:</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <span className="text-violet-600 font-bold">•</span>
+                    <span className="text-primary-600 font-bold">•</span>
                     <span className="text-slate-700">Visual checks</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <span className="text-violet-600 font-bold">•</span>
+                    <span className="text-primary-600 font-bold">•</span>
                     <span className="text-slate-700">Electrical safety tests</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <span className="text-violet-600 font-bold">•</span>
+                    <span className="text-primary-600 font-bold">•</span>
                     <span className="text-slate-700">Cable & plug inspection</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <span className="text-violet-600 font-bold">•</span>
+                    <span className="text-primary-600 font-bold">•</span>
                     <span className="text-slate-700">Internal fuse verification</span>
                   </div>
                 </div>
@@ -360,25 +360,25 @@ export default function PATTesting() {
 
               <div className="bg-white border border-slate-200 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                  <span className="bg-violet-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">3</span>
+                  <span className="bg-primary-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">3</span>
                   Certification & Reporting
                 </h3>
                 <p className="text-slate-700 mb-3">You receive:</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">PAT Test Certificate</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Appliance register</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Pass / fail status</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Documentation of non-compliant items</span>
                   </div>
                 </div>
@@ -531,31 +531,31 @@ export default function PATTesting() {
               </p>
               <div className="grid md:grid-cols-2 gap-2">
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">Glasgow City Centre</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">West End</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">Southside</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">Bearsden & Milngavie</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">East Kilbride</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">Paisley</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="text-violet-600 font-bold">•</span>
+                  <span className="text-primary-600 font-bold">•</span>
                   <span className="text-slate-700">Greater Glasgow</span>
                 </div>
               </div>
@@ -567,27 +567,27 @@ export default function PATTesting() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Experienced with landlord compliance</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Fast certification turnaround</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Flexible scheduling</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Clear pricing</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Professional documentation</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Local Glasgow service</span>
               </div>
             </div>
@@ -629,20 +629,20 @@ export default function PATTesting() {
         ]}
       />
 
-      <section className="py-16 bg-violet-900 text-white">
+      <section className="py-16 bg-primary-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Book Your PAT Testing in Glasgow
           </h2>
-          <p className="text-xl mb-8 text-violet-100 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
             Stay compliant. Reduce risk. Protect your tenants. Contact Upgrade Boilers & Bathrooms today to arrange PAT testing for your rental property in Glasgow.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-white hover:bg-gray-100 text-violet-900 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-white hover:bg-gray-100 text-primary-900 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-violet-600 hover:bg-violet-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-primary-600 hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Get Quote
             </Link>
           </div>

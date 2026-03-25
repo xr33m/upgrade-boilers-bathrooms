@@ -36,7 +36,7 @@ export default function Pricing() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 mb-12">
               <p className="text-lg text-slate-700">
                 <strong>Important:</strong> Prices shown are guide prices only. Final costs depend on the specific work required, property access, and materials needed. We always provide a detailed quote before starting any work.
               </p>
@@ -46,22 +46,22 @@ export default function Pricing() {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Boiler Service</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £75</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £75</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Full safety inspection</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Component cleaning</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Efficiency testing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Service certificate</span>
                   </li>
                 </ul>
@@ -69,22 +69,22 @@ export default function Pricing() {
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Boiler Installation</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £1,800</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £1,800</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>A-rated combi boiler</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Full installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Old boiler removal</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Manufacturer warranty</span>
                   </li>
                 </ul>
@@ -92,22 +92,22 @@ export default function Pricing() {
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Boiler Repair</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £90</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £90</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Diagnostic visit</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Labor included</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Parts charged separately</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Fixed before payment</span>
                   </li>
                 </ul>
@@ -115,22 +115,22 @@ export default function Pricing() {
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Gas Safety Certificate</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £60</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £60</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>All gas appliances checked</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>CP12 certificate issued</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Landlord compliant</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Same-day certificate</span>
                   </li>
                 </ul>
@@ -141,25 +141,25 @@ export default function Pricing() {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Radiator Installation</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £150</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £150</p>
                 <p className="text-slate-600 mb-4">Per radiator including labor, valves, and installation</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Power Flushing</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £400</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £400</p>
                 <p className="text-slate-600 mb-4">Complete system clean for typical 3-bed property</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Gas Fire Service</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £70</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £70</p>
                 <p className="text-slate-600 mb-4">Annual service including safety checks and certificate</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Thermostatic Valves</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £45</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £45</p>
                 <p className="text-slate-600 mb-4">Per TRV including supply and fitting</p>
               </div>
             </div>
@@ -168,25 +168,25 @@ export default function Pricing() {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Emergency Callout</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £120</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £120</p>
                 <p className="text-slate-600 mb-4">24/7 emergency service within 1-2 hours. Includes first hour of labor.</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Tap Repair/Replacement</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £80</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £80</p>
                 <p className="text-slate-600 mb-4">Includes labor. Taps charged separately based on your choice.</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Toilet Repair</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £75</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £75</p>
                 <p className="text-slate-600 mb-4">Common issues like flush mechanisms, leaks, and cistern problems</p>
               </div>
 
               <div className="bg-slate-50 p-6 rounded-lg border-2 border-slate-200">
                 <h3 className="text-2xl font-bold mb-2">Leak Detection & Repair</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-4">From £90</p>
+                <p className="text-3xl font-bold text-primary mb-4">From £90</p>
                 <p className="text-slate-600 mb-4">Find and fix leaks to prevent water damage and high bills</p>
               </div>
             </div>
@@ -194,17 +194,17 @@ export default function Pricing() {
             <h2 className="text-3xl font-bold text-slate-900 mb-8">Why Choose Our Pricing</h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-green-50 p-6 rounded-lg text-center">
-                <CheckCircle2 className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <CheckCircle2 className="w-12 h-12 text-secondary mx-auto mb-4" />
                 <h3 className="font-bold text-lg mb-2">No Hidden Fees</h3>
                 <p className="text-slate-600">All costs clearly explained upfront with no surprises</p>
               </div>
-              <div className="bg-blue-50 p-6 rounded-lg text-center">
-                <CheckCircle2 className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <div className="bg-primary-50 p-6 rounded-lg text-center">
+                <CheckCircle2 className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="font-bold text-lg mb-2">Free Quotes</h3>
                 <p className="text-slate-600">No-obligation quotes for all services</p>
               </div>
-              <div className="bg-purple-50 p-6 rounded-lg text-center">
-                <CheckCircle2 className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+              <div className="bg-primary-50 p-6 rounded-lg text-center">
+                <CheckCircle2 className="w-12 h-12 text-primary-600 mx-auto mb-4" />
                 <h3 className="font-bold text-lg mb-2">Quality Guaranteed</h3>
                 <p className="text-slate-600">All work fully guaranteed with warranty on parts</p>
               </div>
@@ -229,7 +229,7 @@ export default function Pricing() {
             Contact us for transparent, competitive pricing with no hidden fees
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

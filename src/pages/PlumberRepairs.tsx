@@ -38,7 +38,7 @@ export default function PlumberRepairs() {
               Our Glasgow plumbing repair team handles everything from minor leaks to complex system faults. We work across traditional tenements, sandstone townhouses, new-build flats and family homes throughout the city.
             </p>
             <p className="text-lg text-slate-700 leading-relaxed">
-              If you're facing an urgent issue, visit our <Link to="/emergency-plumber" className="text-blue-600 hover:text-blue-800 font-semibold underline">Emergency Plumber Glasgow</Link> page for immediate assistance.
+              If you're facing an urgent issue, visit our <Link to="/emergency-plumber" className="text-primary hover:text-blue-800 font-semibold underline">Emergency Plumber Glasgow</Link> page for immediate assistance.
             </p>
           </div>
         }
@@ -93,15 +93,15 @@ export default function PlumberRepairs() {
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Leak Detection</h3>
                     <p className="text-slate-700">Hidden leaks behind walls or under floors located and resolved with minimal disruption.</p>
                   </div>
-                  <div className="bg-white rounded-xl p-6 border-l-4 border-blue-600 shadow-sm">
+                  <div className="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm">
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Lead Pipe Repairs</h3>
                     <p className="text-slate-700">Temporary and permanent solutions, with advice on full replacement where necessary.</p>
-                    <p className="text-slate-700 mt-4">Learn more about <Link to="/lead-pipe-replacement" className="text-blue-600 hover:text-blue-800 font-semibold underline">lead pipe replacement services</Link>.</p>
+                    <p className="text-slate-700 mt-4">Learn more about <Link to="/lead-pipe-replacement" className="text-primary hover:text-blue-800 font-semibold underline">lead pipe replacement services</Link>.</p>
                   </div>
                 </div>
                 <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-lg mt-6">
                   <p className="text-slate-700 leading-relaxed">
-                    For major water emergencies, visit our <Link to="/emergency-plumber" className="text-blue-600 hover:text-blue-800 font-semibold underline">24/7 Emergency Plumbing</Link> page.
+                    For major water emergencies, visit our <Link to="/emergency-plumber" className="text-primary hover:text-blue-800 font-semibold underline">24/7 Emergency Plumbing</Link> page.
                   </p>
                 </div>
               </div>
@@ -124,14 +124,14 @@ export default function PlumberRepairs() {
                       'System balancing faults'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </div>
                     ))}
                   </div>
                 </div>
                 <p className="text-lg text-slate-700 leading-relaxed">
-                  If your boiler is causing the issue, see our <Link to="/heating" className="text-blue-600 hover:text-blue-800 font-semibold underline">Central Heating Services in Glasgow</Link> page.
+                  If your boiler is causing the issue, see our <Link to="/heating" className="text-primary hover:text-blue-800 font-semibold underline">Central Heating Services in Glasgow</Link> page.
                 </p>
               </div>
             )
@@ -155,7 +155,7 @@ export default function PlumberRepairs() {
                       'External pipe problems'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </div>
                     ))}
@@ -181,7 +181,7 @@ export default function PlumberRepairs() {
                       'Standard labour time'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </div>
                     ))}
@@ -207,7 +207,7 @@ export default function PlumberRepairs() {
                     'Backed by strong local customer reviews'
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-3 bg-white p-5 rounded-lg border border-blue-200">
-                      <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                       <span className="text-slate-700 font-semibold">{item}</span>
                     </div>
                   ))}

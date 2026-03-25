@@ -52,19 +52,19 @@ export default function About() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
               <div className="text-center p-6 bg-slate-50 rounded-lg">
-                <div className="text-4xl font-bold text-blue-600 mb-2">14+</div>
+                <div className="text-4xl font-bold text-primary mb-2">14+</div>
                 <div className="text-slate-700 font-semibold">Years Experience</div>
               </div>
               <div className="text-center p-6 bg-slate-50 rounded-lg">
-                <div className="text-4xl font-bold text-green-600 mb-2">5000+</div>
+                <div className="text-4xl font-bold text-secondary mb-2">5000+</div>
                 <div className="text-slate-700 font-semibold">Happy Customers</div>
               </div>
               <div className="text-center p-6 bg-slate-50 rounded-lg">
-                <div className="text-4xl font-bold text-purple-600 mb-2">98%</div>
+                <div className="text-4xl font-bold text-primary-600 mb-2">98%</div>
                 <div className="text-slate-700 font-semibold">Customer Satisfaction</div>
               </div>
               <div className="text-center p-6 bg-slate-50 rounded-lg">
-                <div className="text-4xl font-bold text-orange-600 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-accent mb-2">24/7</div>
                 <div className="text-slate-700 font-semibold">Emergency Service</div>
               </div>
             </div>
@@ -78,12 +78,12 @@ export default function About() {
               </p>
 
               <div className="relative">
-                <div className="size-[520px] -top-80 left-1/2 -translate-x-1/2 rounded-full absolute blur-[300px] -z-10 bg-blue-50/50"></div>
+                <div className="size-[520px] -top-80 left-1/2 -translate-x-1/2 rounded-full absolute blur-[300px] -z-10 bg-primary-50/50"></div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
                   <div>
-                    <div className="size-12 md:size-14 p-3 bg-blue-50 border-2 border-blue-200 rounded-lg">
-                      <Shield className="w-full h-full text-blue-600" />
+                    <div className="size-12 md:size-14 p-3 bg-primary-50 border-2 border-blue-200 rounded-lg">
+                      <Shield className="w-full h-full text-primary" />
                     </div>
                     <div className="mt-5 space-y-2">
                       <h3 className="text-lg md:text-xl font-bold text-slate-900">Gas Safe Registered</h3>
@@ -93,7 +93,7 @@ export default function About() {
 
                   <div>
                     <div className="size-12 md:size-14 p-3 bg-green-50 border-2 border-green-200 rounded-lg">
-                      <Award className="w-full h-full text-green-600" />
+                      <Award className="w-full h-full text-secondary" />
                     </div>
                     <div className="mt-5 space-y-2">
                       <h3 className="text-lg md:text-xl font-bold text-slate-900">Expert Engineers</h3>
@@ -102,8 +102,8 @@ export default function About() {
                   </div>
 
                   <div>
-                    <div className="size-12 md:size-14 p-3 bg-purple-50 border-2 border-purple-200 rounded-lg">
-                      <Users className="w-full h-full text-purple-600" />
+                    <div className="size-12 md:size-14 p-3 bg-primary-50 border-2 border-purple-200 rounded-lg">
+                      <Users className="w-full h-full text-primary-600" />
                     </div>
                     <div className="mt-5 space-y-2">
                       <h3 className="text-lg md:text-xl font-bold text-slate-900">Customer Focused</h3>
@@ -113,7 +113,7 @@ export default function About() {
 
                   <div>
                     <div className="size-12 md:size-14 p-3 bg-orange-50 border-2 border-orange-200 rounded-lg">
-                      <Clock className="w-full h-full text-orange-600" />
+                      <Clock className="w-full h-full text-accent" />
                     </div>
                     <div className="mt-5 space-y-2">
                       <h3 className="text-lg md:text-xl font-bold text-slate-900">24/7 Emergency Service</h3>
@@ -150,7 +150,7 @@ export default function About() {
 
             <div className="space-y-4 mb-12">
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Transparent Pricing</h3>
                   <p className="text-slate-600">We provide clear, upfront quotes with no hidden costs. You'll know exactly what you're paying before we start work.</p>
@@ -158,7 +158,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Quality Guarantee</h3>
                   <p className="text-slate-600">All our work is backed by a 12-month parts and labour guarantee for your complete peace of mind.</p>
@@ -166,7 +166,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Clean & Tidy</h3>
                   <p className="text-slate-600">We respect your property. Our engineers wear protective footwear and clean up thoroughly after every job.</p>
@@ -174,7 +174,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Fully Insured</h3>
                   <p className="text-slate-600">We carry comprehensive public liability insurance up to £10 million for your protection.</p>
@@ -188,19 +188,19 @@ export default function About() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
               <div className="text-center p-6 border-2 border-slate-200 rounded-lg">
-                <Shield className="w-12 h-12 text-blue-600 mx-auto mb-3" />
+                <Shield className="w-12 h-12 text-primary mx-auto mb-3" />
                 <div className="font-bold">Gas Safe Registered</div>
               </div>
               <div className="text-center p-6 border-2 border-slate-200 rounded-lg">
-                <Award className="w-12 h-12 text-green-600 mx-auto mb-3" />
+                <Award className="w-12 h-12 text-secondary mx-auto mb-3" />
                 <div className="font-bold">Worcester Bosch Approved</div>
               </div>
               <div className="text-center p-6 border-2 border-slate-200 rounded-lg">
-                <Award className="w-12 h-12 text-purple-600 mx-auto mb-3" />
+                <Award className="w-12 h-12 text-primary-600 mx-auto mb-3" />
                 <div className="font-bold">Vaillant Certified</div>
               </div>
               <div className="text-center p-6 border-2 border-slate-200 rounded-lg">
-                <Shield className="w-12 h-12 text-orange-600 mx-auto mb-3" />
+                <Shield className="w-12 h-12 text-accent mx-auto mb-3" />
                 <div className="font-bold">Fully Insured</div>
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function About() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Get Free Quote
             </Link>
           </div>

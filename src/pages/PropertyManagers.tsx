@@ -47,7 +47,7 @@ export default function PropertyManagers() {
             <p className="text-xl text-orange-100 mb-6">
               Same-Day Appointments & Full Landlord Compliance Support. Managing property in Glasgow is demanding. We operate as an extension of your agency with same-day reactive support and complete compliance coverage.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-accent-600 hover:bg-orange-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               Emergency Support
             </a>
@@ -64,7 +64,7 @@ export default function PropertyManagers() {
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Same-Day Plumbing & Heating</h3>
                   <p className="text-slate-600">Emergency response within hours when tenants report boiler breakdown, burst pipes, or no hot water.</p>
@@ -72,7 +72,7 @@ export default function PropertyManagers() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Full Compliance in One Visit</h3>
                   <p className="text-slate-600">CP12, boiler servicing, PAT testing, legionella, and lead testing completed together to minimize disruption.</p>
@@ -80,7 +80,7 @@ export default function PropertyManagers() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Photographic Job Reports</h3>
                   <p className="text-slate-600">Detailed before & after photos with clear explanations forwarded directly to landlords.</p>
@@ -88,7 +88,7 @@ export default function PropertyManagers() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">12-Month Aftercare</h3>
                   <p className="text-slate-600">All repairs covered by comprehensive aftercare guarantee for tenant peace of mind.</p>
@@ -96,7 +96,7 @@ export default function PropertyManagers() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Seamless Tenant Communication</h3>
                   <p className="text-slate-600">Engineers coordinate directly with tenants, minimizing disruption and protecting your reputation.</p>
@@ -104,7 +104,7 @@ export default function PropertyManagers() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Secure Key Handling</h3>
                   <p className="text-slate-600">Fully insured engineers collect keys, use key safes, and access void properties without delays.</p>
@@ -225,26 +225,26 @@ export default function PropertyManagers() {
               Access via Keys & Key Safes
             </h2>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
                 We understand agency logistics. Our insured engineers can:
               </p>
 
               <div className="space-y-2">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Collect keys from your office</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Use key safes</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Access void properties</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">Communicate directly with tenants</span>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function PropertyManagers() {
               </p>
 
               <div className="bg-white p-4 rounded border border-orange-300 mb-4">
-                <div className="text-2xl font-bold text-orange-600 mb-1">£170 inc VAT</div>
+                <div className="text-2xl font-bold text-accent mb-1">£170 inc VAT</div>
                 <div className="text-slate-700">Out-of-hours call-out (first hour)</div>
                 <div className="text-sm text-slate-600 mt-1">Additional time charged in half-hour increments</div>
               </div>
@@ -555,7 +555,7 @@ export default function PropertyManagers() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border border-blue-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700">
                 We understand documentation requirements and regulatory expectations.
               </p>
@@ -567,31 +567,31 @@ export default function PropertyManagers() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Prompt communication</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Clear written quotations</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Transparent pricing</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Tidy, respectful engineers</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Professional tenant interaction</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">Structured documentation</span>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <span className="text-slate-700">12-month aftercare on repairs</span>
               </div>
             </div>
@@ -657,7 +657,7 @@ export default function PropertyManagers() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-orange-600 hover:bg-orange-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-accent-600 hover:bg-orange-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Discuss Portfolio Support
             </Link>
           </div>

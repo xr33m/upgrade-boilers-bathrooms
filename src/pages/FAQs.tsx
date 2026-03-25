@@ -63,7 +63,7 @@ export default function FAQs() {
       <section className="bg-gradient-to-br from-blue-900 to-slate-900 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <HelpCircle className="w-16 h-16 mx-auto mb-6 text-blue-400" />
+            <HelpCircle className="w-16 h-16 mx-auto mb-6 text-secondary" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Frequently Asked Questions
             </h1>
@@ -177,7 +177,7 @@ export default function FAQs() {
             Can't find the answer you're looking for? Give us a call and we'll be happy to help
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

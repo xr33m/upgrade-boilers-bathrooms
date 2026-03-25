@@ -41,27 +41,27 @@ export default function AnimatedProcessSection({
 
   const colorSchemes = {
     blue: {
-      primary: 'bg-blue-600',
-      secondary: 'bg-blue-50',
-      text: 'text-blue-600',
-      border: 'border-blue-600',
+      primary: 'bg-primary',
+      secondary: 'bg-primary-50',
+      text: 'text-primary',
+      border: 'border-primary',
       borderLight: 'border-blue-200',
-      hover: 'hover:bg-blue-700',
+      hover: 'hover:bg-primary-700',
       glow: 'shadow-blue-500/30'
     },
     green: {
-      primary: 'bg-green-600',
+      primary: 'bg-secondary',
       secondary: 'bg-green-50',
-      text: 'text-green-600',
+      text: 'text-secondary',
       border: 'border-green-600',
       borderLight: 'border-green-200',
-      hover: 'hover:bg-green-700',
+      hover: 'hover:bg-secondary-600',
       glow: 'shadow-green-500/30'
     },
     orange: {
-      primary: 'bg-orange-600',
+      primary: 'bg-accent-600',
       secondary: 'bg-orange-50',
-      text: 'text-orange-600',
+      text: 'text-accent',
       border: 'border-orange-600',
       borderLight: 'border-orange-200',
       hover: 'hover:bg-orange-700',

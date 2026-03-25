@@ -64,7 +64,7 @@ export default function AboutSection() {
 
               <Link
                 to="/about"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 md:py-4 rounded-lg transition-all transform hover:scale-105 shadow-lg text-base md:text-lg"
+                className="inline-block bg-primary hover:bg-primary-700 text-white font-bold px-8 py-3 md:py-4 rounded-lg transition-all transform hover:scale-105 shadow-lg text-base md:text-lg"
               >
                 Learn More About Us
               </Link>

@@ -33,7 +33,7 @@ export default function GasFireRepairs() {
               Is your gas fire not igniting? Pilot light keeps going out? Noticed soot or strange smells? Upgrade Boilers & Bathrooms provide professional gas fire servicing and repairs in Glasgow, carried out by fully Gas Safe registered engineers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -74,27 +74,27 @@ export default function GasFireRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Gas fires should be serviced once per year to ensure safety, efficiency, and compliance with manufacturer requirements.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Annual service ensures:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Safe combustion</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Correct ventilation</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>No carbon monoxide risk</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Efficient operation</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Manufacturer compliance</span>
                     </li>
                   </ul>
@@ -103,35 +103,35 @@ export default function GasFireRepairs() {
                   <p className="text-slate-700 font-semibold mb-3">During a full gas fire service we:</p>
                   <ul className="space-y-2 text-slate-700 text-sm">
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Remove and clean burners</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Inspect pilot assembly</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Test ignition system</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Check thermocouple & flame failure device</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Inspect flue or chimney draw</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Check ventilation & airflow</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Perform combustion safety checks</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Wrench className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Wrench className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Inspect for signs of soot or incomplete burn</span>
                     </li>
                   </ul>
@@ -141,7 +141,7 @@ export default function GasFireRepairs() {
 
             <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 border-2 border-orange-200 text-center mb-16">
               <p className="text-slate-700 mb-2 text-lg">Gas Fire Service</p>
-              <p className="text-5xl font-bold text-orange-600 mb-2">£125</p>
+              <p className="text-5xl font-bold text-accent mb-2">£125</p>
               <p className="text-slate-700">Regular servicing keeps your fire safe and reduces the risk of dangerous faults developing.</p>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function GasFireRepairs() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-600">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <Flame className="w-6 h-6 text-orange-600" />
+                  <Flame className="w-6 h-6 text-accent" />
                   Gas Fire Won't Ignite
                 </h3>
                 <p className="text-slate-700 mb-4 font-semibold">Possible causes:</p>
@@ -261,7 +261,7 @@ export default function GasFireRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <Zap className="w-6 h-6 text-purple-600" />
+                  <Zap className="w-6 h-6 text-primary-600" />
                   Noisy Gas Fire (Banging or Hissing)
                 </h3>
                 <p className="text-slate-700 mb-3 font-semibold">Unusual sounds may indicate:</p>
@@ -294,15 +294,15 @@ export default function GasFireRepairs() {
                 <p className="text-slate-700 mb-4">Modern gas fires often use:</p>
                 <ul className="space-y-2 text-slate-700 mb-4">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Battery-powered ignition</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Remote control systems</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Electronic ignition boards</span>
                   </li>
                 </ul>
@@ -378,7 +378,7 @@ export default function GasFireRepairs() {
 
             <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-green-200">
               <p className="text-lg text-slate-700 font-semibold flex items-center gap-3">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0" />
                 Annual servicing dramatically reduces the risk of CO production.
               </p>
             </div>
@@ -398,23 +398,23 @@ export default function GasFireRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   We provide Gas Safety Certificates (CP12) for landlords and letting agents. Your gas fire must be inspected annually as part of landlord compliance under UK gas safety regulations.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <p className="text-slate-700 font-semibold mb-4">We provide CP12 certificates for:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Landlords</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Letting agents</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>HMO properties</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Rental homes</span>
                     </li>
                   </ul>
@@ -455,14 +455,14 @@ export default function GasFireRepairs() {
                   <p className="text-slate-700 font-semibold mb-4">We offer:</p>
                   <ul className="space-y-3 text-slate-700">
                     <li className="flex items-start gap-3">
-                      <Shield className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                      <Shield className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                       <span>
                         <span className="font-semibold">Fixed price disconnect & make safe</span>
                         <span className="block text-sm text-slate-600 mt-1">From £150</span>
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Shield className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                      <Shield className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                       <span>
                         <span className="font-semibold">Full removal & disposal</span>
                         <span className="block text-sm text-slate-600 mt-1">£250 inc VAT</span>
@@ -486,7 +486,7 @@ export default function GasFireRepairs() {
               Brands We Service & Repair
             </h2>
 
-            <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 mb-12">
+            <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 mb-12">
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                 We commonly work on all major gas fire brands and manufacturers. Our engineers have experience with traditional and modern models across:
               </p>
@@ -520,31 +520,31 @@ export default function GasFireRepairs() {
               </div>
               <div>
                 <div className="bg-green-50 rounded-xl p-8 border-2 border-green-200 mb-6">
-                  <p className="text-5xl font-bold text-green-600 mb-3">1-2 Hours</p>
+                  <p className="text-5xl font-bold text-secondary mb-3">1-2 Hours</p>
                   <p className="text-slate-700 font-semibold">Most repairs are completed within 1–2 hours.</p>
                 </div>
 
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Factors that affect timing:</h3>
                 <ul className="space-y-3 text-slate-700 mb-6">
                   <li className="flex items-center gap-2">
-                    <Zap className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                    <Zap className="w-5 h-5 text-accent flex-shrink-0" />
                     <span>Parts availability</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Zap className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                    <Zap className="w-5 h-5 text-accent flex-shrink-0" />
                     <span>Age of appliance</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Zap className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                    <Zap className="w-5 h-5 text-accent flex-shrink-0" />
                     <span>Manufacturer support</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Zap className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                    <Zap className="w-5 h-5 text-accent flex-shrink-0" />
                     <span>Flue condition</span>
                   </li>
                 </ul>
 
-                <p className="text-slate-700 text-sm bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <p className="text-slate-700 text-sm bg-primary-50 p-4 rounded-lg border border-blue-200">
                   If parts must be ordered, we provide a clear quotation before proceeding.
                 </p>
               </div>
@@ -573,7 +573,7 @@ export default function GasFireRepairs() {
                 return (
                   <div key={idx} className="bg-gradient-to-br from-orange-50 to-yellow-50 p-8 rounded-xl border-2 border-orange-200 shadow-lg">
                     <div className="flex items-start gap-4">
-                      <Icon className="w-8 h-8 text-orange-600 flex-shrink-0 mt-1" />
+                      <Icon className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="text-lg font-bold text-slate-900 mb-2">{item.title}</h3>
                         <p className="text-slate-700">{item.desc}</p>
@@ -612,7 +612,7 @@ export default function GasFireRepairs() {
                 { name: 'Surrounding Areas', detail: 'Greater Glasgow region' }
               ].map((area, idx) => (
                 <div key={idx} className="bg-white p-8 rounded-xl shadow-lg border border-slate-200 flex items-start gap-3">
-                  <MapPin className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
                     <p className="text-lg font-semibold text-slate-900">{area.name}</p>
                     <p className="text-slate-600">{area.detail}</p>
@@ -689,7 +689,7 @@ export default function GasFireRepairs() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-accent-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               Get Free Quote
             </Link>
           </div>

@@ -39,8 +39,8 @@ export default function BookingConfirmation() {
           <div className="max-w-2xl mx-auto text-center">
             <div className="mb-8 flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-green-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
-                <CheckCircle className="w-24 h-24 md:w-32 md:h-32 text-green-500 relative" />
+                <div className="absolute inset-0 bg-secondary rounded-full blur-2xl opacity-30 animate-pulse"></div>
+                <CheckCircle className="w-24 h-24 md:w-32 md:h-32 text-secondary relative" />
               </div>
             </div>
 
@@ -72,12 +72,12 @@ export default function BookingConfirmation() {
               </div>
             )}
 
-            <div className="bg-blue-50 rounded-xl p-8 md:p-12 mb-12 border border-blue-200">
+            <div className="bg-primary-50 rounded-xl p-8 md:p-12 mb-12 border border-blue-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">What Happens Next?</h3>
               <div className="space-y-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary">
                       <Clock className="h-6 w-6 text-white" />
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export default function BookingConfirmation() {
 
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary">
                       <Phone className="h-6 w-6 text-white" />
                     </div>
                   </div>
@@ -101,7 +101,7 @@ export default function BookingConfirmation() {
 
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary">
                       <Mail className="h-6 w-6 text-white" />
                     </div>
                   </div>
@@ -118,14 +118,14 @@ export default function BookingConfirmation() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href={`tel:${BUSINESS_INFO.phone}`}
-                  className="flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition"
+                  className="flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white font-bold py-3 px-6 rounded-lg transition"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
                 <a
                   href={`mailto:${BUSINESS_INFO.email}`}
-                  className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition"
+                  className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-700 text-white font-bold py-3 px-6 rounded-lg transition"
                 >
                   <Mail className="w-5 h-5" />
                   Email Us
@@ -140,7 +140,7 @@ export default function BookingConfirmation() {
 
               <Link
                 to="/"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition text-lg"
+                className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 text-white font-bold py-4 px-8 rounded-lg transition text-lg"
               >
                 Return to Home
                 <ArrowRight className="w-5 h-5" />

@@ -26,7 +26,7 @@ export default function GasEngineer() {
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+                className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
@@ -47,8 +47,8 @@ export default function GasEngineer() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-4 gap-8 mb-16">
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Gas Safe Registered</h3>
                 <p className="text-slate-600 text-sm">All engineers fully qualified and registered</p>
@@ -56,7 +56,7 @@ export default function GasEngineer() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-green-600" />
+                  <Clock className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">24/7 Available</h3>
                 <p className="text-slate-600 text-sm">Emergency gas services day and night</p>
@@ -64,15 +64,15 @@ export default function GasEngineer() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-8 h-8 text-orange-600" />
+                  <Wrench className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Expert Service</h3>
                 <p className="text-slate-600 text-sm">Over 14 years serving Glasgow</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-8 h-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Fully Insured</h3>
                 <p className="text-slate-600 text-sm">Comprehensive public liability cover</p>
@@ -88,19 +88,19 @@ export default function GasEngineer() {
                 <h3 className="text-xl font-bold mb-4 text-slate-900">Boiler Services</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">New boiler installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Annual boiler servicing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Boiler repairs and breakdowns</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Boiler replacements</span>
                   </li>
                 </ul>
@@ -110,19 +110,19 @@ export default function GasEngineer() {
                 <h3 className="text-xl font-bold mb-4 text-slate-900">Gas Appliances</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas fire installation and repair</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas cooker installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas hob fitting</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas appliance servicing</span>
                   </li>
                 </ul>
@@ -132,19 +132,19 @@ export default function GasEngineer() {
                 <h3 className="text-xl font-bold mb-4 text-slate-900">Gas Safety</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas safety certificates (CP12)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Landlord gas safety inspections</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Gas leak detection and repair</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Carbon monoxide testing</span>
                   </li>
                 </ul>
@@ -154,26 +154,26 @@ export default function GasEngineer() {
                 <h3 className="text-xl font-bold mb-4 text-slate-900">Heating Systems</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Central heating installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Radiator installation and repair</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Heating system power flushing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Heating controls and thermostats</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <h3 className="text-xl font-bold mb-4 text-slate-900">Why Choose Our Gas Engineers?</h3>
               <p className="text-slate-700 mb-4">
                 When it comes to gas work, you need engineers you can trust. All our gas engineers are Gas Safe registered, fully insured, and have years of experience working across Glasgow. We prioritize safety above everything else and take pride in delivering the highest quality workmanship.
@@ -183,19 +183,19 @@ export default function GasEngineer() {
                   <h4 className="font-bold text-slate-900 mb-2">Our Qualifications</h4>
                   <ul className="space-y-1 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Gas Safe registered engineers</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>City & Guilds certified</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>CIPHE qualified plumbers</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Manufacturer trained technicians</span>
                     </li>
                   </ul>
@@ -204,19 +204,19 @@ export default function GasEngineer() {
                   <h4 className="font-bold text-slate-900 mb-2">Our Guarantees</h4>
                   <ul className="space-y-1 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>12-month workmanship guarantee</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Manufacturer warranties honored</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Fully insured and covered</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Free quotes and advice</span>
                     </li>
                   </ul>
@@ -264,7 +264,7 @@ export default function GasEngineer() {
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href={`tel:${BUSINESS_INFO.phone}`}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+              className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
             >
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}

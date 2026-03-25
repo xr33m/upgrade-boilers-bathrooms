@@ -72,40 +72,40 @@ export default function Plumbing() {
                 <span className="text-cyan-600 font-semibold group-hover:underline">Learn more →</span>
               </Link>
 
-              <Link to="/plumbing/tap-repairs" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-blue-500">
-                <Droplet className="w-12 h-12 text-blue-600 mb-4 group-hover:scale-110 transition" />
-                <h3 className="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Tap Repairs</h3>
+              <Link to="/plumbing/tap-repairs" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-secondary">
+                <Droplet className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition" />
+                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition">Tap Repairs</h3>
                 <p className="text-slate-700 mb-4">
                   Fix dripping taps, mixer taps. Install new kitchen and bathroom taps.
                 </p>
-                <span className="text-blue-600 font-semibold group-hover:underline">Learn more →</span>
+                <span className="text-primary font-semibold group-hover:underline">Learn more →</span>
               </Link>
 
               <Link to="/plumbing/toilet-repairs" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-purple-500">
-                <AlertCircle className="w-12 h-12 text-purple-600 mb-4 group-hover:scale-110 transition" />
-                <h3 className="text-xl font-bold mb-3 group-hover:text-purple-600 transition">Toilet Repairs</h3>
+                <AlertCircle className="w-12 h-12 text-primary-600 mb-4 group-hover:scale-110 transition" />
+                <h3 className="text-xl font-bold mb-3 group-hover:text-primary-600 transition">Toilet Repairs</h3>
                 <p className="text-slate-700 mb-4">
                   Running toilets, blockages, leaks. Same-day service available.
                 </p>
-                <span className="text-purple-600 font-semibold group-hover:underline">Learn more →</span>
+                <span className="text-primary-600 font-semibold group-hover:underline">Learn more →</span>
               </Link>
 
               <Link to="/plumbing/hot-water-tanks" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-orange-500">
-                <Droplet className="w-12 h-12 text-orange-600 mb-4 group-hover:scale-110 transition" />
-                <h3 className="text-xl font-bold mb-3 group-hover:text-orange-600 transition">Hot Water Tanks</h3>
+                <Droplet className="w-12 h-12 text-accent mb-4 group-hover:scale-110 transition" />
+                <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition">Hot Water Tanks</h3>
                 <p className="text-slate-700 mb-4">
                   Hot water cylinder installation. Unvented and vented systems.
                 </p>
-                <span className="text-orange-600 font-semibold group-hover:underline">Learn more →</span>
+                <span className="text-accent font-semibold group-hover:underline">Learn more →</span>
               </Link>
 
-              <Link to="/plumbing/cold-water-tanks" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-blue-500">
-                <Droplet className="w-12 h-12 text-blue-600 mb-4 group-hover:scale-110 transition" />
-                <h3 className="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Cold Water Tanks</h3>
+              <Link to="/plumbing/cold-water-tanks" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-secondary">
+                <Droplet className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition" />
+                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition">Cold Water Tanks</h3>
                 <p className="text-slate-700 mb-4">
                   Loft tank installation, replacement. Water regulations compliant.
                 </p>
-                <span className="text-blue-600 font-semibold group-hover:underline">Learn more →</span>
+                <span className="text-primary font-semibold group-hover:underline">Learn more →</span>
               </Link>
 
               <Link to="/plumbing/cast-iron-pipes-drainage" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-slate-600">
@@ -142,7 +142,7 @@ export default function Plumbing() {
 
             <div className="space-y-4 mb-12">
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Dripping Taps</h3>
                   <p className="text-slate-600">Wasting water and money. We'll replace washers or entire taps to stop the drip.</p>
@@ -150,7 +150,7 @@ export default function Plumbing() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Low Water Pressure</h3>
                   <p className="text-slate-600">Diagnose and fix causes including limescale buildup, valve issues, and pipe problems.</p>
@@ -158,7 +158,7 @@ export default function Plumbing() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Running Toilets</h3>
                   <p className="text-slate-600">Fix faulty flush mechanisms, replace cistern parts, and stop water waste.</p>
@@ -166,7 +166,7 @@ export default function Plumbing() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Blocked Sinks & Drains</h3>
                   <p className="text-slate-600">Professional unblocking without damaging your pipes or fixtures.</p>
@@ -174,7 +174,7 @@ export default function Plumbing() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Water Hammer Noise</h3>
                   <p className="text-slate-600">Fix banging pipes by installing air chambers or pressure regulators.</p>
@@ -196,8 +196,8 @@ export default function Plumbing() {
               </div>
 
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Fixed Right</h3>
                 <p className="text-slate-600">Permanent repairs, not temporary patches. 12 month guarantee.</p>
@@ -205,7 +205,7 @@ export default function Plumbing() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-green-600" />
+                  <CheckCircle2 className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Clean & Tidy</h3>
                 <p className="text-slate-600">We protect your property and clean up thoroughly after every job.</p>

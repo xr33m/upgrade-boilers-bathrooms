@@ -76,24 +76,24 @@ export default function Services() {
 
   const colorClasses = {
     blue: {
-      iconBg: 'bg-blue-100',
-      iconColor: 'text-blue-600',
-      hoverIconBg: 'group-hover:bg-blue-600',
+      iconBg: 'bg-primary-100',
+      iconColor: 'text-primary',
+      hoverIconBg: 'group-hover:bg-primary',
       hoverIconColor: 'group-hover:text-white',
       border: 'border-blue-200',
-      hoverBorder: 'hover:border-blue-500',
-      textColor: 'text-blue-600',
-      hoverText: 'group-hover:text-blue-600'
+      hoverBorder: 'hover:border-secondary',
+      textColor: 'text-primary',
+      hoverText: 'group-hover:text-primary'
     },
     orange: {
       iconBg: 'bg-orange-100',
-      iconColor: 'text-orange-600',
-      hoverIconBg: 'group-hover:bg-orange-600',
+      iconColor: 'text-accent',
+      hoverIconBg: 'group-hover:bg-accent-600',
       hoverIconColor: 'group-hover:text-white',
       border: 'border-orange-200',
       hoverBorder: 'hover:border-orange-500',
-      textColor: 'text-orange-600',
-      hoverText: 'group-hover:text-orange-600'
+      textColor: 'text-accent',
+      hoverText: 'group-hover:text-accent'
     },
     cyan: {
       iconBg: 'bg-cyan-100',
@@ -106,24 +106,24 @@ export default function Services() {
       hoverText: 'group-hover:text-cyan-600'
     },
     purple: {
-      iconBg: 'bg-purple-100',
-      iconColor: 'text-purple-600',
-      hoverIconBg: 'group-hover:bg-purple-600',
+      iconBg: 'bg-primary-100',
+      iconColor: 'text-primary-600',
+      hoverIconBg: 'group-hover:bg-primary-600',
       hoverIconColor: 'group-hover:text-white',
       border: 'border-purple-200',
       hoverBorder: 'hover:border-purple-500',
-      textColor: 'text-purple-600',
-      hoverText: 'group-hover:text-purple-600'
+      textColor: 'text-primary-600',
+      hoverText: 'group-hover:text-primary-600'
     },
     green: {
       iconBg: 'bg-green-100',
-      iconColor: 'text-green-600',
-      hoverIconBg: 'group-hover:bg-green-600',
+      iconColor: 'text-secondary',
+      hoverIconBg: 'group-hover:bg-secondary',
       hoverIconColor: 'group-hover:text-white',
       border: 'border-green-200',
       hoverBorder: 'hover:border-green-500',
-      textColor: 'text-green-600',
-      hoverText: 'group-hover:text-green-600'
+      textColor: 'text-secondary',
+      hoverText: 'group-hover:text-secondary'
     },
   };
 
@@ -154,7 +154,7 @@ export default function Services() {
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+                className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
@@ -249,8 +249,8 @@ export default function Services() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-slate-900">Gas Safe Registered</h3>
                 <p className="text-slate-600">
@@ -260,7 +260,7 @@ export default function Services() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-green-600" />
+                  <FileText className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-slate-900">12-Month Guarantee</h3>
                 <p className="text-slate-600">
@@ -270,7 +270,7 @@ export default function Services() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-orange-600" />
+                  <Clock className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-slate-900">Fast Response</h3>
                 <p className="text-slate-600">
@@ -300,7 +300,7 @@ export default function Services() {
             </a>
             <Link
               to="/contact"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg border-2 border-white"
+              className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg border-2 border-white"
             >
               Request Free Quote
             </Link>

@@ -6,7 +6,7 @@ function ReviewCard({ review }: { review: Review }) {
   return (
     <div className="w-full flex-shrink-0" style={{ minWidth: '100%' }}>
       <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-8 border border-slate-100 relative overflow-hidden h-full flex flex-col">
-        <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full blur-3xl opacity-5"></div>
+        <div className="absolute top-0 right-0 w-32 h-32 bg-primary-500 rounded-full blur-3xl opacity-5"></div>
 
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex items-center justify-between mb-4">
@@ -125,9 +125,9 @@ export default function ReviewsSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-blue-900/50 to-slate-950/70 z-10"></div>
 
       <div className="absolute inset-0 opacity-30 z-20">
-        <div className="absolute top-20 left-10 w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-2 h-2 bg-primary-400 rounded-full animate-pulse"></div>
         <div className="absolute top-40 right-20 w-2 h-2 bg-cyan-400 rounded-full animate-pulse delay-100"></div>
-        <div className="absolute bottom-32 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-pulse delay-200"></div>
+        <div className="absolute bottom-32 left-1/4 w-2 h-2 bg-primary-400 rounded-full animate-pulse delay-200"></div>
         <div className="absolute bottom-20 right-1/3 w-2 h-2 bg-cyan-400 rounded-full animate-pulse delay-300"></div>
       </div>
 

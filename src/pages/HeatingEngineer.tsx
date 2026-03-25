@@ -39,7 +39,7 @@ export default function HeatingEngineer() {
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+                className="bg-accent-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
@@ -61,15 +61,15 @@ export default function HeatingEngineer() {
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <ThermometerSun className="w-8 h-8 text-orange-600" />
+                  <ThermometerSun className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Expert Installation</h3>
                 <p className="text-slate-600">Full central heating system design and installation</p>
               </div>
 
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Wrench className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Fast Repairs</h3>
                 <p className="text-slate-600">Quick response to heating breakdowns and emergencies</p>
@@ -77,7 +77,7 @@ export default function HeatingEngineer() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-green-600" />
+                  <Shield className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Fully Qualified</h3>
                 <p className="text-slate-600">Gas Safe registered and certified engineers</p>
@@ -96,19 +96,19 @@ export default function HeatingEngineer() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">New heating system design</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Boiler and radiator installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Pipework and controls fitting</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">System commissioning and testing</span>
                   </li>
                 </ul>
@@ -121,19 +121,19 @@ export default function HeatingEngineer() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">No heating diagnostics</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Radiator repairs and replacements</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Pump and valve repairs</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Thermostat and control issues</span>
                   </li>
                 </ul>
@@ -146,19 +146,19 @@ export default function HeatingEngineer() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">New radiator installation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Radiator repairs and bleeding</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">System balancing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Thermostatic valve fitting</span>
                   </li>
                 </ul>
@@ -171,19 +171,19 @@ export default function HeatingEngineer() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Power flushing services</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Smart heating controls</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Thermostatic radiator valves</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Magnetic filters</span>
                   </li>
                 </ul>
@@ -200,19 +200,19 @@ export default function HeatingEngineer() {
                   <h4 className="font-bold text-slate-900 mb-2">Common Heating Emergencies:</h4>
                   <ul className="space-y-1 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>No heating or hot water</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Boiler making unusual noises</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Heating system leaks</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Cold radiators</span>
                     </li>
                   </ul>
@@ -221,19 +221,19 @@ export default function HeatingEngineer() {
                   <h4 className="font-bold text-slate-900 mb-2">Our Emergency Service:</h4>
                   <ul className="space-y-1 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Rapid response times</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Available 24/7, 365 days a year</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>Fully stocked vans</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                       <span>No call-out charges</span>
                     </li>
                   </ul>
@@ -241,7 +241,7 @@ export default function HeatingEngineer() {
               </div>
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-bold transition"
+                className="inline-flex items-center gap-2 bg-accent-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-bold transition"
               >
                 <Clock className="w-5 h-5" />
                 Call 24/7: {BUSINESS_INFO.phone}
@@ -280,7 +280,7 @@ export default function HeatingEngineer() {
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href={`tel:${BUSINESS_INFO.phone}`}
-              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+              className="bg-accent-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
             >
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}

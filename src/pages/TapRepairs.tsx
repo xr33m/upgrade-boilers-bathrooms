@@ -32,7 +32,7 @@ export default function TapRepairs() {
               Is your kitchen tap dripping constantly? Bathroom mixer leaking underneath? Thinking about upgrading to a modern chrome or matte black tap? Upgrade Boilers & Bathrooms provide professional tap repairs and tap replacement services in Glasgow and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -58,9 +58,9 @@ export default function TapRepairs() {
                 </p>
 
                 <div className="space-y-6">
-                  <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
+                  <div className="bg-primary-50 rounded-xl p-6 border-l-4 border-primary">
                     <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
-                      <Droplet className="w-5 h-5 text-blue-600" />
+                      <Droplet className="w-5 h-5 text-primary" />
                       Dripping Tap (The "Drip Drip" at Night)
                     </h3>
                     <p className="text-slate-700 text-sm mb-3">A dripping tap is usually caused by:</p>
@@ -93,19 +93,19 @@ export default function TapRepairs() {
                     <p className="text-slate-700 text-sm mb-3">Modern lever taps use ceramic cartridges. Common symptoms of cartridge failure:</p>
                     <ul className="space-y-1 text-slate-700 text-sm mb-3">
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>Tap won't fully shut off</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>Water leaking from handle</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>Stiff or loose lever movement</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>Uneven hot and cold control</span>
                       </li>
                     </ul>
@@ -135,7 +135,7 @@ export default function TapRepairs() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-600">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <AlertTriangle className="w-6 h-6 text-orange-600" />
+                  <AlertTriangle className="w-6 h-6 text-accent" />
                   Washer Tap Repairs (Traditional Crosshead Taps)
                 </h3>
                 <p className="text-slate-700 mb-4">If your tap screws down to turn off and has separate hot & cold handles, it likely uses a washer-based mechanism.</p>
@@ -144,25 +144,25 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-600">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <Droplet className="w-6 h-6 text-green-600" />
+                  <Droplet className="w-6 h-6 text-secondary" />
                   Low Water Pressure from One Tap
                 </h3>
                 <p className="text-slate-700 mb-3">If only one tap has poor pressure, possible causes include:</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Partially closed isolation valve</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Blocked aerator</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Damaged washer obstructing flow</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Cartridge failure or scale build-up</span>
                   </li>
                 </ul>
@@ -170,21 +170,21 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <Wrench className="w-6 h-6 text-purple-600" />
+                  <Wrench className="w-6 h-6 text-primary-600" />
                   Leaking Tap Connections Under Sink
                 </h3>
                 <p className="text-slate-700 mb-3">Sometimes the tap itself is fine — but the issue lies with:</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Flexible tap connectors</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Isolation valves</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                     <span>Compression fittings or pipework joints</span>
                   </li>
                 </ul>
@@ -241,31 +241,31 @@ export default function TapRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Already purchased a new tap? We can professionally install all types of modern and traditional taps.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">We install:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Kitchen mixer taps</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Pull-out spray taps</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Boiling water taps</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Bathroom basin taps</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Bath mixer taps</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Wall-mounted & outdoor taps</span>
                     </li>
                   </ul>
@@ -274,19 +274,19 @@ export default function TapRepairs() {
                   <p className="text-slate-700 font-semibold mb-3">We ensure:</p>
                   <ul className="space-y-2 text-slate-700 text-sm">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Secure mounting</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Leak-free connections</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Correct pressure balance</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                       <span>Proper sealing</span>
                     </li>
                   </ul>
@@ -310,8 +310,8 @@ export default function TapRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   In most cases, tap repairs are completed on the first visit with no return visits needed.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
-                  <p className="text-5xl font-bold text-blue-600 mb-2">From £100</p>
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                  <p className="text-5xl font-bold text-primary mb-2">From £100</p>
                   <p className="text-slate-700 font-semibold mb-4">Minor tap repairs typically start from around £100 depending on parts required.</p>
                   <p className="text-slate-700 text-sm">If parts must be ordered, we provide a clear quotation before proceeding.</p>
                 </div>
@@ -322,15 +322,15 @@ export default function TapRepairs() {
                     <p className="text-slate-700 font-semibold mb-2">Repair is usually possible when:</p>
                     <ul className="space-y-1 text-slate-700 text-sm">
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>The body of the tap is in good condition</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>Parts are still available</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>The issue is internal (washer/cartridge)</span>
                       </li>
                     </ul>
@@ -339,19 +339,19 @@ export default function TapRepairs() {
                     <p className="text-slate-700 font-semibold mb-2">Replacement may be better when:</p>
                     <ul className="space-y-1 text-slate-700 text-sm">
                       <li className="flex items-center gap-2">
-                        <AlertTriangle className="w-4 h-4 text-orange-600 flex-shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-accent flex-shrink-0" />
                         <span>Tap is heavily corroded</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <AlertTriangle className="w-4 h-4 text-orange-600 flex-shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-accent flex-shrink-0" />
                         <span>Spare parts are obsolete</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <AlertTriangle className="w-4 h-4 text-orange-600 flex-shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-accent flex-shrink-0" />
                         <span>Persistent leaks continue</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <AlertTriangle className="w-4 h-4 text-orange-600 flex-shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-accent flex-shrink-0" />
                         <span>You want an aesthetic upgrade</span>
                       </li>
                     </ul>
@@ -384,7 +384,7 @@ export default function TapRepairs() {
             <div className="grid md:grid-cols-2 gap-6 mb-16">
               <div className="bg-orange-50 p-8 rounded-xl shadow-lg border-l-4 border-orange-600">
                 <div className="flex items-start gap-4">
-                  <Shield className="w-8 h-8 text-orange-600 flex-shrink-0 mt-1" />
+                  <Shield className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Prevent Higher Costs</h3>
                     <p className="text-slate-700">
@@ -406,9 +406,9 @@ export default function TapRepairs() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+              <div className="bg-primary-50 p-8 rounded-xl shadow-lg border-l-4 border-primary">
                 <div className="flex items-start gap-4">
-                  <Zap className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+                  <Zap className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Maintain Water Pressure</h3>
                     <p className="text-slate-700">
@@ -420,7 +420,7 @@ export default function TapRepairs() {
 
               <div className="bg-green-50 p-8 rounded-xl shadow-lg border-l-4 border-green-600">
                 <div className="flex items-start gap-4">
-                  <Droplet className="w-8 h-8 text-green-600 flex-shrink-0 mt-1" />
+                  <Droplet className="w-8 h-8 text-secondary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Reduce Water Waste</h3>
                     <p className="text-slate-700">
@@ -449,15 +449,15 @@ export default function TapRepairs() {
                 { num: '4', title: 'System Testing', desc: 'Leak detection' },
                 { num: '5', title: '12-Month Guarantee', desc: 'Peace of mind' }
               ].map((step, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-blue-600">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">{step.num}</div>
+                <div key={idx} className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-primary">
+                  <div className="text-4xl font-bold text-primary mb-2">{step.num}</div>
                   <h3 className="font-bold text-slate-900 mb-1">{step.title}</h3>
                   <p className="text-slate-600 text-sm">{step.desc}</p>
                 </div>
               ))}
             </div>
 
-            <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
+            <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 text-center">
               <p className="text-lg text-slate-700 font-semibold">
                 Most tap issues are resolved within a single visit.
               </p>
@@ -489,19 +489,19 @@ export default function TapRepairs() {
                   <p className="text-slate-700 font-semibold mb-4">We work with:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Rental properties</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>HMOs</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Property managers</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Holiday lets</span>
                     </li>
                   </ul>
@@ -522,7 +522,7 @@ export default function TapRepairs() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Glasgow City Centre</p>
                 </div>
                 <p className="text-slate-600 ml-9">G1–G5</p>
@@ -530,7 +530,7 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">West End</p>
                 </div>
                 <p className="text-slate-600 ml-9">G11–G13</p>
@@ -538,7 +538,7 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Southside</p>
                 </div>
                 <p className="text-slate-600 ml-9">G41–G46</p>
@@ -546,7 +546,7 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">East Glasgow</p>
                 </div>
                 <p className="text-slate-600 ml-9">G31–G32</p>
@@ -554,21 +554,21 @@ export default function TapRepairs() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Bearsden & Milngavie</p>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">East Kilbride</p>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Paisley & Surrounding Areas</p>
                 </div>
               </div>
@@ -638,7 +638,7 @@ export default function TapRepairs() {
             If your tap is dripping, leaking or needs replaced, contact Upgrade Boilers & Bathrooms today. Fast repairs. Clean installation. Reliable plumbing.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

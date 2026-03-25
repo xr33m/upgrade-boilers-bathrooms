@@ -32,7 +32,7 @@ export default function ShowerRepairs() {
               Need to get your shower repaired or a new one installed? Issues like a leaking shower, a problematic shower head, needing a shower pump replaced or even installing a replacement shower? Upgrade are reliable local Glasgow plumbers, and are experts in repairing and installing showers from Mira, Triton, Bristan, Ideal Standard, Grohe, and many more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -60,15 +60,15 @@ export default function ShowerRepairs() {
                   <p className="text-slate-700 font-semibold mb-4">Glasgow based Upgrade Plumbers are:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Fully insured</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>SNIPEF registered</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Ready to help with all shower issues</span>
                     </li>
                   </ul>
@@ -105,7 +105,7 @@ export default function ShowerRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   When replacing a shower head, please bear in mind that there are lots of different designs on the market to choose from, so it's important to find the right fit.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 mb-4 font-semibold">Good news:</p>
                   <p className="text-slate-700 mb-4">
                     Replacing a shower head is normally quite straightforward and can be done without any specific tools or plumbing knowledge.
@@ -187,7 +187,7 @@ export default function ShowerRepairs() {
                     If there's no hot water coming from your shower, it could be due to a few different reasons. It could be a faulty thermostatic mixing valve, a broken diverter valve or a boiler fault. If you have a mixer shower, blocked or damaged cartridges are a common culprit. If it's a newly installed shower, it could mean your pipes are crossed, in which case contact your plumber.
                   </p>
                 </div>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Electric Showers</h3>
                   <p className="text-slate-700 mb-4">
                     If you have an electric shower and this issue occurs, most of the time it is cheaper and easier to just replace the shower unit 'like for like'.
@@ -255,7 +255,7 @@ export default function ShowerRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Over time, the sealant or better known as 'silicon seal' or grout between tiles may wear out, leading to potential leaks and mould growth.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 mb-4 font-semibold">Important reminder:</p>
                   <p className="text-slate-700 mb-4">
                     You should ensure your silicon sealants and grout are maintained regularly, as if they fail and lead to a leak, it may invalid your property insurance.
@@ -347,7 +347,7 @@ export default function ShowerRepairs() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                <div className="bg-primary-50 rounded-lg p-6 border border-blue-200">
                   <p className="text-slate-700 font-semibold mb-2">Most homeowners choose replacement</p>
                   <p className="text-slate-700 text-sm mb-3">
                     This is the longer-term solution. Most homeowners choose to replace their electric shower as they opt for the longer term solution. It's also vital to make sure the electrical installation to your shower is safe.
@@ -384,11 +384,11 @@ export default function ShowerRepairs() {
                 </p>
                 <ul className="space-y-3 text-slate-700">
                   <li className="flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-6 h-6 bg-green-600 text-white rounded-full text-sm font-bold flex-shrink-0">✓</span>
+                    <span className="inline-flex items-center justify-center w-6 h-6 bg-secondary text-white rounded-full text-sm font-bold flex-shrink-0">✓</span>
                     <span><strong>Minor repairs:</strong> £50-£150 (showerhead, leak fixes)</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-6 h-6 bg-orange-600 text-white rounded-full text-sm font-bold flex-shrink-0">!</span>
+                    <span className="inline-flex items-center justify-center w-6 h-6 bg-accent-600 text-white rounded-full text-sm font-bold flex-shrink-0">!</span>
                     <span><strong>Major repairs:</strong> £200-£1,000+ (full unit replacement)</span>
                   </li>
                 </ul>
@@ -438,23 +438,23 @@ export default function ShowerRepairs() {
                 </p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>SNIPEF registered plumbers</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Expert shower installation</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Fast, reliable service</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+              <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                 <div className="flex items-center gap-3 mb-4">
-                  <Shield className="w-8 h-8 text-blue-600 flex-shrink-0" />
+                  <Shield className="w-8 h-8 text-primary flex-shrink-0" />
                   <h3 className="text-xl font-bold text-slate-900">What You Get</h3>
                 </div>
                 <p className="text-slate-700 mb-4">
@@ -462,15 +462,15 @@ export default function ShowerRepairs() {
                 </p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Rapid response & diagnosis</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>12-month aftercare guarantee</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Parts available in our vans</span>
                   </li>
                 </ul>
@@ -576,7 +576,7 @@ export default function ShowerRepairs() {
             If you are ready to get your shower repair or shower replacement carried out by Upgrade Boilers & Bathrooms, contact us today or call us on the number below.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

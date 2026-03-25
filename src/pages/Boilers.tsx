@@ -38,7 +38,7 @@ export default function Boilers() {
             <p className="text-xl text-blue-100 mb-6">
               Expert boiler installation, repairs, servicing and maintenance by Gas Safe registered engineers. Serving Glasgow homes and businesses with reliable, efficient heating solutions.
             </p>
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
@@ -58,85 +58,85 @@ export default function Boilers() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Link to="/boilers/installation" className="group bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-blue-500">
+            <Link to="/boilers/installation" className="group bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-secondary">
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition">
-                  <Wrench className="w-8 h-8 text-blue-600 group-hover:text-white transition" />
+                <div className="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition">
+                  <Wrench className="w-8 h-8 text-primary group-hover:text-white transition" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-600 transition">Boiler Installation</h3>
+                  <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition">Boiler Installation</h3>
                   <p className="text-slate-600">New boiler installations from leading manufacturers. Energy-efficient models to reduce your heating bills.</p>
                 </div>
               </div>
               <ul className="space-y-2 mb-4 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-primary mt-1">✓</span>
                   <span>Free home surveys and quotes</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-primary mt-1">✓</span>
                   <span>Worcester Bosch, Vaillant, Ideal certified</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-primary mt-1">✓</span>
                   <span>Up to 10 year warranties available</span>
                 </li>
               </ul>
-              <span className="text-blue-600 font-semibold group-hover:underline">Learn more about installation →</span>
+              <span className="text-primary font-semibold group-hover:underline">Learn more about installation →</span>
             </Link>
 
             <Link to="/boilers/servicing" className="group bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-green-500">
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-green-600 transition">
-                  <ClipboardCheck className="w-8 h-8 text-green-600 group-hover:text-white transition" />
+                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition">
+                  <ClipboardCheck className="w-8 h-8 text-secondary group-hover:text-white transition" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-green-600 transition">Boiler Servicing</h3>
+                  <h3 className="text-2xl font-bold mb-2 group-hover:text-secondary transition">Boiler Servicing</h3>
                   <p className="text-slate-600">Annual boiler services to keep your heating system running safely and efficiently year-round.</p>
                 </div>
               </div>
               <ul className="space-y-2 mb-4 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <span className="text-secondary mt-1">✓</span>
                   <span>Comprehensive safety checks</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <span className="text-secondary mt-1">✓</span>
                   <span>Maintain manufacturer warranties</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <span className="text-secondary mt-1">✓</span>
                   <span>Improve efficiency and reduce bills</span>
                 </li>
               </ul>
-              <span className="text-green-600 font-semibold group-hover:underline">Learn more about servicing →</span>
+              <span className="text-secondary font-semibold group-hover:underline">Learn more about servicing →</span>
             </Link>
 
             <Link to="/boilers/service-plans" className="group bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-purple-500">
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-purple-600 transition">
-                  <FileText className="w-8 h-8 text-purple-600 group-hover:text-white transition" />
+                <div className="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary-600 transition">
+                  <FileText className="w-8 h-8 text-primary-600 group-hover:text-white transition" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-purple-600 transition">Boiler Service Plans</h3>
+                  <h3 className="text-2xl font-bold mb-2 group-hover:text-primary-600 transition">Boiler Service Plans</h3>
                   <p className="text-slate-600">Affordable monthly plans with annual servicing, priority call-outs and exclusive discounts.</p>
                 </div>
               </div>
               <ul className="space-y-2 mb-4 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-1">✓</span>
+                  <span className="text-primary-600 mt-1">✓</span>
                   <span>Annual service included</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-1">✓</span>
+                  <span className="text-primary-600 mt-1">✓</span>
                   <span>Priority emergency response</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-1">✓</span>
+                  <span className="text-primary-600 mt-1">✓</span>
                   <span>10% discount on repairs</span>
                 </li>
               </ul>
-              <span className="text-purple-600 font-semibold group-hover:underline">View service plans →</span>
+              <span className="text-primary-600 font-semibold group-hover:underline">View service plans →</span>
             </Link>
 
             <Link to="/boilers/repairs" className="group bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-red-500">
@@ -217,7 +217,7 @@ export default function Boilers() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
+            <Link to="/contact" className="bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition border-2 border-white">
               Get Free Quote
             </Link>
           </div>

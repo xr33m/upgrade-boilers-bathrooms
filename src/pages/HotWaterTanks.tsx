@@ -34,7 +34,7 @@ export default function HotWaterTanks() {
               No hot water? Leaking cylinder? Low pressure upstairs? Upgrade Boilers & Bathrooms provide professional hot water tank repairs and replacements across Glasgow and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -71,7 +71,7 @@ export default function HotWaterTanks() {
                       'Visible corrosion'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <AlertCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -117,7 +117,7 @@ export default function HotWaterTanks() {
                       'Space-saving design'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2 text-slate-700">
-                        <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -150,7 +150,7 @@ export default function HotWaterTanks() {
                     <li>• Poor insulation efficiency</li>
                   </ul>
                   <p className="text-slate-700 border-t mt-4 pt-4 font-semibold">
-                    Upgrading to an <Link to={serviceLinks.boilers.installation} className="text-orange-600 hover:text-orange-700 underline">unvented system</Link> improves pressure, efficiency and frees up loft space.
+                    Upgrading to an <Link to={serviceLinks.boilers.installation} className="text-accent hover:text-orange-700 underline">unvented system</Link> improves pressure, efficiency and frees up loft space.
                   </p>
                 </div>
               </div>
@@ -249,7 +249,7 @@ export default function HotWaterTanks() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Weak hot water flow upstairs is typically caused by gravity-fed system limitations, blocked pipework, scale build-up or undersized pipework.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <p className="text-slate-700 mb-4 font-semibold">Solutions we offer:</p>
                   <ul className="space-y-2 text-slate-700 mb-6">
                     <li>• Installing a shower pump</li>
@@ -284,7 +284,7 @@ export default function HotWaterTanks() {
                       'Improve overall system efficiency'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2 text-slate-700">
-                        <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -348,7 +348,7 @@ export default function HotWaterTanks() {
                   { num: 7, text: 'Handover guidance' }
                 ].map((item) => (
                   <li key={item.num} className="flex items-start gap-4">
-                    <span className="inline-flex items-center justify-center w-10 h-10 bg-orange-600 text-white rounded-full font-bold flex-shrink-0">{item.num}</span>
+                    <span className="inline-flex items-center justify-center w-10 h-10 bg-accent-600 text-white rounded-full font-bold flex-shrink-0">{item.num}</span>
                     <span className="text-lg text-slate-700 mt-1">{item.text}</span>
                   </li>
                 ))}
@@ -362,7 +362,7 @@ export default function HotWaterTanks() {
               Hot Water Tank Replacement for Landlords
             </h2>
 
-            <div className="bg-orange-600 text-white rounded-2xl p-8 md:p-12 shadow-xl mb-16">
+            <div className="bg-accent-600 text-white rounded-2xl p-8 md:p-12 shadow-xl mb-16">
               <div className="flex items-start gap-4 mb-6">
                 <Shield className="w-12 h-12 flex-shrink-0" />
                 <div>
@@ -403,15 +403,15 @@ export default function HotWaterTanks() {
                   <li>• West End (G11–G13)</li>
                   <li>• Southside (G41–G46)</li>
                   <li>• East Glasgow (G31–G32)</li>
-                  <li className="flex items-center gap-2 text-orange-600 hover:text-orange-700">
+                  <li className="flex items-center gap-2 text-accent hover:text-orange-700">
                     <span>•</span>
                     <Link to={serviceLinks.areas.bearsden} className="font-semibold hover:underline">Bearsden & Milngavie</Link>
                   </li>
-                  <li className="flex items-center gap-2 text-orange-600 hover:text-orange-700">
+                  <li className="flex items-center gap-2 text-accent hover:text-orange-700">
                     <span>•</span>
                     <Link to={serviceLinks.areas.eastKilbride} className="font-semibold hover:underline">East Kilbride</Link>
                   </li>
-                  <li className="flex items-center gap-2 text-orange-600 hover:text-orange-700">
+                  <li className="flex items-center gap-2 text-accent hover:text-orange-700">
                     <span>•</span>
                     <Link to={serviceLinks.areas.paisley} className="font-semibold hover:underline">Paisley & surrounding areas</Link>
                   </li>
@@ -484,7 +484,7 @@ export default function HotWaterTanks() {
             If you're experiencing hot water problems, don't wait for a full system failure. Contact Upgrade Boilers & Bathrooms for professional hot water tank repairs and installations across Glasgow. Reliable advice. Safe installation. Long-term performance.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

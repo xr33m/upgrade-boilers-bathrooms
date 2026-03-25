@@ -107,8 +107,8 @@ export default function GasLeak() {
 
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">24/7 Emergency Response</h3>
                 <p className="text-slate-600">Available day and night for gas emergencies</p>
@@ -116,7 +116,7 @@ export default function GasLeak() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-green-600" />
+                  <Shield className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Gas Safe Registered</h3>
                 <p className="text-slate-600">All engineers fully qualified and certified</p>
@@ -124,7 +124,7 @@ export default function GasLeak() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="w-8 h-8 text-orange-600" />
+                  <AlertTriangle className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Rapid Response</h3>
                 <p className="text-slate-600">Fast emergency callout across Glasgow</p>
@@ -193,7 +193,7 @@ export default function GasLeak() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <h3 className="text-xl font-bold mb-4 text-slate-900">Why Gas Leaks Are Dangerous</h3>
               <p className="text-slate-700 mb-4">
                 Natural gas is highly flammable and can pose serious risks if leaked. Even small leaks can lead to:

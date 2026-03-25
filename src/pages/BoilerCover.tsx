@@ -39,7 +39,7 @@ export default function BoilerCover() {
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href={`tel:${BUSINESS_INFO.phone}`}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+                className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
               >
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
@@ -60,8 +60,8 @@ export default function BoilerCover() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Comprehensive Protection</h3>
                 <p className="text-slate-600">Complete peace of mind with annual servicing, parts, and labour covered</p>
@@ -69,7 +69,7 @@ export default function BoilerCover() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-green-600" />
+                  <Clock className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">24/7 Emergency Cover</h3>
                 <p className="text-slate-600">Priority response when you need it most, day or night</p>
@@ -77,7 +77,7 @@ export default function BoilerCover() {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-8 h-8 text-orange-600" />
+                  <Wrench className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Gas Safe Engineers</h3>
                 <p className="text-slate-600">All work carried out by qualified, experienced heating professionals</p>
@@ -93,34 +93,34 @@ export default function BoilerCover() {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold text-slate-900">Essential Cover</h3>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-blue-600">£15</div>
+                    <div className="text-3xl font-bold text-primary">£15</div>
                     <div className="text-sm text-slate-600">per month</div>
                   </div>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Annual boiler service</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Gas safety inspection</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Priority booking</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span>10% discount on repairs</span>
                   </li>
                 </ul>
-                <Link to="/contact" className="block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                <Link to="/contact" className="block text-center bg-primary hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold transition">
                   Get Essential Cover
                 </Link>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-8 rounded-xl border-2 border-blue-800 text-white relative overflow-hidden">
+              <div className="bg-gradient-to-br from-primary to-primary-700 p-8 rounded-xl border-2 border-blue-800 text-white relative overflow-hidden">
                 <div className="absolute top-4 right-4 bg-yellow-400 text-slate-900 px-3 py-1 rounded-full text-sm font-bold">
                   POPULAR
                 </div>
@@ -153,15 +153,15 @@ export default function BoilerCover() {
                     <span>Controls and thermostat cover</span>
                   </li>
                 </ul>
-                <Link to="/contact" className="block text-center bg-white hover:bg-slate-100 text-blue-600 px-6 py-3 rounded-lg font-semibold transition">
+                <Link to="/contact" className="block text-center bg-white hover:bg-slate-100 text-primary px-6 py-3 rounded-lg font-semibold transition">
                   Get Complete Cover
                 </Link>
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <div className="flex items-start gap-3">
-                <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Why Choose Our Boiler Cover?</h3>
                   <p className="text-slate-700 mb-3">
@@ -169,19 +169,19 @@ export default function BoilerCover() {
                   </p>
                   <ul className="space-y-1 text-slate-700">
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Local Glasgow-based engineers</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>No excess charges on callouts</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Direct contact with your engineer</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-1" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                       <span>Flexible monthly payments</span>
                     </li>
                   </ul>
@@ -201,19 +201,19 @@ export default function BoilerCover() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Full safety inspection</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Efficiency testing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Component cleaning</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Written service report</span>
                   </li>
                 </ul>
@@ -226,19 +226,19 @@ export default function BoilerCover() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">24/7 emergency helpline</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Priority response times</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Parts and labour included</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">No call-out charges</span>
                   </li>
                 </ul>
@@ -259,7 +259,7 @@ export default function BoilerCover() {
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href={`tel:${BUSINESS_INFO.phone}`}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
+              className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 transition shadow-lg"
             >
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}

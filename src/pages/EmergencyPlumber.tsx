@@ -72,7 +72,7 @@ export default function EmergencyPlumber() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
+                <div className="bg-primary-50 border-2 border-blue-200 rounded-xl p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-6">What to do immediately:</h3>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
                     {[
@@ -82,7 +82,7 @@ export default function EmergencyPlumber() {
                       'Contain water where possible'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg">
-                        <Clock className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700 font-semibold">{item}</span>
                       </div>
                     ))}
@@ -97,7 +97,7 @@ export default function EmergencyPlumber() {
                         'Advise on drying and further protection'
                       ].map((item, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                           <span>{item}</span>
                         </li>
                       ))}
@@ -130,7 +130,7 @@ export default function EmergencyPlumber() {
                       'Smell of gas'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <Zap className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <Zap className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -139,7 +139,7 @@ export default function EmergencyPlumber() {
                 <p className="text-lg text-slate-700 mb-6">
                   We diagnose and repair all major brands including Worcester Bosch, Ideal, Viessmann, Baxi and Glow-worm.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
                   <p className="font-bold text-lg mb-3">Where possible, we carry common components such as:</p>
                   <div className="grid md:grid-cols-2 gap-3">
                     {[
@@ -150,14 +150,14 @@ export default function EmergencyPlumber() {
                       'Thermostats'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </div>
                     ))}
                   </div>
                 </div>
                 <p className="text-lg text-slate-700 mt-6">
-                  If your boiler is beyond repair, we can arrange urgent boiler replacement. See our <Link to="/boilers/repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler repair</Link> and <Link to="/boilers/installation" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler installation</Link> services for more details.
+                  If your boiler is beyond repair, we can arrange urgent boiler replacement. See our <Link to="/boilers/repairs" className="text-primary hover:text-blue-800 font-semibold underline">boiler repair</Link> and <Link to="/boilers/installation" className="text-primary hover:text-blue-800 font-semibold underline">boiler installation</Link> services for more details.
                 </p>
               </div>
             )
@@ -199,13 +199,13 @@ export default function EmergencyPlumber() {
                       'Identify if deeper drainage inspection is required'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
                   </ul>
                   <p className="text-slate-700 mt-6">
-                    Recurring blockages may indicate a larger drain issue requiring CCTV inspection. See our <Link to="/plumbing" className="text-blue-600 hover:text-blue-800 font-semibold underline">plumbing services</Link> for more details.
+                    Recurring blockages may indicate a larger drain issue requiring CCTV inspection. See our <Link to="/plumbing" className="text-primary hover:text-blue-800 font-semibold underline">plumbing services</Link> for more details.
                   </p>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function EmergencyPlumber() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Loss of heating can occur due to multiple issues affecting your entire system or individual components.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-6">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-6">
                   <p className="font-bold text-lg mb-3">Common heating failures:</p>
                   <ul className="space-y-2 text-slate-700">
                     {[
@@ -287,7 +287,7 @@ export default function EmergencyPlumber() {
                       'Low system pressure'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <Wrench className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <Wrench className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -303,14 +303,14 @@ export default function EmergencyPlumber() {
                       'Sludge build-up'
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg">
-                        <AlertTriangle className="w-6 h-6 text-orange-600 flex-shrink-0 mt-0.5" />
+                        <AlertTriangle className="w-6 h-6 text-accent flex-shrink-0 mt-0.5" />
                         <span className="text-slate-700">{item}</span>
                       </div>
                     ))}
                   </div>
                 </div>
                 <p className="text-lg text-slate-700">
-                  We diagnose heating system faults quickly and aim to restore warmth and hot water as soon as possible. See our <Link to="/heating" className="text-blue-600 hover:text-blue-800 font-semibold underline">heating services</Link> and <Link to="/heating/radiator-repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">radiator repairs</Link> for more information.
+                  We diagnose heating system faults quickly and aim to restore warmth and hot water as soon as possible. See our <Link to="/heating" className="text-primary hover:text-blue-800 font-semibold underline">heating services</Link> and <Link to="/heating/radiator-repairs" className="text-primary hover:text-blue-800 font-semibold underline">radiator repairs</Link> for more information.
                 </p>
               </div>
             )
@@ -354,7 +354,7 @@ export default function EmergencyPlumber() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Frozen pipes are a common emergency during cold snaps. When water freezes, it expands and can split pipework internally — even if no external crack is visible.
                 </p>
-                <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
+                <div className="bg-primary-50 border-2 border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-slate-900 mb-4">We:</h3>
                   <ul className="space-y-3 text-slate-700">
                     {[
@@ -364,7 +364,7 @@ export default function EmergencyPlumber() {
                       'Advise on insulation improvements'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -417,7 +417,7 @@ export default function EmergencyPlumber() {
                 '12-Month Workmanship Guarantee'
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-slate-50 p-5 rounded-lg shadow-sm border border-slate-200">
-                  <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                   <span className="text-lg text-slate-700 font-semibold">{item}</span>
                 </div>
               ))}

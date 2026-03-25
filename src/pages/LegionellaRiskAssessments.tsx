@@ -35,7 +35,7 @@ export default function LegionellaRiskAssessments() {
               We provide fully documented Legionella Risk Assessments in Glasgow and surrounding areas, giving you clear compliance evidence and practical control guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -58,7 +58,7 @@ export default function LegionellaRiskAssessments() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   A Legionella Risk Assessment is a structured inspection of your property's domestic water system to identify conditions that could allow Legionella bacteria to grow and spread.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-6">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-6">
                   <h3 className="font-bold text-lg mb-3">Legionella bacteria thrive in:</h3>
                   <ul className="space-y-2 text-slate-700">
                     {[
@@ -68,7 +68,7 @@ export default function LegionellaRiskAssessments() {
                       'Poorly insulated tanks or pipework'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <Droplet className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <Droplet className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -146,9 +146,9 @@ export default function LegionellaRiskAssessments() {
 
             <div className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-start">
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">1</div>
+                    <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">1</div>
                     <h3 className="text-2xl font-bold text-slate-900">Initial Property Consultation</h3>
                   </div>
                   <p className="text-lg font-semibold text-slate-900 mb-3">We review:</p>
@@ -159,7 +159,7 @@ export default function LegionellaRiskAssessments() {
                       'Age and layout of plumbing system'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -186,7 +186,7 @@ export default function LegionellaRiskAssessments() {
 
                 <div className="order-1 md:order-2 bg-green-50 rounded-xl p-8 border-2 border-green-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">2</div>
+                    <div className="bg-secondary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">2</div>
                     <h3 className="text-2xl font-bold text-slate-900">On-Site Water System Inspection</h3>
                   </div>
                   <p className="text-lg font-semibold text-slate-900 mb-3">Our qualified engineer inspects:</p>
@@ -200,7 +200,7 @@ export default function LegionellaRiskAssessments() {
                       'Signs of stagnation, corrosion or scale'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -211,8 +211,8 @@ export default function LegionellaRiskAssessments() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-orange-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">3</div>
-                    <ThermometerSun className="w-8 h-8 text-orange-600" />
+                    <div className="bg-accent-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">3</div>
+                    <ThermometerSun className="w-8 h-8 text-accent" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Temperature Monitoring</h3>
                   <p className="text-slate-700 mb-3 font-semibold">We check:</p>
@@ -234,10 +234,10 @@ export default function LegionellaRiskAssessments() {
                   </p>
                 </div>
 
-                <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">5</div>
-                    <FileText className="w-8 h-8 text-blue-600" />
+                    <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">5</div>
+                    <FileText className="w-8 h-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Written Report</h3>
                   <p className="text-slate-700 mb-3 font-semibold">You receive a professional report including:</p>
@@ -250,7 +250,7 @@ export default function LegionellaRiskAssessments() {
                 </div>
               </div>
 
-              <div className="bg-blue-600 text-white rounded-xl p-8 text-center">
+              <div className="bg-primary text-white rounded-xl p-8 text-center">
                 <p className="text-xl font-bold">
                   This documentation provides evidence of due diligence for compliance purposes.
                 </p>
@@ -281,7 +281,7 @@ export default function LegionellaRiskAssessments() {
                 'Improving access to water tanks for maintenance'
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
-                  <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">{item}</span>
                 </div>
               ))}
@@ -289,7 +289,7 @@ export default function LegionellaRiskAssessments() {
 
             <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
               <p className="text-slate-800 font-semibold text-lg">
-                Good record keeping is essential. Written evidence of inspection and control measures protects <Link to="/landlords" className="text-blue-600 hover:text-blue-800 underline">landlords</Link> in the event of investigation.
+                Good record keeping is essential. Written evidence of inspection and control measures protects <Link to="/landlords" className="text-primary hover:text-blue-800 underline">landlords</Link> in the event of investigation.
               </p>
             </div>
           </div>
@@ -315,25 +315,25 @@ export default function LegionellaRiskAssessments() {
                 'East Kilbride',
                 'Paisley & Renfrewshire'
               ].map((area, index) => (
-                <div key={index} className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <div key={index} className="bg-primary-50 p-4 rounded-lg border border-blue-200">
                   <p className="text-slate-800 font-semibold flex items-center gap-2">
-                    <MapPin className="w-5 h-5 text-blue-600" />
+                    <MapPin className="w-5 h-5 text-primary" />
                     {area}
                   </p>
                 </div>
               ))}
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
               <p className="text-slate-800 text-lg leading-relaxed">
-                If you manage multiple properties, we can coordinate assessments efficiently and align them with <Link to="/landlords/gas-safety-certificates" className="text-blue-600 hover:text-blue-800 font-semibold underline">annual gas safety inspections</Link> or <Link to="/boilers/servicing" className="text-blue-600 hover:text-blue-800 font-semibold underline">boiler servicing</Link>.
+                If you manage multiple properties, we can coordinate assessments efficiently and align them with <Link to="/landlords/gas-safety-certificates" className="text-primary hover:text-blue-800 font-semibold underline">annual gas safety inspections</Link> or <Link to="/boilers/servicing" className="text-primary hover:text-blue-800 font-semibold underline">boiler servicing</Link>.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-blue-600 text-white">
+      <section className="py-12 md:py-16 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
@@ -350,7 +350,7 @@ export default function LegionellaRiskAssessments() {
                 { name: 'PAT testing', link: '/pat-testing' },
                 { name: 'Lead water testing', link: '/lead-testing' }
               ].map((item, index) => (
-                <div key={index} className="bg-blue-700 rounded-lg p-6">
+                <div key={index} className="bg-primary-700 rounded-lg p-6">
                   <Link to={item.link} className="text-white hover:text-blue-100 font-semibold text-lg flex items-center gap-2">
                     <CheckCircle2 className="w-6 h-6 flex-shrink-0" />
                     <span className="underline">{item.name}</span>
@@ -385,7 +385,7 @@ export default function LegionellaRiskAssessments() {
                 'Practical advice — no unnecessary upselling'
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-white p-5 rounded-lg shadow-sm border border-slate-200">
-                  <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                   <span className="text-lg text-slate-700">{item}</span>
                 </div>
               ))}
@@ -448,7 +448,7 @@ export default function LegionellaRiskAssessments() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <MapPin className="w-10 h-10 text-blue-600" />
+              <MapPin className="w-10 h-10 text-primary" />
               Areas We Cover in Glasgow
             </h2>
             <p className="text-xl text-slate-700 mb-8">
@@ -460,13 +460,13 @@ export default function LegionellaRiskAssessments() {
                 'G1', 'G2', 'G3', 'G4', 'G5', 'G11', 'G12', 'G13', 'G20', 'G21', 'G31', 'G32',
                 'G41', 'G42', 'G43', 'G44', 'G45', 'G46', 'G51', 'G52', 'G53', 'G61', 'G62', 'G64'
               ].map((postcode, index) => (
-                <div key={index} className="bg-blue-50 p-3 rounded-lg border border-blue-200 text-center">
+                <div key={index} className="bg-primary-50 p-3 rounded-lg border border-blue-200 text-center">
                   <p className="text-slate-800 font-semibold">{postcode}</p>
                 </div>
               ))}
             </div>
 
-            <div className="bg-blue-100 p-4 rounded-lg mt-6 text-center">
+            <div className="bg-primary-100 p-4 rounded-lg mt-6 text-center">
               <p className="text-slate-800 font-semibold">
                 G71–G77 and surrounding areas
               </p>
@@ -485,21 +485,21 @@ export default function LegionellaRiskAssessments() {
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
             <div className="bg-blue-800 rounded-lg p-6">
-              <Shield className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <Shield className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Protect your tenants.</p>
             </div>
             <div className="bg-blue-800 rounded-lg p-6">
-              <FileText className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <FileText className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Protect your property.</p>
             </div>
             <div className="bg-blue-800 rounded-lg p-6">
-              <CheckCircle2 className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <CheckCircle2 className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Protect yourself legally.</p>
             </div>
           </div>
           <p className="text-2xl font-bold mb-8">Contact us today to arrange your assessment.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

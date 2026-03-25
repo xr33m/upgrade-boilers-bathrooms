@@ -32,7 +32,7 @@ export default function RadiatorRepairs() {
               Is your radiator cold at the bottom? Leaking at the valve? Not heating up properly? Upgrade Boilers & Bathrooms provide professional radiator repairs and installation services across Glasgow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -57,7 +57,7 @@ export default function RadiatorRepairs() {
             <div className="space-y-6 mb-16">
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="bg-blue-600 text-white rounded-full p-3 flex-shrink-0">
+                  <div className="bg-primary text-white rounded-full p-3 flex-shrink-0">
                     <Droplets className="w-6 h-6" />
                   </div>
                   <div>
@@ -71,7 +71,7 @@ export default function RadiatorRepairs() {
                         'System corrosion'
                       ].map((item, idx) => (
                         <div key={idx} className="flex items-center gap-2">
-                          <AlertCircle className="w-4 h-4 text-orange-600 flex-shrink-0" />
+                          <AlertCircle className="w-4 h-4 text-accent flex-shrink-0" />
                           <span className="text-slate-700">{item}</span>
                         </div>
                       ))}
@@ -86,7 +86,7 @@ export default function RadiatorRepairs() {
                           'Radiator replacement (if heavily corroded)'
                         ].map((item, idx) => (
                           <li key={idx} className="flex items-center gap-2">
-                            <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                            <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                             <span className="text-slate-700">{item}</span>
                           </li>
                         ))}
@@ -141,7 +141,7 @@ export default function RadiatorRepairs() {
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200 shadow-lg">
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="bg-purple-600 text-white rounded-full p-3 flex-shrink-0">
+                  <div className="bg-primary-600 text-white rounded-full p-3 flex-shrink-0">
                     <ThermometerSun className="w-6 h-6" />
                   </div>
                   <div>
@@ -157,7 +157,7 @@ export default function RadiatorRepairs() {
                           'Inconsistent room temperature'
                         ].map((item, idx) => (
                           <li key={idx} className="flex items-center gap-2">
-                            <AlertCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                            <AlertCircle className="w-5 h-5 text-primary-600 flex-shrink-0" />
                             <span className="text-slate-700">{item}</span>
                           </li>
                         ))}
@@ -171,7 +171,7 @@ export default function RadiatorRepairs() {
                         'Install smart radiator valves (Hive compatible)'
                       ].map((item, idx) => (
                         <li key={idx} className="flex items-center gap-2">
-                          <CheckCircle2 className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                          <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0" />
                           <span className="text-slate-700">{item}</span>
                         </li>
                       ))}
@@ -209,7 +209,7 @@ export default function RadiatorRepairs() {
 
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg">
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="bg-green-600 text-white rounded-full p-3 flex-shrink-0">
+                  <div className="bg-secondary text-white rounded-full p-3 flex-shrink-0">
                     <AlertTriangle className="w-6 h-6" />
                   </div>
                   <div>
@@ -224,7 +224,7 @@ export default function RadiatorRepairs() {
                         'Incorrect flow rate'
                       ].map((item, idx) => (
                         <li key={idx} className="flex items-center gap-2">
-                          <AlertCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                          <AlertCircle className="w-5 h-5 text-secondary flex-shrink-0" />
                           <span className="text-slate-700">{item}</span>
                         </li>
                       ))}
@@ -248,7 +248,7 @@ export default function RadiatorRepairs() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-200">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-blue-600 text-white rounded-full p-3">
+                  <div className="bg-primary text-white rounded-full p-3">
                     <Wind className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900">New Radiator Installation</h3>
@@ -266,7 +266,7 @@ export default function RadiatorRepairs() {
                     'Low-temperature radiators (for heat pumps)'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -275,7 +275,7 @@ export default function RadiatorRepairs() {
 
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-orange-200">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-orange-600 text-white rounded-full p-3">
+                  <div className="bg-accent-600 text-white rounded-full p-3">
                     <Wrench className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900">Radiator Repairs</h3>
@@ -293,7 +293,7 @@ export default function RadiatorRepairs() {
                     'Sludge removal'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -302,7 +302,7 @@ export default function RadiatorRepairs() {
 
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-purple-200">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="bg-purple-600 text-white rounded-full p-3">
+                  <div className="bg-primary-600 text-white rounded-full p-3">
                     <ThermometerSun className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900">Thermostatic Valves</h3>
@@ -320,7 +320,7 @@ export default function RadiatorRepairs() {
                     'Hive-compatible smart valves'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -377,7 +377,7 @@ export default function RadiatorRepairs() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   If some rooms are roasting and others freezing, your system may be unbalanced. Balancing ensures proper heat distribution throughout your home.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Balancing ensures:</p>
                   <ul className="space-y-3">
                     {[
@@ -387,7 +387,7 @@ export default function RadiatorRepairs() {
                       'Reduced strain on boiler'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -417,7 +417,7 @@ export default function RadiatorRepairs() {
                 <div className="space-y-4 mb-6">
                   <div className="bg-white p-6 rounded-xl border-2 border-green-200 shadow-lg">
                     <h4 className="font-bold text-slate-900 mb-3 flex items-center gap-2">
-                      <TrendingUp className="w-5 h-5 text-green-600" />
+                      <TrendingUp className="w-5 h-5 text-secondary" />
                       We Install
                     </h4>
                     <ul className="space-y-2 text-slate-700 text-sm">
@@ -430,7 +430,7 @@ export default function RadiatorRepairs() {
                         'Low-temperature radiators (for heat pumps)'
                       ].map((item, idx) => (
                         <li key={idx} className="flex items-center gap-2">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                          <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                           <span>{item}</span>
                         </li>
                       ))}
@@ -460,7 +460,7 @@ export default function RadiatorRepairs() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-orange-50 rounded-2xl p-8 border-2 border-orange-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <AlertCircle className="w-6 h-6 text-orange-600" />
+                  <AlertCircle className="w-6 h-6 text-accent" />
                   When Radiators Are Too Small
                 </h3>
                 <p className="text-slate-700 mb-4 font-semibold">Undersized radiators lead to:</p>
@@ -472,16 +472,16 @@ export default function RadiatorRepairs() {
                     'Reduced system lifespan'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <AlertTriangle className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <CheckCircle2 className="w-6 h-6 text-blue-600" />
+                  <CheckCircle2 className="w-6 h-6 text-primary" />
                   Our Sizing Process
                 </h3>
                 <p className="text-slate-700 mb-4">We calculate correct BTU requirements during installation surveys by assessing:</p>
@@ -494,7 +494,7 @@ export default function RadiatorRepairs() {
                     'Desired temperature'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -554,10 +554,10 @@ export default function RadiatorRepairs() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">How Much Does Radiator Repair Cost?</h3>
                 <div className="bg-white rounded-lg p-6 mb-4 border border-blue-200">
-                  <p className="text-5xl font-bold text-blue-600 mb-2">From £100</p>
+                  <p className="text-5xl font-bold text-primary mb-2">From £100</p>
                   <p className="text-slate-700">Most radiator repair visits start at this price</p>
                 </div>
                 <p className="text-slate-700 leading-relaxed">
@@ -577,7 +577,7 @@ export default function RadiatorRepairs() {
                     'Number of radiators'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -618,7 +618,7 @@ export default function RadiatorRepairs() {
                       'Lower gas usage'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -668,7 +668,7 @@ export default function RadiatorRepairs() {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Available Solutions</h3>
                 <ul className="space-y-3 mb-6">
                   {[
@@ -678,7 +678,7 @@ export default function RadiatorRepairs() {
                     'Full system upgrade (in severe cases)'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -711,7 +711,7 @@ export default function RadiatorRepairs() {
                     'System balancing is essential'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -722,7 +722,7 @@ export default function RadiatorRepairs() {
                 <p className="text-slate-700 mb-4 leading-relaxed">
                   If you're considering a heat pump installation in Glasgow, radiator assessment is part of the process.
                 </p>
-                <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                <div className="bg-primary-50 rounded-lg p-6 border border-blue-200">
                   <p className="text-slate-700 font-semibold mb-3">Our survey includes:</p>
                   <ul className="space-y-2 text-slate-700 text-sm">
                     {[
@@ -733,7 +733,7 @@ export default function RadiatorRepairs() {
                       'Grant eligibility check'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -775,7 +775,7 @@ export default function RadiatorRepairs() {
                       'Lead to water damage'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <AlertTriangle className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                        <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -809,7 +809,7 @@ export default function RadiatorRepairs() {
                 { area: 'Greater Glasgow', postcodes: 'All surrounding areas' }
               ].map((location, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200 flex items-center gap-4">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0" />
                   <div>
                     <p className="font-bold text-slate-900">{location.area}</p>
                     <p className="text-slate-600 text-sm">{location.postcodes}</p>
@@ -886,7 +886,7 @@ export default function RadiatorRepairs() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               Get Free Quote
             </Link>
           </div>

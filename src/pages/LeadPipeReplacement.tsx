@@ -32,7 +32,7 @@ export default function LeadPipeReplacement() {
               Many older Glasgow properties have lead pipes. If you've found a leaking lead pipe or are looking to upgrade your ageing plumbing, our local plumbers can help. Get in touch today for lead pipe replacement or repairs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -96,7 +96,7 @@ export default function LeadPipeReplacement() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Most of the lead pipework jobs we handle involve repairs, not full replacements. Whether it's a leak under the kitchen floor or a split pipe in your Glasgow tenement, our plumbers are experienced in providing fast, effective lead pipe leak repairs.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 mb-4 font-semibold">We use proven repair methods to:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li>• Stop leaks and restore water flow</li>
@@ -235,7 +235,7 @@ export default function LeadPipeReplacement() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Not all lead pipe concerns require immediate replacement to new plastic or copper pipes. If you're unsure about the safety of your water supply, we can arrange for lead water test to be completed by one of our plumbers.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 mb-4 font-semibold">Professional lead testing is especially helpful if:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li>• Your pipework is concealed</li>
@@ -278,23 +278,23 @@ export default function LeadPipeReplacement() {
                 </p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Over 50 years combined experience</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Fully insured work</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Clear quotes with no surprises</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+              <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                 <div className="flex items-center gap-3 mb-4">
-                  <Shield className="w-8 h-8 text-blue-600 flex-shrink-0" />
+                  <Shield className="w-8 h-8 text-primary flex-shrink-0" />
                   <h3 className="text-xl font-bold text-slate-900">What You Get</h3>
                 </div>
                 <p className="text-slate-700 mb-4">
@@ -302,15 +302,15 @@ export default function LeadPipeReplacement() {
                 </p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Honest advice from local experts</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Rapid response for leaks</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>12-month workmanship guarantee</span>
                   </li>
                 </ul>
@@ -393,7 +393,7 @@ export default function LeadPipeReplacement() {
             Get a free assessment and quote for lead pipe replacement. Protect your family's health today. Contact Upgrade Boilers & Bathrooms for professional lead pipe repairs and replacements across Glasgow.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

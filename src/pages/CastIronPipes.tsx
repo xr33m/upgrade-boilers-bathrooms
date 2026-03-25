@@ -32,7 +32,7 @@ export default function CastIronPipes() {
               Do you have a leaking cast iron soil pipe? Rusty drainage joints? Cracked waste pipe running down the side of your tenement building? Upgrade Boilers & Bathrooms provide professional cast iron pipe repairs and drainage replacement services across Glasgow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -112,7 +112,7 @@ export default function CastIronPipes() {
                     'Water running down exterior wall'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                      <AlertCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -142,9 +142,9 @@ export default function CastIronPipes() {
 
             <div className="space-y-12 mb-16">
               <div className="grid md:grid-cols-2 gap-8 items-start">
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">1</div>
+                    <div className="bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">1</div>
                     <h3 className="text-2xl font-bold text-slate-900">Cast Iron Soil Stack Repairs</h3>
                   </div>
                   <p className="text-lg text-slate-700 mb-4 leading-relaxed">
@@ -182,7 +182,7 @@ export default function CastIronPipes() {
 
                 <div className="order-1 md:order-2 bg-green-50 rounded-xl p-8 border-2 border-green-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">2</div>
+                    <div className="bg-secondary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">2</div>
                     <h3 className="text-2xl font-bold text-slate-900">Internal Cast Iron Waste Pipe Repairs</h3>
                   </div>
                   <p className="text-lg text-slate-700 mb-4 leading-relaxed">
@@ -277,7 +277,7 @@ export default function CastIronPipes() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   In Glasgow tenement properties, soil stacks are often shared between multiple flats. We can repair communal stacks, liaise with property factors, provide photographic reports, carry out section replacements and coordinate safe access scaffolding where required.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <p className="text-slate-700 mb-4 font-semibold">These systems must be handled carefully to avoid affecting neighbouring properties.</p>
                   <p className="text-slate-700 font-semibold">Water damage from failed cast iron pipes can affect:</p>
                   <ul className="space-y-2 text-slate-700 mt-3">
@@ -315,28 +315,28 @@ export default function CastIronPipes() {
                 <p className="text-slate-700 mb-4 font-semibold">Our team regularly works with:</p>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Cast iron soil stacks</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Lead waste pipes</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>PVC and ABS drainage</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Clay underground drains</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Rainwater downpipes</span>
                   </li>
                 </ul>
               </div>
-              <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+              <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                 <p className="text-slate-700 mb-4 font-semibold">If your property still has original metal pipework, we've almost certainly repaired something similar before.</p>
                 <p className="text-slate-700 mb-4 font-semibold">Many plumbers prefer not to work with cast iron due to the complexity. We have the tools and experience to handle it properly.</p>
               </div>
@@ -362,7 +362,7 @@ export default function CastIronPipes() {
                 'Rapid Response for Leaks'
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-slate-50 p-5 rounded-lg shadow-sm border border-slate-200">
-                  <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                   <span className="text-lg text-slate-700">{item}</span>
                 </div>
               ))}
@@ -451,20 +451,20 @@ export default function CastIronPipes() {
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
             <div className="bg-slate-800 rounded-lg p-6">
-              <Wrench className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <Wrench className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Protect your property.</p>
             </div>
             <div className="bg-slate-800 rounded-lg p-6">
-              <AlertCircle className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <AlertCircle className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Prevent further damage.</p>
             </div>
             <div className="bg-slate-800 rounded-lg p-6">
-              <CheckCircle2 className="w-12 h-12 mx-auto mb-3 text-blue-300" />
+              <CheckCircle2 className="w-12 h-12 mx-auto mb-3 text-secondary" />
               <p className="text-lg font-bold">Repair it properly.</p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

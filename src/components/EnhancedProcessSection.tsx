@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { LucideIcon } from 'lucide-react';
+import { Video as LucideIcon } from 'lucide-react';
 
 interface ProcessStep {
   number: string;
@@ -63,14 +63,14 @@ function Step({
       }`}
     >
       <div className="relative group">
-        <div className="absolute inset-0 bg-blue-500 rounded-full blur-2xl opacity-0 group-hover:opacity-60 transition-all duration-500"></div>
+        <div className="absolute inset-0 bg-primary-500 rounded-full blur-2xl opacity-0 group-hover:opacity-60 transition-all duration-500"></div>
 
-        <div className="relative w-32 h-32 md:w-48 md:h-48 bg-gradient-to-br from-slate-100 via-white to-slate-50 rounded-full flex items-center justify-center shadow-2xl border-2 md:border-4 border-blue-500/20 group-hover:border-blue-500/40 transition-all duration-500 group-hover:scale-105">
-          <div className="absolute -top-3 -right-3 md:-top-4 md:-right-4 w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center shadow-xl border-2 md:border-4 border-white text-white font-bold text-lg md:text-2xl z-10">
+        <div className="relative w-32 h-32 md:w-48 md:h-48 bg-gradient-to-br from-slate-100 via-white to-slate-50 rounded-full flex items-center justify-center shadow-2xl border-2 md:border-4 border-secondary/20 group-hover:border-secondary/40 transition-all duration-500 group-hover:scale-105">
+          <div className="absolute -top-3 -right-3 md:-top-4 md:-right-4 w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-primary to-blue-800 rounded-full flex items-center justify-center shadow-xl border-2 md:border-4 border-white text-white font-bold text-lg md:text-2xl z-10">
             {number}
           </div>
 
-          <div className="text-blue-600 transform group-hover:scale-110 transition-transform duration-500 [&>svg]:w-10 [&>svg]:h-10 md:[&>svg]:w-16 md:[&>svg]:h-16">
+          <div className="text-primary transform group-hover:scale-110 transition-transform duration-500 [&>svg]:w-10 [&>svg]:h-10 md:[&>svg]:w-16 md:[&>svg]:h-16">
             <Icon size={64} strokeWidth={1.5} />
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function EnhancedProcessSection({
   return (
     <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"></div>
       </div>
 
@@ -184,7 +184,7 @@ export default function EnhancedProcessSection({
                   <Link
                     key={index}
                     to={service.path}
-                    className="text-blue-300 hover:text-blue-200 font-semibold flex items-center gap-2 group transition-all"
+                    className="text-secondary hover:text-blue-200 font-semibold flex items-center gap-2 group transition-all"
                   >
                     <span className="group-hover:translate-x-1 transition-transform">→</span>
                     {service.label}

@@ -32,7 +32,7 @@ export default function Water2FilterInstallation() {
               Enjoy crystal-clear, better tasting drinking water straight from your tap with professional Water2 filter installation in Glasgow. Upgrade Boilers & Bathrooms supply and install Water2 under-sink water filtration systems for homeowners, landlords and businesses across Greater Glasgow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -56,7 +56,7 @@ export default function Water2FilterInstallation() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Although Scottish water is among the highest quality in the UK, it can still contain contaminants that affect taste and clarity.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Scottish tap water may contain:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
@@ -111,7 +111,7 @@ export default function Water2FilterInstallation() {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-600">
                 <div className="flex items-start gap-4">
-                  <Droplet className="w-8 h-8 text-green-600 flex-shrink-0 mt-1" />
+                  <Droplet className="w-8 h-8 text-secondary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Cleaner, Safer Drinking Water</h3>
                     <p className="text-slate-700">
@@ -121,9 +121,9 @@ export default function Water2FilterInstallation() {
                 </div>
               </div>
 
-              <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+              <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-primary">
                 <div className="flex items-start gap-4">
-                  <Shield className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+                  <Shield className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Better Taste & Smell</h3>
                     <p className="text-slate-700">
@@ -135,7 +135,7 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-600">
                 <div className="flex items-start gap-4">
-                  <AlertTriangle className="w-8 h-8 text-orange-600 flex-shrink-0 mt-1" />
+                  <AlertTriangle className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Heavy Metal Reduction</h3>
                     <p className="text-slate-700">
@@ -159,7 +159,7 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
                 <div className="flex items-start gap-4">
-                  <Shield className="w-8 h-8 text-purple-600 flex-shrink-0 mt-1" />
+                  <Shield className="w-8 h-8 text-primary-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-3">Protects Appliances</h3>
                     <p className="text-slate-700">
@@ -204,31 +204,31 @@ export default function Water2FilterInstallation() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   The Water2 multi-stage filtration system is designed to reduce a wide range of contaminants using advanced filtration technology.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Advanced filtration reduces:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Chlorine</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Sediment & rust particles</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Microplastics</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Bacteria & parasites (mechanical reduction)</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Heavy metals such as lead</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Asbestos fibres (where present in supply systems)</span>
                     </li>
                   </ul>
@@ -253,23 +253,23 @@ export default function Water2FilterInstallation() {
               <div>
                 <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 border-2 border-blue-300 mb-6 shadow-lg">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">Fully Supplied & Installed</h3>
-                  <p className="text-5xl font-bold text-blue-600 mb-4">£250</p>
+                  <p className="text-5xl font-bold text-primary mb-4">£250</p>
                   <p className="text-slate-700 font-semibold mb-6">Fully fitted inc VAT</p>
                   <ul className="space-y-3 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>No hidden charges</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Clean & tidy installation</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>System tested before we leave</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Takes under one hour</span>
                     </li>
                   </ul>
@@ -344,19 +344,19 @@ export default function Water2FilterInstallation() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Not sure if a Water2 filter can be installed in your property? It's easy to check — just send us a photo of your under-sink area.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Simply photograph:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Under your kitchen sink</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Your pipework layout</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span>Available cupboard space</span>
                     </li>
                   </ul>
@@ -396,7 +396,7 @@ export default function Water2FilterInstallation() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   You may have seen Water2 featured online — Bear Grylls is a co-owner and supporter of the brand.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200">
                   <p className="text-slate-700 mb-4">
                     His involvement reflects the brand's focus on water quality, filtration innovation and accessible clean drinking water solutions.
                   </p>
@@ -423,19 +423,19 @@ export default function Water2FilterInstallation() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Most Water2 filters require replacement every 6–12 months, depending on usage and water quality in your area.
                 </p>
-                <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
+                <div className="bg-primary-50 rounded-xl p-8 border-2 border-blue-200 mb-6">
                   <p className="text-slate-700 font-semibold mb-4">We can help with:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Supply replacement cartridges</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Install new filters</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Set reminder schedules</span>
                     </li>
                   </ul>
@@ -479,23 +479,23 @@ export default function Water2FilterInstallation() {
                   <p className="text-slate-700 font-semibold mb-4">We install Water2 filters for:</p>
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Residential properties</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Rental homes</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Offices</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Small businesses</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span>Holiday lets</span>
                     </li>
                   </ul>
@@ -516,7 +516,7 @@ export default function Water2FilterInstallation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Glasgow City Centre</p>
                 </div>
                 <p className="text-slate-600 ml-9">G1–G5</p>
@@ -524,7 +524,7 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">West End</p>
                 </div>
                 <p className="text-slate-600 ml-9">G11–G13</p>
@@ -532,7 +532,7 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Southside</p>
                 </div>
                 <p className="text-slate-600 ml-9">G41–G46</p>
@@ -540,7 +540,7 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">East Glasgow</p>
                 </div>
                 <p className="text-slate-600 ml-9">G31–G32</p>
@@ -548,21 +548,21 @@ export default function Water2FilterInstallation() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Bearsden & Milngavie</p>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">East Kilbride</p>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
                 <div className="flex items-start gap-3 mb-2">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-700 font-semibold">Paisley & Surrounding Areas</p>
                 </div>
               </div>
@@ -632,7 +632,7 @@ export default function Water2FilterInstallation() {
             If you want cleaner, better tasting tap water in your Glasgow home, contact Upgrade Boilers & Bathrooms today. Professional installation. Cleaner water. Better taste.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

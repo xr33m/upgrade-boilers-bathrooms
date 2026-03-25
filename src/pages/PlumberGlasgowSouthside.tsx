@@ -33,9 +33,9 @@ export default function PlumberGlasgowSouthside() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <div className="flex items-start gap-4">
-                <MapPin className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+                <MapPin className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h2 className="text-2xl font-bold text-blue-900 mb-2">Areas We Serve in Glasgow Southside</h2>
                   <p className="text-slate-700 mb-4">
@@ -85,7 +85,7 @@ export default function PlumberGlasgowSouthside() {
 
             <div className="space-y-4 mb-12">
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Aging Pipes in Victorian Properties</h3>
                   <p className="text-slate-600">Many Pollokshaws and Cathcart homes have old cast iron pipes that require specialist assessment and replacement. We offer safe, compliant solutions.</p>
@@ -93,7 +93,7 @@ export default function PlumberGlasgowSouthside() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Water Pressure Issues</h3>
                   <p className="text-slate-600">Many Southside properties experience low water pressure. We diagnose and fix issues throughout Giffnock, Clarkston, Busby and surrounding areas.</p>
@@ -101,7 +101,7 @@ export default function PlumberGlasgowSouthside() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Heating System Issues</h3>
                   <p className="text-slate-600">Combined with plumbing work, we offer boiler and heating solutions across Glasgow Southside including Stamperland and Newton Mearns.</p>
@@ -109,7 +109,7 @@ export default function PlumberGlasgowSouthside() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Bathroom Plumbing</h3>
                   <p className="text-slate-600">From small tap repairs to complete bathroom renovations in Clarkston, Busby and Giffnock properties, we handle all aspects.</p>
@@ -117,7 +117,7 @@ export default function PlumberGlasgowSouthside() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Drain and Sewer Work</h3>
                   <p className="text-slate-600">Blocked drains affecting Southside properties? We provide rapid unblocking services across Pollokshaws, Giffnock, and surrounding areas.</p>
@@ -139,8 +139,8 @@ export default function PlumberGlasgowSouthside() {
               </div>
 
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertCircle className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertCircle className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Rapid Response</h3>
                 <p className="text-slate-600">2-hour emergency response across Giffnock, Clarkston, Busby and all Southside areas, 24/7.</p>
@@ -148,7 +148,7 @@ export default function PlumberGlasgowSouthside() {
 
               <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-green-600" />
+                  <CheckCircle2 className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">12-Month Guarantee</h3>
                 <p className="text-slate-600">All work backed by our 12-month workmanship guarantee across all Southside locations.</p>

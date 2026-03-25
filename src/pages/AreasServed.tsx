@@ -86,8 +86,8 @@ export default function AreasServed() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-slate-50 rounded-xl p-8">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                  <MapPin className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                  <MapPin className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">
                   Local Service, Expert Care
@@ -102,7 +102,7 @@ export default function AreasServed() {
 
               <div className="bg-slate-50 rounded-xl p-8">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4">
-                  <Phone className="w-8 h-8 text-orange-600" />
+                  <Phone className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">
                   24/7 Emergency Coverage
@@ -181,7 +181,7 @@ export default function AreasServed() {
             </a>
             <Link
               to="/contact"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg border-2 border-white"
+              className="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg border-2 border-white"
             >
               Request Free Quote
             </Link>

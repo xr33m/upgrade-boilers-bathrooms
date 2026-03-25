@@ -54,7 +54,7 @@ export default function FAQSection({
           alt="Upgrade services"
         />
         <div className="flex-1 w-full">
-          <p className="text-blue-600 text-sm font-medium">FAQ's</p>
+          <p className="text-primary text-sm font-medium">FAQ's</p>
           <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mt-1">{title}</h2>
           <p className="text-sm md:text-base text-slate-600 mt-2 pb-4">
             {description}

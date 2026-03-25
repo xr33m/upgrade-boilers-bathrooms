@@ -23,8 +23,8 @@ export default function Home() {
       <section className="relative overflow-hidden -mt-[8.5rem] md:-mt-[9.5rem] pt-[8.5rem] md:pt-[9.5rem] pb-16 md:pb-24 lg:pb-32 min-h-screen lg:min-h-[75vh] xl:min-h-[80vh] flex items-center">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-cover bg-no-repeat bg-[center_bottom] md:bg-[70%_center] lg:bg-[75%_center]" style={{ backgroundImage: 'url(/hero-home-upgrade.webp)', backgroundSize: 'cover' }}></div>
-          <div className="absolute inset-0 bg-black/40 md:bg-blue-900/30"></div>
-          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/70 to-transparent opacity-60 pointer-events-none"></div>
+          <div className="absolute inset-0 bg-black/40 md:bg-primary/30"></div>
+          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent opacity-60 pointer-events-none"></div>
 
         </div>
 
@@ -48,17 +48,17 @@ export default function Home() {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 md:mb-6 leading-tight text-white">
-                  <span className="text-yellow-400">Local</span> Plumber in Glasgow – 24/7 Repairs & Installations
+                  <span className="text-secondary">Local</span> Plumber in Glasgow – 24/7 Repairs & Installations
                 </h1>
 
-                <p className="text-lg md:text-xl text-blue-100 mb-6 md:mb-8 max-w-xl leading-relaxed">
+                <p className="text-lg md:text-xl text-white mb-6 md:mb-8 max-w-xl leading-relaxed">
                   Providing professional plumbing repairs, boiler servicing, emergency call-outs and bathroom plumbing across Glasgow and surrounding areas. Gas Safe registered engineers delivering fast response times and guaranteed workmanship.
                 </p>
 
                 <div className="flex flex-col gap-3 mb-8 md:hidden">
                   <a
                     href="tel:07523172416"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
+                    className="bg-accent hover:bg-accent-600 text-white px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
                   >
                     Call 07523 172416
                   </a>
@@ -71,16 +71,16 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-wrap gap-2 md:gap-4 mb-6 md:mb-8">
-                  <div className="flex items-center gap-2 text-sm md:text-base text-amber-100 bg-gradient-to-r from-amber-500/20 to-amber-400/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-amber-400/40 shadow-lg shadow-amber-500/30">
-                    <CheckCircle2 className="w-5 h-5 text-amber-300 flex-shrink-0" />
+                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>24/7 Service</span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm md:text-base text-amber-100 bg-gradient-to-r from-amber-500/20 to-amber-400/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-amber-400/40 shadow-lg shadow-amber-500/30">
-                    <CheckCircle2 className="w-5 h-5 text-amber-300 flex-shrink-0" />
+                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>Free Quotes</span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm md:text-base text-amber-100 bg-gradient-to-r from-amber-500/20 to-amber-400/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-amber-400/40 shadow-lg shadow-amber-500/30">
-                    <CheckCircle2 className="w-5 h-5 text-amber-300 flex-shrink-0" />
+                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                     <span>12mo Guarantee</span>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="hidden md:flex gap-4">
                   <a
                     href="tel:07523172416"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-xl hover:shadow-2xl transform hover:scale-105"
+                    className="bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-xl hover:shadow-2xl transform hover:scale-105"
                   >
                     Call Now
                   </a>
@@ -123,18 +123,18 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
               <Link to="/boilers" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
-                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-500 to-blue-600">
+                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-primary to-primary-700">
                   <img
                     src="/boiler-services-upgrade-home.webp"
                     alt="Boiler Services"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">Boiler Services</h3>
-                  <p className="text-slate-600 text-sm mb-3">Professional boiler installation, servicing, repairs and maintenance. Gas Safe registered engineers ensure your heating system runs efficiently and safely.</p>
-                  <div className="flex items-center text-blue-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-primary transition">Boiler Services</h3>
+                  <p className="text-gray-700 text-sm mb-3">Professional boiler installation, servicing, repairs and maintenance. Gas Safe registered engineers ensure your heating system runs efficiently and safely.</p>
+                  <div className="flex items-center text-primary font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -142,18 +142,18 @@ export default function Home() {
               </Link>
 
               <Link to="/heating" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
-                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-orange-500 to-orange-600">
+                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-accent to-accent-600">
                   <img
                     src="/heating-systems-upgrade-home.webp"
                     alt="Heating Systems"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-orange-900/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-accent/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-orange-600 transition">Heating Systems</h3>
-                  <p className="text-slate-600 text-sm mb-3">Complete central heating solutions including radiators, underfloor heating, heat pumps, and system upgrades. Keep your home warm and comfortable all year round.</p>
-                  <div className="flex items-center text-orange-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-accent transition">Heating Systems</h3>
+                  <p className="text-gray-700 text-sm mb-3">Complete central heating solutions including radiators, underfloor heating, heat pumps, and system upgrades. Keep your home warm and comfortable all year round.</p>
+                  <div className="flex items-center text-accent font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -161,18 +161,18 @@ export default function Home() {
               </Link>
 
               <Link to="/plumbing" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
-                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-cyan-500 to-cyan-600">
+                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-primary-500 to-primary">
                   <img
                     src="/plumbing-services-upgrade-home.webp"
                     alt="Plumbing Services"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Plumbing Services</h3>
-                  <p className="text-slate-600 text-sm mb-3">24/7 emergency plumbing, leak repairs, pipe installations, tap and toilet repairs. Fast response times and reliable solutions for all your plumbing needs.</p>
-                  <div className="flex items-center text-cyan-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-primary transition">Plumbing Services</h3>
+                  <p className="text-gray-700 text-sm mb-3">24/7 emergency plumbing, leak repairs, pipe installations, tap and toilet repairs. Fast response times and reliable solutions for all your plumbing needs.</p>
+                  <div className="flex items-center text-primary font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -180,18 +180,18 @@ export default function Home() {
               </Link>
 
               <Link to="/bathroom-installations" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
-                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-teal-500 to-teal-600">
+                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-secondary to-secondary-600">
                   <img
                     src="/bathroom-installations-upgrade-home.webp"
                     alt="Bathroom Installations"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-teal-900/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-teal-600 transition">Bathroom Installations</h3>
-                  <p className="text-slate-600 text-sm mb-3">Full bathroom design, supply, and installation services. From modern suites to traditional styles, we create beautiful and functional bathrooms.</p>
-                  <div className="flex items-center text-teal-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary-600 transition">Bathroom Installations</h3>
+                  <p className="text-gray-700 text-sm mb-3">Full bathroom design, supply, and installation services. From modern suites to traditional styles, we create beautiful and functional bathrooms.</p>
+                  <div className="flex items-center text-secondary-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -199,25 +199,25 @@ export default function Home() {
               </Link>
 
               <Link to="/landlords" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-500 ease-out group">
-                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-green-500 to-green-600">
+                <div className="relative h-48 overflow-hidden bg-gradient-to-br from-secondary to-secondary-600">
                   <img
                     src="/landlord-services-upgrade-home.webp"
                     alt="Landlord Services"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-green-600 transition">Landlord Services</h3>
-                  <p className="text-slate-600 text-sm mb-3">Gas safety certificates, PAT testing, legionella risk assessments, and lead testing. Stay compliant with all landlord safety regulations.</p>
-                  <div className="flex items-center text-green-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary-600 transition">Landlord Services</h3>
+                  <p className="text-gray-700 text-sm mb-3">Gas safety certificates, PAT testing, legionella risk assessments, and lead testing. Stay compliant with all landlord safety regulations.</p>
+                  <div className="flex items-center text-secondary-600 font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
               </Link>
 
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-gradient-to-br from-red-600 to-red-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition text-white group relative">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="bg-gradient-to-br from-accent to-accent-600 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition text-white group relative">
                 <img
                   src="/emergency-plumber-upgrade-home.webp"
                   alt="Emergency Plumber"
@@ -225,7 +225,7 @@ export default function Home() {
                 />
                 <div className="relative p-8 h-full flex flex-col justify-center">
                   <h3 className="text-2xl font-bold mb-2">24/7 Emergency Service</h3>
-                  <p className="text-red-100 mb-4">Available day and night for urgent plumbing and heating emergencies across Glasgow.</p>
+                  <p className="text-white mb-4">Available day and night for urgent plumbing and heating emergencies across Glasgow.</p>
                   <span className="font-bold text-xl">{BUSINESS_INFO.phone}</span>
                 </div>
               </a>
@@ -234,7 +234,7 @@ export default function Home() {
             <FadeIn className="text-center" delay={200}>
               <Link
                 to="/services"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 hover:scale-105 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 hover:scale-105 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ease-out shadow-lg hover:shadow-xl"
               >
                 View All Services
                 <ArrowRight className="w-5 h-5" />
@@ -275,7 +275,7 @@ export default function Home() {
 
               <div className="space-y-4 md:space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -288,24 +288,24 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Phone</h3>
-                    <a href={`tel:${BUSINESS_INFO.phone}`} className="text-slate-300 hover:text-blue-400 transition text-lg">
+                    <a href={`tel:${BUSINESS_INFO.phone}`} className="text-slate-300 hover:text-secondary transition text-lg">
                       {BUSINESS_INFO.phone}
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Email</h3>
-                    <a href={`mailto:${BUSINESS_INFO.email}`} className="text-slate-300 hover:text-blue-400 transition">
+                    <a href={`mailto:${BUSINESS_INFO.email}`} className="text-slate-300 hover:text-secondary transition">
                       {BUSINESS_INFO.email}
                     </a>
                   </div>
@@ -360,7 +360,7 @@ export default function Home() {
               <Phone className="w-5 h-5 md:w-6 md:h-6" />
               <span className="text-sm md:text-lg">{BUSINESS_INFO.phone}</span>
             </a>
-            <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg transition shadow-lg border-2 border-white">
+            <Link to="/contact" className="bg-primary hover:bg-primary-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg transition shadow-lg border-2 border-white">
               Request Free Quote
             </Link>
           </div>

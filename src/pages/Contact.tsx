@@ -96,13 +96,13 @@ export default function Contact() {
                 </h2>
 
                 <div className="space-y-6 mb-8">
-                  <a href={`tel:${BUSINESS_INFO.phone}`} className="flex items-start gap-4 p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition group">
-                    <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-blue-700 transition">
+                  <a href={`tel:${BUSINESS_INFO.phone}`} className="flex items-start gap-4 p-6 bg-primary-50 rounded-lg hover:bg-primary-100 transition group">
+                    <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary-700 transition">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <div className="font-bold text-lg mb-1">Phone</div>
-                      <div className="text-2xl font-bold text-blue-600">{BUSINESS_INFO.phone}</div>
+                      <div className="text-2xl font-bold text-primary">{BUSINESS_INFO.phone}</div>
                       <div className="text-sm text-slate-600 mt-1">24/7 Emergency Line Available</div>
                     </div>
                   </a>
@@ -143,7 +143,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+                <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
                   <h3 className="font-bold text-lg mb-2">Service Areas</h3>
                   <p className="text-slate-700 mb-2">We proudly serve the following areas:</p>
                   <div className="text-slate-700">
@@ -186,7 +186,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
                       placeholder="John Smith"
                     />
                   </div>
@@ -202,7 +202,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -218,7 +218,7 @@ export default function Contact() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
                       placeholder="0141 123 4567"
                     />
                   </div>
@@ -233,7 +233,7 @@ export default function Contact() {
                       required
                       value={formData.service}
                       onChange={(e) => setFormData({...formData, service: e.target.value})}
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
                     >
                       <option value="">Please select...</option>
                       <option value="boiler-installation">Boiler Installation</option>
@@ -259,7 +259,7 @@ export default function Contact() {
                       rows={6}
                       value={formData.message}
                       onChange={(e) => setFormData({...formData, message: e.target.value})}
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition resize-none"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition resize-none"
                       placeholder="Please provide details about your requirements..."
                     />
                   </div>
@@ -267,7 +267,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-bold py-4 rounded-lg transition text-lg"
+                    className="w-full bg-primary hover:bg-primary-700 disabled:bg-primary-400 text-white font-bold py-4 rounded-lg transition text-lg"
                   >
                     {loading ? 'Submitting...' : 'Send Message'}
                   </button>

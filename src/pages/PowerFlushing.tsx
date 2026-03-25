@@ -37,7 +37,7 @@ export default function PowerFlushing() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -79,13 +79,13 @@ export default function PowerFlushing() {
                       'Corrosion deposits'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <AlertCircle className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                        <AlertCircle className="w-5 h-5 text-accent flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
                   <p className="text-slate-700 leading-relaxed">
                     This build-up restricts water flow, reduces radiator output and forces your boiler to work harder than it should. A power flush removes this contamination using high-flow, low-pressure equipment and specialist chemicals — restoring circulation and efficiency.
                   </p>
@@ -116,18 +116,18 @@ export default function PowerFlushing() {
               ].map((item, idx) => {
                 const Icon = item.icon;
                 const colorMap: Record<string, string> = {
-                  blue: 'bg-blue-50 border-blue-200',
+                  blue: 'bg-primary-50 border-blue-200',
                   orange: 'bg-orange-50 border-orange-200',
                   red: 'bg-red-50 border-red-200',
-                  purple: 'bg-purple-50 border-purple-200',
+                  purple: 'bg-primary-50 border-purple-200',
                   amber: 'bg-amber-50 border-amber-200',
                   slate: 'bg-slate-50 border-slate-200'
                 };
                 const colorMap2: Record<string, string> = {
-                  blue: 'text-blue-600',
-                  orange: 'text-orange-600',
+                  blue: 'text-primary',
+                  orange: 'text-accent',
                   red: 'text-red-600',
-                  purple: 'text-purple-600',
+                  purple: 'text-primary-600',
                   amber: 'text-amber-600',
                   slate: 'text-slate-600'
                 };
@@ -141,7 +141,7 @@ export default function PowerFlushing() {
                 );
               })}
             </div>
-            <p className="text-lg text-slate-700 text-center bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+            <p className="text-lg text-slate-700 text-center bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
               These are common signs of internal sludge build-up. If you notice any of these, contact us for a system assessment.
             </p>
           </div>
@@ -188,7 +188,7 @@ export default function PowerFlushing() {
               </div>
             </div>
 
-            <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+            <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
               <p className="text-slate-700 leading-relaxed">
                 <span className="font-semibold">Modern boilers, especially condensing models, have narrow heat exchangers that are highly sensitive to debris.</span> A power flush is essential maintenance to keep your boiler running efficiently and extend its lifespan.
               </p>
@@ -239,7 +239,7 @@ export default function PowerFlushing() {
               ].map((item, idx) => (
                 <div key={idx} className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-200">
                   <div className="flex items-start gap-6">
-                    <div className="bg-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0 font-bold text-2xl">
+                    <div className="bg-primary text-white rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0 font-bold text-2xl">
                       {item.step}
                     </div>
                     <div className="flex-1">
@@ -253,7 +253,7 @@ export default function PowerFlushing() {
 
             <div className="mt-12 bg-green-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg">
               <p className="text-lg text-slate-700 flex items-start gap-4">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <span>
                   <span className="font-semibold">You'll often notice immediate improvements</span> in heat output and response times after the power flush is complete.
                 </span>
@@ -315,11 +315,11 @@ export default function PowerFlushing() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-200">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <DollarSign className="w-6 h-6 text-blue-600" />
+                  <DollarSign className="w-6 h-6 text-primary" />
                   Power Flushing Cost
                 </h3>
-                <div className="bg-blue-50 rounded-lg p-6 mb-6 border border-blue-200">
-                  <p className="text-4xl font-bold text-blue-600 mb-2">£400–£800</p>
+                <div className="bg-primary-50 rounded-lg p-6 mb-6 border border-blue-200">
+                  <p className="text-4xl font-bold text-primary mb-2">£400–£800</p>
                   <p className="text-slate-700 text-sm">For a typical 3-bedroom property</p>
                 </div>
                 <p className="text-slate-700 mb-4 leading-relaxed">
@@ -329,7 +329,7 @@ export default function PowerFlushing() {
 
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-green-200">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <Wrench className="w-6 h-6 text-green-600" />
+                  <Wrench className="w-6 h-6 text-secondary" />
                   Not All Systems Need Full Flushing
                 </h3>
                 <p className="text-slate-700 mb-4 font-semibold">We assess your system first and only recommend the level of cleaning required.</p>
@@ -346,7 +346,7 @@ export default function PowerFlushing() {
                   Ideal for moderately contaminated systems.
                 </p>
                 <div className="bg-white rounded-lg p-4 border border-blue-200">
-                  <p className="text-2xl font-bold text-blue-600">From £360</p>
+                  <p className="text-2xl font-bold text-primary">From £360</p>
                   <p className="text-slate-600 text-sm">depending on radiator count</p>
                 </div>
               </div>
@@ -360,7 +360,7 @@ export default function PowerFlushing() {
                   Suitable for early-stage contamination.
                 </p>
                 <div className="bg-white rounded-lg p-4 border border-purple-200">
-                  <p className="text-2xl font-bold text-purple-600">From £180</p>
+                  <p className="text-2xl font-bold text-primary-600">From £180</p>
                   <p className="text-slate-600 text-sm">light system cleaning</p>
                 </div>
               </div>
@@ -395,7 +395,7 @@ export default function PowerFlushing() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   Underfloor heating systems require specialist flushing techniques due to their unique design and zoning layouts.
                 </p>
-                <div className="bg-purple-50 rounded-2xl p-8 border-2 border-purple-200 shadow-lg mb-6">
+                <div className="bg-primary-50 rounded-2xl p-8 border-2 border-purple-200 shadow-lg mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Underfloor heating considerations:</p>
                   <ul className="space-y-3">
                     {[
@@ -406,7 +406,7 @@ export default function PowerFlushing() {
                       'We assess systems separately & advise accordingly'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <AlertCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                        <AlertCircle className="w-5 h-5 text-primary-600 flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -444,7 +444,7 @@ export default function PowerFlushing() {
                 <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                   If you're investing in system cleaning, it's highly recommended to install a magnetic filter to protect your investment.
                 </p>
-                <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg mb-6">
+                <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg mb-6">
                   <p className="text-slate-700 font-semibold mb-4">Magnetic filters:</p>
                   <ul className="space-y-3">
                     {[
@@ -454,7 +454,7 @@ export default function PowerFlushing() {
                       'Extend system lifespan'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -479,7 +479,7 @@ export default function PowerFlushing() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-orange-50 rounded-2xl p-8 border-2 border-orange-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <AlertTriangle className="w-6 h-6 text-orange-600" />
+                  <AlertTriangle className="w-6 h-6 text-accent" />
                   Warranty Void Risks
                 </h3>
                 <p className="text-slate-700 mb-4 font-semibold">Boiler manufacturers such as Worcester Bosch and Ideal often require system cleaning and inhibitor treatment during installation.</p>
@@ -492,7 +492,7 @@ export default function PowerFlushing() {
                     'Void manufacturer guarantees'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <AlertTriangle className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -501,7 +501,7 @@ export default function PowerFlushing() {
 
               <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <Shield className="w-6 h-6 text-green-600" />
+                  <Shield className="w-6 h-6 text-secondary" />
                   Our Warranty Compliance
                 </h3>
                 <p className="text-slate-700 mb-6 leading-relaxed">
@@ -517,7 +517,7 @@ export default function PowerFlushing() {
                       'Warranty protection advice'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-secondary flex-shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -557,7 +557,7 @@ export default function PowerFlushing() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+                <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                   <p className="text-slate-700 font-semibold mb-4">We recommend:</p>
                   <ul className="space-y-3">
                     {[
@@ -566,7 +566,7 @@ export default function PowerFlushing() {
                       'Boiler servicing every year'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -614,7 +614,7 @@ export default function PowerFlushing() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Our Approach</h3>
                 <p className="text-slate-700 mb-4 leading-relaxed">
                   We assess your system beforehand and explain any risks clearly before we begin work.
@@ -627,7 +627,7 @@ export default function PowerFlushing() {
                     'Transparency about old pipework'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -700,7 +700,7 @@ export default function PowerFlushing() {
                 { area: 'Greater Glasgow', postcodes: 'All surrounding areas' }
               ].map((location, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200 flex items-center gap-4">
-                  <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0" />
                   <div>
                     <p className="font-bold text-slate-900">{location.area}</p>
                     <p className="text-slate-600 text-sm">{location.postcodes}</p>
@@ -777,7 +777,7 @@ export default function PowerFlushing() {
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>
-            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <Link to="/contact" className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               Get Free Quote
             </Link>
           </div>

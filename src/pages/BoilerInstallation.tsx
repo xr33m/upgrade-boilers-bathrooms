@@ -62,7 +62,7 @@ export default function BoilerInstallation() {
               With over 20 years of experience, our fully qualified Gas Safe registered engineers install high-efficiency boilers safely, efficiently and in full compliance with UK regulations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+              <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
                 <Phone className="w-6 h-6" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -91,7 +91,7 @@ export default function BoilerInstallation() {
                     'Full central heating upgrades'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                       <span className="text-lg text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -130,17 +130,17 @@ export default function BoilerInstallation() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               <div className="bg-slate-50 p-6 rounded-lg">
-                <TrendingDown className="w-12 h-12 text-green-600 mb-3" />
+                <TrendingDown className="w-12 h-12 text-secondary mb-3" />
                 <h3 className="text-xl font-bold mb-2">Lower Energy Bills</h3>
                 <p className="text-slate-600">High-efficiency condensing boilers reduce wasted fuel.</p>
               </div>
               <div className="bg-slate-50 p-6 rounded-lg">
-                <Shield className="w-12 h-12 text-blue-600 mb-3" />
+                <Shield className="w-12 h-12 text-primary mb-3" />
                 <h3 className="text-xl font-bold mb-2">Increased Reliability</h3>
                 <p className="text-slate-600">Reduced risk of breakdowns during winter.</p>
               </div>
               <div className="bg-slate-50 p-6 rounded-lg">
-                <ThermometerSun className="w-12 h-12 text-orange-600 mb-3" />
+                <ThermometerSun className="w-12 h-12 text-accent mb-3" />
                 <h3 className="text-xl font-bold mb-2">Improved Performance</h3>
                 <p className="text-slate-600">Faster hot water and more consistent central heating.</p>
               </div>
@@ -167,7 +167,7 @@ export default function BoilerInstallation() {
                   </div>
                 </div>
                 <div className="order-1 md:order-2">
-                  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+                  <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
                     <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Combi Boilers</h3>
                     <p className="text-lg text-slate-700 mb-4">
                       Perfect for smaller homes and flats. Provides hot water on demand without a separate cylinder.
@@ -226,7 +226,7 @@ export default function BoilerInstallation() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-16">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-16">
               <p className="text-lg text-slate-800 leading-relaxed">
                 Not sure which boiler suits your home? We provide honest advice based on property size, water pressure and household usage.
               </p>
@@ -266,7 +266,7 @@ export default function BoilerInstallation() {
               ))}
             </div>
 
-            <div className="bg-green-600 text-white rounded-xl p-8 text-center">
+            <div className="bg-secondary text-white rounded-xl p-8 text-center">
               <p className="text-2xl font-bold">
                 Accredited installations allow us to offer extended manufacturer warranties — up to 12 years depending on model.
               </p>
@@ -304,12 +304,12 @@ export default function BoilerInstallation() {
                   </p>
                   <ul className="space-y-2">
                     <li>
-                      <Link to="/boilers/repairs" className="text-blue-600 hover:text-blue-800 font-semibold underline">
+                      <Link to="/boilers/repairs" className="text-primary hover:text-blue-800 font-semibold underline">
                         Boiler Repairs Glasgow
                       </Link>
                     </li>
                     <li>
-                      <Link to="/boilers/servicing" className="text-blue-600 hover:text-blue-800 font-semibold underline">
+                      <Link to="/boilers/servicing" className="text-primary hover:text-blue-800 font-semibold underline">
                         Annual Boiler Servicing Glasgow
                       </Link>
                     </li>
@@ -325,7 +325,7 @@ export default function BoilerInstallation() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">
-              Boiler Installation for Homeowners & <Link to="/landlords" className="text-blue-600 hover:text-blue-800 underline">Landlords</Link>
+              Boiler Installation for Homeowners & <Link to="/landlords" className="text-primary hover:text-blue-800 underline">Landlords</Link>
             </h2>
             <p className="text-lg text-slate-700 mb-8">
               We provide boiler installation services for:
@@ -339,17 +339,17 @@ export default function BoilerInstallation() {
                 'HMOs'
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
-                  <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
                   <span className="text-lg text-slate-700">{item}</span>
                 </div>
               ))}
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">We can also combine installations with:</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>
-                  • <Link to="/landlords/gas-safety-certificates" className="text-blue-600 hover:text-blue-800 underline">Gas Safety Certificates (CP12)</Link>
+                  • <Link to="/landlords/gas-safety-certificates" className="text-primary hover:text-blue-800 underline">Gas Safety Certificates (CP12)</Link>
                 </li>
                 <li>• Central heating upgrades</li>
                 <li>• Smart thermostat installation</li>
@@ -427,7 +427,7 @@ export default function BoilerInstallation() {
           </p>
           <p className="text-2xl font-bold mb-8">Professional installation. Clear pricing. Gas Safe compliance. Long-term reliability.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
+            <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">
               <Phone className="w-6 h-6" />
               {BUSINESS_INFO.phone}
             </a>

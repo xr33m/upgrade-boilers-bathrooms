@@ -27,18 +27,18 @@ export default function ScrollingProcessSection({
 
   const colorSchemes = {
     blue: {
-      gradient: 'from-blue-600 to-blue-800',
-      bg: 'bg-blue-600',
-      text: 'text-blue-600',
-      border: 'border-blue-600',
+      gradient: 'from-primary to-blue-800',
+      bg: 'bg-primary',
+      text: 'text-primary',
+      border: 'border-primary',
       glow: 'shadow-blue-500/50',
-      bgLight: 'bg-blue-50',
+      bgLight: 'bg-primary-50',
       borderLight: 'border-blue-200'
     },
     green: {
       gradient: 'from-green-600 to-green-800',
-      bg: 'bg-green-600',
-      text: 'text-green-600',
+      bg: 'bg-secondary',
+      text: 'text-secondary',
       border: 'border-green-600',
       glow: 'shadow-green-500/50',
       bgLight: 'bg-green-50',
@@ -46,8 +46,8 @@ export default function ScrollingProcessSection({
     },
     orange: {
       gradient: 'from-orange-600 to-orange-800',
-      bg: 'bg-orange-600',
-      text: 'text-orange-600',
+      bg: 'bg-accent-600',
+      text: 'text-accent',
       border: 'border-orange-600',
       glow: 'shadow-orange-500/50',
       bgLight: 'bg-orange-50',

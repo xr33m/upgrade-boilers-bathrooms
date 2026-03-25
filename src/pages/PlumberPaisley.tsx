@@ -33,9 +33,9 @@ export default function PlumberPaisley() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-12">
               <div className="flex items-start gap-4">
-                <MapPin className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+                <MapPin className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h2 className="text-2xl font-bold text-blue-900 mb-2">Serving Paisley and Renfrewshire</h2>
                   <p className="text-slate-700 mb-4">
@@ -85,7 +85,7 @@ export default function PlumberPaisley() {
 
             <div className="space-y-4 mb-12">
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Boiler Servicing in Paisley</h3>
                   <p className="text-slate-600">Regular boiler maintenance and repairs ensure efficient heating throughout Paisley and Renfrewshire. Gas Safe registered engineers.</p>
@@ -93,7 +93,7 @@ export default function PlumberPaisley() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Leak Repairs</h3>
                   <p className="text-slate-600">Water leaks affecting Paisley properties need urgent attention. We locate and repair leaks quickly in Inchinnan, Renfrew and surrounding areas.</p>
@@ -101,7 +101,7 @@ export default function PlumberPaisley() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Bathroom Plumbing</h3>
                   <p className="text-slate-600">From small repairs to complete bathroom renovations across Paisley, Inchinnan and Renfrewshire properties.</p>
@@ -109,7 +109,7 @@ export default function PlumberPaisley() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Drain Unblocking</h3>
                   <p className="text-slate-600">Blocked drains in Paisley homes causing problems? We provide rapid unblocking and cleaning throughout Renfrewshire.</p>
@@ -117,7 +117,7 @@ export default function PlumberPaisley() {
               </div>
 
               <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-lg mb-1">Heating Systems</h3>
                   <p className="text-slate-600">Radiator problems, system flushing, and complete heating upgrades for Paisley, Inchinnan, Renfrew and surrounding Renfrewshire areas.</p>
@@ -139,8 +139,8 @@ export default function PlumberPaisley() {
               </div>
 
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertCircle className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertCircle className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">24/7 Emergency Service</h3>
                 <p className="text-slate-600">Rapid response to emergencies throughout Paisley, Inchinnan and surrounding Renfrewshire areas.</p>
@@ -148,7 +148,7 @@ export default function PlumberPaisley() {
 
               <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-green-600" />
+                  <CheckCircle2 className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Quality Guaranteed</h3>
                 <p className="text-slate-600">12-month guarantee on all work. Professional service across Paisley and Renfrewshire.</p>

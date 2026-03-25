@@ -84,7 +84,7 @@ export default function HiveThermostats() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-xl p-6 border-2 border-blue-200">
                   <p className="text-slate-700 leading-relaxed">
                     <span className="font-semibold">Instead of manually adjusting your heating,</span> Hive gives you remote control wherever you are — whether you're at work, on holiday, or checking on elderly relatives.
                   </p>
@@ -173,7 +173,7 @@ export default function HiveThermostats() {
                       'Firmware updates completed'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -240,11 +240,11 @@ export default function HiveThermostats() {
 
               <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-200">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <Battery className="w-6 h-6 text-blue-600" />
+                  <Battery className="w-6 h-6 text-primary" />
                   Hive TRVs (Smart Radiator Valves)
                 </h3>
-                <div className="bg-blue-50 rounded-lg p-6 mb-6 border border-blue-200">
-                  <p className="text-3xl font-bold text-blue-600 mb-2">From £75</p>
+                <div className="bg-primary-50 rounded-lg p-6 mb-6 border border-blue-200">
+                  <p className="text-3xl font-bold text-primary mb-2">From £75</p>
                   <p className="text-slate-700 text-sm">Per valve + £110 minimum labour</p>
                 </div>
                 <p className="text-slate-700 mb-4 leading-relaxed">
@@ -272,7 +272,7 @@ export default function HiveThermostats() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <CheckCircle2 className="w-6 h-6 text-green-600" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary" />
                   Compatible With Most Boilers
                 </h3>
                 <ul className="space-y-3">
@@ -284,16 +284,16 @@ export default function HiveThermostats() {
                     'Many modern condensing boilers'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <AlertCircle className="w-6 h-6 text-blue-600" />
+                  <AlertCircle className="w-6 h-6 text-primary" />
                   Unsure About Compatibility?
                 </h3>
                 <p className="text-slate-700 mb-4 leading-relaxed">
@@ -348,7 +348,7 @@ export default function HiveThermostats() {
                     'Save energy significantly'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -394,7 +394,7 @@ export default function HiveThermostats() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-50 rounded-lg p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-lg p-6 border-2 border-blue-200">
                   <p className="text-slate-700 font-semibold mb-3">This improves:</p>
                   <ul className="space-y-2">
                     {[
@@ -404,7 +404,7 @@ export default function HiveThermostats() {
                       'Reduced energy bills'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                         <span className="text-slate-700 text-sm">{item}</span>
                       </li>
                     ))}
@@ -445,7 +445,7 @@ export default function HiveThermostats() {
                       'Reducing standby losses'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                         <span className="text-slate-700">{item}</span>
                       </li>
                     ))}
@@ -483,7 +483,7 @@ export default function HiveThermostats() {
                     'Smart home integration'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                       <span className="text-slate-700 text-sm">{item}</span>
                     </li>
                   ))}
@@ -502,9 +502,9 @@ export default function HiveThermostats() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
-              <div className="bg-purple-50 rounded-2xl p-8 border-2 border-purple-200 shadow-lg">
+              <div className="bg-primary-50 rounded-2xl p-8 border-2 border-purple-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <Lock className="w-6 h-6 text-purple-600" />
+                  <Lock className="w-6 h-6 text-primary-600" />
                   Peace of Mind for Families
                 </h3>
                 <p className="text-slate-700 mb-4 font-semibold">Hive is useful for monitoring:</p>
@@ -516,7 +516,7 @@ export default function HiveThermostats() {
                     'Holiday homes'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-purple-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-primary-600 flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -576,7 +576,7 @@ export default function HiveThermostats() {
               ].map((item, idx) => {
                 const Icon = item.icon;
                 const colorMap: Record<string, string> = {
-                  blue: 'bg-blue-50 border-blue-200',
+                  blue: 'bg-primary-50 border-blue-200',
                   red: 'bg-red-50 border-red-200',
                   amber: 'bg-amber-50 border-amber-200',
                   orange: 'bg-orange-50 border-orange-200',
@@ -585,10 +585,10 @@ export default function HiveThermostats() {
                   gray: 'bg-gray-50 border-gray-200'
                 };
                 const colorMap2: Record<string, string> = {
-                  blue: 'text-blue-600',
+                  blue: 'text-primary',
                   red: 'text-red-600',
                   amber: 'text-amber-600',
-                  orange: 'text-orange-600',
+                  orange: 'text-accent',
                   cyan: 'text-cyan-600',
                   slate: 'text-slate-600',
                   gray: 'text-gray-600'
@@ -604,7 +604,7 @@ export default function HiveThermostats() {
               })}
             </div>
 
-            <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg mb-12">
+            <div className="bg-primary-50 rounded-2xl p-8 border-2 border-blue-200 shadow-lg mb-12">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Common Causes of Hive Issues:</h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 {[
@@ -618,7 +618,7 @@ export default function HiveThermostats() {
                   'App synchronization errors'
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
                     <span className="text-slate-700">{item}</span>
                   </li>
                 ))}
@@ -659,7 +659,7 @@ export default function HiveThermostats() {
                     Correct configuration is critical to avoid inefficient cycling and poor performance.
                   </p>
                 </div>
-                <div className="bg-blue-50 rounded-lg p-6 border-2 border-blue-200">
+                <div className="bg-primary-50 rounded-lg p-6 border-2 border-blue-200">
                   <p className="text-slate-700 font-semibold mb-3">If you're upgrading to a heat pump:</p>
                   <ul className="space-y-2">
                     {[
@@ -669,7 +669,7 @@ export default function HiveThermostats() {
                       'We can advise on compatibility'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                         <span className="text-slate-700 text-sm">{item}</span>
                       </li>
                     ))}
@@ -691,7 +691,7 @@ export default function HiveThermostats() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <CheckCircle2 className="w-6 h-6 text-green-600" />
+                  <CheckCircle2 className="w-6 h-6 text-secondary" />
                   Hive Is Ideal If You:
                 </h3>
                 <ul className="space-y-3">
@@ -706,7 +706,7 @@ export default function HiveThermostats() {
                     'Use Alexa or Google Home'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -715,7 +715,7 @@ export default function HiveThermostats() {
 
               <div className="bg-orange-50 rounded-2xl p-8 border-2 border-orange-200 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                  <AlertTriangle className="w-6 h-6 text-orange-600" />
+                  <AlertTriangle className="w-6 h-6 text-accent" />
                   Hive May Not Be Suitable If:
                 </h3>
                 <ul className="space-y-3">
@@ -730,7 +730,7 @@ export default function HiveThermostats() {
                     'Budget is very tight'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <AlertTriangle className="w-5 h-5 text-orange-600 flex-shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
