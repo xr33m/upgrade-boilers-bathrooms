@@ -46,14 +46,18 @@ export default function Plumbing() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-8">
-              Our Plumbing Services
-            </h2>
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="inline-block px-4 py-1.5 bg-cyan-100 text-cyan-800 rounded-full text-sm font-semibold mb-4">Complete Solutions</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                Our Plumbing Services
+              </h2>
+              <p className="text-lg text-slate-600 max-w-2xl mx-auto">Professional plumbing solutions for every need, from emergency repairs to planned installations.</p>
+            </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
               <Link to="/plumbing/emergency-plumber" className="group bg-gradient-to-br from-slate-50 to-white p-6 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-slate-200 hover:border-red-500">
                 <AlertCircle className="w-12 h-12 text-red-600 mb-4 group-hover:scale-110 transition" />
                 <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 transition">Emergency Plumber</h3>
@@ -135,79 +139,93 @@ export default function Plumbing() {
                 <span className="text-cyan-600 font-semibold group-hover:underline">Learn more →</span>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Common Plumbing Problems We Fix
-            </h2>
-
-            <div className="space-y-4 mb-12">
-              <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Dripping Taps</h3>
-                  <p className="text-slate-600">Wasting water and money. We'll replace washers or entire taps to stop the drip.</p>
+      <section className="py-16 bg-slate-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <span className="inline-block px-4 py-1.5 bg-white/10 rounded-full text-sm font-semibold mb-4">Expert Solutions</span>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Common Plumbing Problems We Fix
+                </h2>
+                <p className="text-slate-300 mb-8">
+                  From minor annoyances to major emergencies, our experienced plumbers diagnose and repair all common plumbing issues quickly and effectively.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Dripping Taps</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Low Water Pressure</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Running Toilets</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Blocked Drains</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Water Hammer</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg">
+                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                    <span className="text-sm">Leaking Pipes</span>
+                  </div>
                 </div>
               </div>
-
-              <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Low Water Pressure</h3>
-                  <p className="text-slate-600">Diagnose and fix causes including limescale buildup, valve issues, and pipe problems.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Running Toilets</h3>
-                  <p className="text-slate-600">Fix faulty flush mechanisms, replace cistern parts, and stop water waste.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Blocked Sinks & Drains</h3>
-                  <p className="text-slate-600">Professional unblocking without damaging your pipes or fixtures.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Water Hammer Noise</h3>
-                  <p className="text-slate-600">Fix banging pipes by installing air chambers or pressure regulators.</p>
-                </div>
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl blur-2xl opacity-20"></div>
+                <img
+                  src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Professional plumber fixing pipes"
+                  className="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover"
+                />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Why Choose Our Plumbing Services?
-            </h2>
+      <section className="py-16 bg-gradient-to-b from-white to-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                Why Choose Our Plumbing Services?
+              </h2>
+            </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="group text-center p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:border-cyan-200 transition-all">
+                <div className="w-16 h-16 bg-gradient-to-br from-cyan-100 to-cyan-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
                   <AlertCircle className="w-8 h-8 text-cyan-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Fast Response</h3>
+                <h3 className="text-xl font-bold mb-3">Fast Response</h3>
                 <p className="text-slate-600">Same-day service available. Emergency plumbers on call 24/7.</p>
               </div>
 
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-primary" />
+              <div className="group text-center p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:border-blue-200 transition-all">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+                  <CheckCircle2 className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Fixed Right</h3>
+                <h3 className="text-xl font-bold mb-3">Fixed Right</h3>
                 <p className="text-slate-600">Permanent repairs, not temporary patches. 12 month guarantee.</p>
               </div>
 
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-secondary" />
+              <div className="group text-center p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:border-green-200 transition-all">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-green-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+                  <CheckCircle2 className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Clean & Tidy</h3>
+                <h3 className="text-xl font-bold mb-3">Clean & Tidy</h3>
                 <p className="text-slate-600">We protect your property and clean up thoroughly after every job.</p>
               </div>
             </div>
