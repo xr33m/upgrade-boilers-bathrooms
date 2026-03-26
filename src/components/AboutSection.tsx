@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import GasSafeInline from './GasSafeInline';
 
 export default function AboutSection() {
   return (
@@ -56,7 +55,7 @@ export default function AboutSection() {
                   With over 20 years of industry experience, Upgrade Boilers & Bathrooms delivers reliable plumbing, central heating and boiler services across Glasgow.
                 </p>
                 <p>
-                  From boiler repairs and servicing to full boiler replacements and bespoke bathroom renovations, our fully qualified <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span> engineers provide safe, efficient and high-quality workmanship on every job.
+                  From boiler repairs and servicing to full boiler replacements and bespoke bathroom renovations, our fully qualified Gas Safe registered engineers provide safe, efficient and high-quality workmanship on every job.
                 </p>
                 <p>
                   As a local Glasgow company, we understand the common plumbing and heating challenges in everything from traditional tenements to modern family homes — and we fix them properly.

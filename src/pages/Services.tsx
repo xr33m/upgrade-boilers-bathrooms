@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { Phone, Flame, Wrench, Droplet, Bath, UserCheck, Clock, Shield, ThermometerSun, Zap, Home, FileText } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
-import GasSafeInline from '../components/GasSafeInline';
 
 export default function Services() {
   const serviceCategories = [
@@ -150,7 +149,7 @@ export default function Services() {
               Our Complete Range of Services
             </h1>
             <p className="text-xl text-slate-300 mb-8">
-              Professional plumbing and heating services across Glasgow. <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers delivering quality workmanship with 12-month guarantees.
+              Professional plumbing and heating services across Glasgow. Gas Safe registered engineers delivering quality workmanship with 12-month guarantees.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a

@@ -6,7 +6,6 @@ import AnimatedProcessSection from '../components/AnimatedProcessSection';
 import FAQSection from '../components/FAQSection';
 import AreasWeCover from '../components/AreasWeCover';
 import { gasSafetyFaqs } from '../lib/links';
-import GasSafeInline from '../components/GasSafeInline';
 
 export default function GasSafetyCertificates() {
   return (
@@ -46,7 +45,7 @@ export default function GasSafetyCertificates() {
               Gas Safety Certificates Glasgow
             </h1>
             <p className="text-xl text-blue-100 mb-6">
-              CP12 Gas Safety Checks for Landlords. Protect your tenants and stay legally compliant with annual <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe</span> inspections. Fast appointments, same-day certificates, from £100.
+              CP12 Gas Safety Checks for Landlords. Protect your tenants and stay legally compliant with annual Gas Safe inspections. Fast appointments, same-day certificates, from £100.
             </p>
             <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
@@ -63,7 +62,7 @@ export default function GasSafetyCertificates() {
               What Is a CP12 Gas Safety Certificate?
             </h2>
             <p className="text-lg text-slate-700 mb-6">
-              A CP12 (Landlord Gas Safety Record) is a legal document issued after a <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span> engineer inspects all gas appliances in a rental property. Think of it like an MOT for your property's gas system.
+              A CP12 (Landlord Gas Safety Record) is a legal document issued after a Gas Safe registered engineer inspects all gas appliances in a rental property. Think of it like an MOT for your property's gas system.
             </p>
             <p className="text-lg text-slate-700 mb-8">
               It confirms that:

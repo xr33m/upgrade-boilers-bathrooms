@@ -22,7 +22,7 @@ export default function GasEngineer() {
               <GasSafeInline size="md" /> Gas Safe Registered Engineers Glasgow
             </h1>
             <p className="text-xl text-slate-700 mb-8">
-              Expert gas engineers for all your heating and gas appliance needs. Fully qualified, <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span>, and trusted by Glasgow homeowners for over 14 years.
+              Expert gas engineers for all your heating and gas appliance needs. Fully qualified, Gas Safe registered, and trusted by Glasgow homeowners for over 14 years.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
