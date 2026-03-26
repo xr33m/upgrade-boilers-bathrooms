@@ -6,6 +6,7 @@ import EnhancedProcessSection from '../components/EnhancedProcessSection';
 import FAQSection from '../components/FAQSection';
 import AreasWeCover from '../components/AreasWeCover';
 import { boilerInstallationFaqs } from '../lib/links';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function BoilerInstallation() {
   return (
@@ -52,14 +53,14 @@ export default function BoilerInstallation() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Boiler Installation & Replacement in Glasgow
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 font-semibold">
-              Gas Safe Registered Boiler Installers – Up to 12 Year Warranty Available
+            <p className="text-xl md:text-2xl text-blue-100 mb-8 font-semibold flex items-center gap-2 flex-wrap">
+              <GasSafeInline size="md" className="brightness-0 invert" /> Gas Safe Registered Boiler Installers – Up to 12 Year Warranty Available
             </p>
             <p className="text-lg text-blue-50 mb-8 leading-relaxed">
               Looking for a reliable boiler installation in Glasgow? Whether your current boiler has broken down beyond repair or you're upgrading to a more energy-efficient system, Upgrade Boilers & Bathrooms provides professional boiler replacements across Glasgow and surrounding areas.
             </p>
             <p className="text-lg text-blue-50 mb-8 leading-relaxed">
-              With over 20 years of experience, our fully qualified Gas Safe registered engineers install high-efficiency boilers safely, efficiently and in full compliance with UK regulations.
+              With over 20 years of experience, our fully qualified <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers install high-efficiency boilers safely, efficiently and in full compliance with UK regulations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-600 px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">

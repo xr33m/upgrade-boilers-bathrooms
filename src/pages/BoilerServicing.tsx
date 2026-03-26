@@ -5,6 +5,7 @@ import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import EnhancedProcessSection from '../components/EnhancedProcessSection';
 import FAQSection from '../components/FAQSection';
 import { boilerServicingFaqs } from '../lib/links';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function BoilerServicing() {
   return (
@@ -44,7 +45,7 @@ export default function BoilerServicing() {
               Annual Boiler Servicing in Glasgow
             </h1>
             <p className="text-xl text-green-100 mb-6">
-              Keep your boiler running safely and efficiently with our professional annual servicing. Gas Safe registered engineers, comprehensive checks, and competitive prices from £75.
+              Keep your boiler running safely and efficiently with our professional annual servicing. <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers, comprehensive checks, and competitive prices from £75.
             </p>
             <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary-600 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />

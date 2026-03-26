@@ -6,6 +6,7 @@ import ServicePageTemplate from '../components/ServicePageTemplate';
 import ProcessSection from '../components/ProcessSection';
 import RelatedServices from '../components/RelatedServices';
 import { boilerRepairsRelatedServices, boilerRepairsFaqs } from '../lib/links';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function BoilerRepairs() {
   return (
@@ -34,7 +35,7 @@ export default function BoilerRepairs() {
       <ServicePageTemplate
         hero={{
           title: "Emergency Boiler Repairs in Glasgow",
-          subtitle: "Fast, reliable boiler repairs from Gas Safe registered engineers. Available 24/7 for emergency breakdowns. Same-day appointments and 12 month guarantee on all repairs.",
+          subtitle: <span>Fast, reliable boiler repairs from <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers. Available 24/7 for emergency breakdowns. Same-day appointments and 12 month guarantee on all repairs.</span>,
           breadcrumbs: [
             { label: 'Home', href: '/' },
             { label: 'Boilers', href: '/boilers' },

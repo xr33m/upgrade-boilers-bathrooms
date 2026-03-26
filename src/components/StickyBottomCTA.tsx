@@ -1,7 +1,22 @@
+import { useState, useEffect } from 'react';
 import { Phone, FileText } from 'lucide-react';
 import { BUSINESS_INFO } from '../constants/business';
 
 export function StickyBottomCTA() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroHeight = window.innerHeight * 0.7;
+      setIsVisible(window.scrollY > heroHeight);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const handleCallClick = () => {
     window.location.href = `tel:${BUSINESS_INFO.phone.replace(/\s/g, '')}`;
   };
@@ -11,7 +26,7 @@ export function StickyBottomCTA() {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-primary to-primary-700 shadow-2xl border-t-2 border-secondary backdrop-blur-sm">
+    <div className={`fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-primary to-primary-700 shadow-2xl border-t-2 border-secondary backdrop-blur-sm transition-transform duration-300 ease-out ${isVisible ? 'translate-y-0' : 'translate-y-full'}`}>
       <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
         <div className="flex items-center justify-center gap-3 sm:gap-4">
           <button

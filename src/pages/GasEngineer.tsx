@@ -3,6 +3,7 @@ import { CheckCircle2, Phone, Shield, Wrench, Clock, Award } from 'lucide-react'
 import SEO from '../components/SEO';
 import { BUSINESS_INFO } from '../constants/business';
 import GasSafeBadge from '../components/GasSafeBadge';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function GasEngineer() {
   return (
@@ -17,11 +18,11 @@ export default function GasEngineer() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <GasSafeBadge />
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Gas Safe Registered Engineers Glasgow
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 flex items-center justify-center gap-3">
+              <GasSafeInline size="md" /> Gas Safe Registered Engineers Glasgow
             </h1>
             <p className="text-xl text-slate-700 mb-8">
-              Expert gas engineers for all your heating and gas appliance needs. Fully qualified, Gas Safe registered, and trusted by Glasgow homeowners for over 14 years.
+              Expert gas engineers for all your heating and gas appliance needs. Fully qualified, <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span>, and trusted by Glasgow homeowners for over 14 years.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -50,7 +51,7 @@ export default function GasEngineer() {
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-lg font-bold mb-2">Gas Safe Registered</h3>
+                <h3 className="text-lg font-bold mb-2 flex items-center justify-center gap-1.5"><GasSafeInline size="sm" /> Gas Safe Registered</h3>
                 <p className="text-slate-600 text-sm">All engineers fully qualified and registered</p>
               </div>
 

@@ -3,6 +3,7 @@ import { Phone, Thermometer, Wind, Wrench, CheckCircle2, Flame, Droplets, Zap, C
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import GasSafeBadge from '../components/GasSafeBadge';
+import GasSafeInline from '../components/GasSafeInline';
 import EnhancedProcessSection from '../components/EnhancedProcessSection';
 import RelatedServices from '../components/RelatedServices';
 import { heatingRelatedServices } from '../lib/links';
@@ -227,8 +228,8 @@ export default function Heating() {
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                 <GasSafeBadge size="medium" />
                 <div className="text-center md:text-left">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Gas Safe Registered Engineers</h3>
-                  <p className="text-slate-700">All heating work carried out by fully qualified, Gas Safe registered professionals. Your safety is our priority.</p>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2"><GasSafeInline size="md" /> Gas Safe Registered Engineers</h3>
+                  <p className="text-slate-700">All heating work carried out by fully qualified, <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span> professionals. Your safety is our priority.</p>
                 </div>
               </div>
             </div>

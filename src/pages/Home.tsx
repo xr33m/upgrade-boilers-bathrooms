@@ -9,6 +9,7 @@ import AboutSection from '../components/AboutSection';
 import FAQSection from '../components/FAQSection';
 import ReviewsSection from '../components/ReviewsSection';
 import { AnimatedSection, FadeIn } from '../components/AnimatedSection';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function Home() {
   return (
@@ -52,7 +53,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-lg md:text-xl text-white mb-6 md:mb-8 max-w-xl leading-relaxed">
-                  Providing professional plumbing repairs, boiler servicing, emergency call-outs and bathroom plumbing across Glasgow and surrounding areas. Gas Safe registered engineers delivering fast response times and guaranteed workmanship.
+                  Providing professional plumbing repairs, boiler servicing, emergency call-outs and bathroom plumbing across Glasgow and surrounding areas. <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers delivering fast response times and guaranteed workmanship.
                 </p>
 
                 <div className="flex flex-col gap-3 mb-8 md:hidden">
@@ -133,7 +134,7 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-primary transition">Boiler Services</h3>
-                  <p className="text-gray-700 text-sm mb-3">Professional boiler installation, servicing, repairs and maintenance. Gas Safe registered engineers ensure your heating system runs efficiently and safely.</p>
+                  <p className="text-gray-700 text-sm mb-3">Professional boiler installation, servicing, repairs and maintenance. <span className="inline-flex items-center gap-1"><GasSafeInline size="xs" /> Gas Safe registered</span> engineers ensure your heating system runs efficiently and safely.</p>
                   <div className="flex items-center text-primary font-semibold text-sm gap-1 group-hover:gap-2 transition-all">
                     Learn More
                     <ArrowRight className="w-4 h-4" />

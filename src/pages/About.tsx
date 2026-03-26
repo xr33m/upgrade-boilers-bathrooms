@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Phone, Award, Shield, Users, Clock, CheckCircle2 } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function About() {
   return (
@@ -46,7 +47,7 @@ export default function About() {
                 Over the past 14 years, we've grown from a small local business to become one of Glasgow's most trusted names in plumbing and heating. Our success is built on a foundation of quality workmanship, exceptional customer service, and a commitment to doing the job right the first time.
               </p>
               <p>
-                Today, we're proud to serve thousands of satisfied customers across Glasgow and the surrounding areas. Whether it's a routine boiler service, an emergency plumbing repair, or a complete bathroom installation, our Gas Safe registered engineers bring the same level of professionalism and expertise to every job.
+                Today, we're proud to serve thousands of satisfied customers across Glasgow and the surrounding areas. Whether it's a routine boiler service, an emergency plumbing repair, or a complete bathroom installation, our <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe registered</span> engineers bring the same level of professionalism and expertise to every job.
               </p>
             </div>
 
@@ -86,7 +87,7 @@ export default function About() {
                       <Shield className="w-full h-full text-primary" />
                     </div>
                     <div className="mt-5 space-y-2">
-                      <h3 className="text-lg md:text-xl font-bold text-slate-900">Gas Safe Registered</h3>
+                      <h3 className="text-lg md:text-xl font-bold text-slate-900 flex items-center gap-2"><GasSafeInline size="md" /> Gas Safe Registered</h3>
                       <p className="text-sm md:text-base text-slate-600 leading-relaxed">All our engineers are Gas Safe registered and fully qualified to ensure your complete safety and compliance.</p>
                     </div>
                   </div>

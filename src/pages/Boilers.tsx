@@ -3,6 +3,7 @@ import { Phone, Wrench, ClipboardCheck, FileText, AlertCircle } from 'lucide-rea
 import SEO, { generateLocalBusinessSchema, generateServiceSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import GasSafeBadge from '../components/GasSafeBadge';
+import GasSafeInline from '../components/GasSafeInline';
 import RelatedServices from '../components/RelatedServices';
 import { boilerRelatedServices } from '../lib/links';
 
@@ -36,7 +37,7 @@ export default function Boilers() {
               Professional Boiler Services in Glasgow
             </h1>
             <p className="text-xl text-blue-100 mb-6">
-              Expert boiler installation, repairs, servicing and maintenance by Gas Safe registered engineers. Serving Glasgow homes and businesses with reliable, efficient heating solutions.
+              Expert boiler installation, repairs, servicing and maintenance by <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers. Serving Glasgow homes and businesses with reliable, efficient heating solutions.
             </p>
             <a href={`tel:${BUSINESS_INFO.phone}`} className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition">
               <Phone className="w-6 h-6" />
@@ -53,7 +54,7 @@ export default function Boilers() {
               Complete Boiler Solutions for Your Home
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              From new installations to emergency repairs, we provide comprehensive boiler services backed by Gas Safe certification and years of experience
+              From new installations to emergency repairs, we provide comprehensive boiler services backed by <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" /> Gas Safe</span> certification and years of experience
             </p>
           </div>
 
@@ -182,7 +183,7 @@ export default function Boilers() {
                     <GasSafeBadge size="small" showText={false} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Gas Safe Registered</h3>
+                    <h3 className="text-xl font-bold mb-2 flex items-center gap-2"><GasSafeInline size="md" /> Gas Safe Registered</h3>
                     <p className="text-slate-600">All our engineers are Gas Safe registered and fully qualified to work on your boiler safely and legally.</p>
                   </div>
                 </div>

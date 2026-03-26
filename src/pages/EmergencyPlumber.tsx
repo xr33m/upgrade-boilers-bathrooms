@@ -6,6 +6,7 @@ import { BUSINESS_INFO, DOMAIN } from '../constants/business';
 import ServicePageTemplate from '../components/ServicePageTemplate';
 import RelatedServices from '../components/RelatedServices';
 import { emergencyPlumberRelatedServices, emergencyPlumberFaqs } from '../lib/links';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function EmergencyPlumber() {
   return (
@@ -35,7 +36,7 @@ export default function EmergencyPlumber() {
         hero={{
           title: "Emergency Plumber Glasgow",
           subtitle: "24/7 Emergency Plumbing & Heating Engineers – Rapid Response Across Greater Glasgow",
-          description: "Plumbing and heating emergencies can cause serious damage within minutes. Whether it's a burst pipe flooding your property, a boiler breakdown in freezing weather, or a suspected gas leak, immediate professional intervention is critical. Upgrade Boilers & Bathrooms provides rapid response emergency plumbing services in Glasgow, delivered by fully qualified, Gas Safe registered engineers with over 20 years of experience.",
+          description: <span>Plumbing and heating emergencies can cause serious damage within minutes. Whether it's a burst pipe flooding your property, a boiler breakdown in freezing weather, or a suspected gas leak, immediate professional intervention is critical. Upgrade Boilers & Bathrooms provides rapid response emergency plumbing services in Glasgow, delivered by fully qualified, <span className="inline-flex items-center gap-1"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers with over 20 years of experience.</span>,
           breadcrumbs: [
             { label: 'Home', href: '/' },
             { label: 'Plumbing', href: '/plumbing' },

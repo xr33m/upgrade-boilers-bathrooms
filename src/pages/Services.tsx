@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Phone, Flame, Wrench, Droplet, Bath, UserCheck, Clock, Shield, ThermometerSun, Zap, Home, FileText } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function Services() {
   const serviceCategories = [
@@ -149,7 +150,7 @@ export default function Services() {
               Our Complete Range of Services
             </h1>
             <p className="text-xl text-slate-300 mb-8">
-              Professional plumbing and heating services across Glasgow. Gas Safe registered engineers delivering quality workmanship with 12-month guarantees.
+              Professional plumbing and heating services across Glasgow. <span className="inline-flex items-center gap-1.5"><GasSafeInline size="sm" className="brightness-0 invert" /> Gas Safe registered</span> engineers delivering quality workmanship with 12-month guarantees.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -252,9 +253,9 @@ export default function Services() {
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-slate-900">Gas Safe Registered</h3>
+                <h3 className="text-xl font-bold mb-3 text-slate-900 flex items-center justify-center gap-2"><GasSafeInline size="md" /> Gas Safe Registered</h3>
                 <p className="text-slate-600">
-                  All our engineers are fully Gas Safe registered and hold relevant industry qualifications.
+                  All our engineers are fully <span className="inline-flex items-center gap-1"><GasSafeInline size="xs" /> Gas Safe registered</span> and hold relevant industry qualifications.
                 </p>
               </div>
 

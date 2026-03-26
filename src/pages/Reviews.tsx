@@ -4,6 +4,7 @@ import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema, generateRev
 import { reviews as staticReviews } from '../data/reviews';
 import { DOMAIN } from '../constants/business';
 import { TestimonialsSection } from '../components/TestimonialsSection';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function Reviews() {
   const [reviews] = useState(staticReviews);
@@ -72,7 +73,7 @@ export default function Reviews() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-slate-900 mb-2">Expert Engineers</h3>
-                  <p className="text-slate-600">Gas Safe registered with years of experience. Every job completed to the highest standards with guarantees.</p>
+                  <p className="text-slate-600"><span className="inline-flex items-center gap-1"><GasSafeInline size="xs" /> Gas Safe registered</span> with years of experience. Every job completed to the highest standards with guarantees.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-slate-900 mb-2">Honest Pricing</h3>
