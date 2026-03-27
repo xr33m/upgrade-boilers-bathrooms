@@ -80,7 +80,7 @@ export default function Navigation() {
 
               <div className="py-1" />
 
-              <div className="py-3 px-4 text-secondary font-semibold text-lg">Boilers</div>
+              <Link to="/boilers" className="py-3 px-4 text-secondary font-semibold text-lg hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Boilers</Link>
               <Link to="/boilers/installation" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Boiler Installation</Link>
               <Link to="/boilers/servicing" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Boiler Servicing</Link>
               <Link to="/boilers/service-plans" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Service Plans</Link>
@@ -88,7 +88,7 @@ export default function Navigation() {
 
               <div className="py-1" />
 
-              <div className="py-3 px-4 text-secondary font-semibold text-lg">Heating</div>
+              <Link to="/heating" className="py-3 px-4 text-secondary font-semibold text-lg hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Heating</Link>
               <Link to="/heating/boiler-cover" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Boiler Cover</Link>
               <Link to="/boilers/repairs" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Boiler Repair</Link>
               <Link to="/heating/gas-engineer" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Gas Engineer</Link>
@@ -102,7 +102,7 @@ export default function Navigation() {
 
               <div className="py-1" />
 
-              <div className="py-3 px-4 text-secondary font-semibold text-lg">Plumbing</div>
+              <Link to="/plumbing" className="py-3 px-4 text-secondary font-semibold text-lg hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Plumbing</Link>
               <Link to="/plumbing/emergency-plumber" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Emergency Plumber</Link>
               <Link to="/plumbing/plumber-repairs" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Plumber Repairs</Link>
               <Link to="/plumbing/tap-repairs" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Tap Repairs</Link>
@@ -125,7 +125,7 @@ export default function Navigation() {
 
               <div className="py-1" />
 
-              <div className="py-3 px-4 text-secondary font-semibold text-lg">Areas Served</div>
+              <Link to="/areas-served" className="py-3 px-4 text-secondary font-semibold text-lg hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Areas Served</Link>
               <div className="grid grid-cols-2 gap-1 px-4">
                 {areas.map((area) => (
                   <Link
@@ -141,7 +141,7 @@ export default function Navigation() {
 
               <div className="py-1" />
 
-              <div className="py-3 px-4 text-secondary font-semibold text-lg">Landlords</div>
+              <Link to="/landlords" className="py-3 px-4 text-secondary font-semibold text-lg hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Landlords</Link>
               <Link to="/landlords/gas-safety-certificates" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Gas Safety Certificates</Link>
               <Link to="/landlords/lead-testing" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Lead Testing</Link>
               <Link to="/landlords/legionella-risk-assessments" className="py-2 pl-8 text-white hover:text-secondary hover:translate-x-2 transition-all duration-300 ease-out" onClick={() => setIsOpen(false)}>Legionella Risk Assessments</Link>
