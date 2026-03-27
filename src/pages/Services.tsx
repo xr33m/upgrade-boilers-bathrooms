@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Phone, Flame, Wrench, Droplet, Bath, UserCheck, Clock, Shield, ThermometerSun, Zap, Home, FileText } from 'lucide-react';
+import { Phone, Flame, Wrench, Droplet, Bath, UserCheck, Clock, Shield, FileText } from 'lucide-react';
 import SEO, { generateLocalBusinessSchema, generateBreadcrumbSchema } from '../components/SEO';
 import { BUSINESS_INFO, DOMAIN } from '../constants/business';
+import GasSafeInline from '../components/GasSafeInline';
 
 export default function Services() {
   const serviceCategories = [
