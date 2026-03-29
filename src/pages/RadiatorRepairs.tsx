@@ -1,7 +1,43 @@
 import { Link } from 'react-router-dom';
 import { Phone, Wind, CheckCircle2, Wrench, Droplets, ThermometerSun, AlertCircle, Zap, MapPin, Droplet, TrendingUp, AlertTriangle } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
+
+const radiatorFaqs = [
+  {
+    question: 'Why is my radiator cold at the bottom?',
+    answer: 'This is usually caused by sludge build-up inside the radiator. Cold water at the bottom prevents hot water from circulating properly. System cleaning, magnetic filter installation, or radiator replacement may be required.'
+  },
+  {
+    question: 'Can I bleed my radiator myself?',
+    answer: "Yes, you can bleed a radiator yourself, but always turn the heating off first and wait for the system to cool. You'll need a radiator bleed key. However, if multiple radiators need bleeding or the system keeps losing pressure, call a professional."
+  },
+  {
+    question: 'How long do radiators last?',
+    answer: 'Typically 15–25 years depending on water quality and system maintenance. Well-maintained radiators with proper inhibitor levels can last 20+ years.'
+  },
+  {
+    question: 'Should I replace or flush my system?',
+    answer: 'Depends on condition. We assess the system before recommending. If sludge is localized, flushing may work. If radiators are heavily corroded or multiple replacements are needed, replacement is often more cost-effective.'
+  },
+  {
+    question: 'Can I paint my radiator?',
+    answer: 'Yes, you can paint radiators with radiator-specific paint. Regular paint can flake off with heat. Use a primer first and choose heat-resistant enamel paint for best results.'
+  },
+  {
+    question: 'What is a thermostatic radiator valve (TRV)?',
+    answer: 'A TRV is a smart valve that automatically controls the temperature of individual radiators. When the room reaches the desired temperature, the valve closes slightly to reduce flow. This saves energy and improves comfort.'
+  },
+  {
+    question: 'Do I need TRVs on every radiator?',
+    answer: 'No. One radiator (usually the hallway) should remain without a TRV to act as a bypass and protect boiler pressure. All other radiators can have TRVs for temperature control.'
+  },
+  {
+    question: 'Why is my radiator leaking?',
+    answer: 'Common causes include corroded radiator panels, faulty valves, loose fittings, or damaged joints. Small leaks may be repairable, but large leaks usually require radiator or valve replacement.'
+  }
+];
 
 export default function RadiatorRepairs() {
   return (
@@ -821,57 +857,11 @@ export default function RadiatorRepairs() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Radiator Repairs Glasgow – FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'Why is my radiator cold at the bottom?',
-                  answer: 'This is usually caused by sludge build-up inside the radiator. Cold water at the bottom prevents hot water from circulating properly. System cleaning, magnetic filter installation, or radiator replacement may be required.'
-                },
-                {
-                  question: 'Can I bleed my radiator myself?',
-                  answer: 'Yes, you can bleed a radiator yourself, but always turn the heating off first and wait for the system to cool. You\'ll need a radiator bleed key. However, if multiple radiators need bleeding or the system keeps losing pressure, call a professional.'
-                },
-                {
-                  question: 'How long do radiators last?',
-                  answer: 'Typically 15–25 years depending on water quality and system maintenance. Well-maintained radiators with proper inhibitor levels can last 20+ years.'
-                },
-                {
-                  question: 'Should I replace or flush my system?',
-                  answer: 'Depends on condition. We assess the system before recommending. If sludge is localized, flushing may work. If radiators are heavily corroded or multiple replacements are needed, replacement is often more cost-effective.'
-                },
-                {
-                  question: 'Can I paint my radiator?',
-                  answer: 'Yes, you can paint radiators with radiator-specific paint. Regular paint can flake off with heat. Use a primer first and choose heat-resistant enamel paint for best results.'
-                },
-                {
-                  question: 'What is a thermostatic radiator valve (TRV)?',
-                  answer: 'A TRV is a smart valve that automatically controls the temperature of individual radiators. When the room reaches the desired temperature, the valve closes slightly to reduce flow. This saves energy and improves comfort.'
-                },
-                {
-                  question: 'Do I need TRVs on every radiator?',
-                  answer: 'No. One radiator (usually the hallway) should remain without a TRV to act as a bypass and protect boiler pressure. All other radiators can have TRVs for temperature control.'
-                },
-                {
-                  question: 'Why is my radiator leaking?',
-                  answer: 'Common causes include corroded radiator panels, faulty valves, loose fittings, or damaged joints. Small leaks may be repairable, but large leaks usually require radiator or valve replacement.'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-slate-50 p-8 rounded-lg shadow-lg border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={radiatorFaqs}
+        title="Radiator Repairs Glasgow – FAQs"
+        description="Common questions about radiator repairs, maintenance, and installation in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">

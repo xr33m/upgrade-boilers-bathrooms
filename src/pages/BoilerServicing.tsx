@@ -428,7 +428,6 @@ export default function BoilerServicing() {
         faqs={boilerServicingFaqs}
         title="Boiler Servicing Glasgow – FAQs"
         description="Common questions about annual boiler maintenance, costs, and why regular servicing is important."
-        imageUrl="https://images.pexels.com/photos/8092390/pexels-photo-8092390.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
     </>
   );

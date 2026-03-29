@@ -2,7 +2,43 @@ import { Link } from 'react-router-dom';
 import { Phone, Wind, CheckCircle2, Zap, TrendingDown, Leaf, AlertCircle, Home, Gauge, Droplet, Award } from 'lucide-react';
 import SEO from '../components/SEO';
 import AreasWeCover from '../components/AreasWeCover';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
+
+const heatPumpFaqs = [
+  {
+    question: 'Do heat pumps work in cold weather?',
+    answer: 'Yes — modern systems operate effectively in Scottish winter temperatures. Air source heat pumps can extract usable heat even when outdoor temperatures are well below freezing.'
+  },
+  {
+    question: 'How long does installation take?',
+    answer: 'Typically 3–4 days depending on property size and system requirements. We keep disruption to a minimum and work efficiently to get your system running.'
+  },
+  {
+    question: 'Do heat pumps replace boilers?',
+    answer: 'In many cases, yes. They can fully replace gas boilers when correctly designed for your home. We assess this during your survey.'
+  },
+  {
+    question: 'Do heat pumps need servicing?',
+    answer: 'Yes — annual servicing keeps performance high and warranties valid. Like any mechanical system, regular maintenance ensures reliability and longevity.'
+  },
+  {
+    question: 'Will my radiators need upgrading?',
+    answer: 'Possibly. Heat pumps operate at lower temperatures than gas boilers. We assess this during your survey and advise on any upgrades needed.'
+  },
+  {
+    question: 'How much does a heat pump installation cost?',
+    answer: 'Costs vary depending on your property, existing system, and size. Government grants of up to £7,500 are available. We provide clear quotations after a survey.'
+  },
+  {
+    question: 'Can I get a grant for a heat pump?',
+    answer: 'Yes. The Boiler Upgrade Scheme (BUS) provides up to £7,500 towards installation. We can guide you through the application process.'
+  },
+  {
+    question: 'How long do heat pumps last?',
+    answer: 'Well-maintained heat pumps typically last 20–25 years, significantly longer than traditional boilers (10–15 years).'
+  }
+];
 
 export default function AirSourceHeatPumps() {
   return (
@@ -601,57 +637,11 @@ export default function AirSourceHeatPumps() {
         bgColor="white"
       />
 
-      <section className="py-12 md:py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Heat Pump FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'Do heat pumps work in cold weather?',
-                  answer: 'Yes — modern systems operate effectively in Scottish winter temperatures. Air source heat pumps can extract usable heat even when outdoor temperatures are well below freezing.'
-                },
-                {
-                  question: 'How long does installation take?',
-                  answer: 'Typically 3–4 days depending on property size and system requirements. We keep disruption to a minimum and work efficiently to get your system running.'
-                },
-                {
-                  question: 'Do heat pumps replace boilers?',
-                  answer: 'In many cases, yes. They can fully replace gas boilers when correctly designed for your home. We assess this during your survey.'
-                },
-                {
-                  question: 'Do heat pumps need servicing?',
-                  answer: 'Yes — annual servicing keeps performance high and warranties valid. Like any mechanical system, regular maintenance ensures reliability and longevity.'
-                },
-                {
-                  question: 'Will my radiators need upgrading?',
-                  answer: 'Possibly. Heat pumps operate at lower temperatures than gas boilers. We assess this during your survey and advise on any upgrades needed.'
-                },
-                {
-                  question: 'How much does a heat pump installation cost?',
-                  answer: 'Costs vary depending on your property, existing system, and size. Government grants of up to £7,500 are available. We provide clear quotations after a survey.'
-                },
-                {
-                  question: 'Can I get a grant for a heat pump?',
-                  answer: 'Yes. The Boiler Upgrade Scheme (BUS) provides up to £7,500 towards installation. We can guide you through the application process.'
-                },
-                {
-                  question: 'How long do heat pumps last?',
-                  answer: 'Well-maintained heat pumps typically last 20–25 years, significantly longer than traditional boilers (10–15 years).'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={heatPumpFaqs}
+        title="Heat Pump FAQs"
+        description="Common questions about air source heat pump installation, costs, and renewable heating in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-green-900 text-white">
         <div className="container mx-auto px-4 text-center">

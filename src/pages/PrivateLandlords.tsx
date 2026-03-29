@@ -749,7 +749,6 @@ export default function PrivateLandlords() {
         faqs={privateLandlordsFaqs}
         title="Private Landlord Services FAQ"
         description="Common questions about landlord compliance, safety certifications, emergency repairs, and our Landlord Promise."
-        imageUrl="https://images.pexels.com/photos/8961819/pexels-photo-8961819.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
     </>
   );

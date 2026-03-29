@@ -1,7 +1,43 @@
 import { Link } from 'react-router-dom';
 import { Phone, Droplets, CheckCircle2, AlertTriangle, MapPin, Clipboard, Beaker, Shield, Home, FileText, AlertCircle, Wrench } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
+
+const leadTestingFaqs = [
+  {
+    question: 'Is lead testing mandatory for landlords?',
+    answer: 'Yes — landlords must ensure the water supply is free from lead and safe under the Scottish Repairing Standard. This is a legal requirement, not optional.'
+  },
+  {
+    question: 'What if my result is under 10 µg/L?',
+    answer: 'Even if results are below 10 µg/L, you must still remove all lead components (pipes, tanks, fittings) from the system. The law requires elimination of lead sources, not just test results below the limit.'
+  },
+  {
+    question: 'How long does the testing process take?',
+    answer: 'Typically 1–2 visits depending on sample collection timing. Visit 1 is inspection, then you leave the bottle for 12 hours standing water, then Visit 2 collects the sample. Lab results typically return in 5–7 days.'
+  },
+  {
+    question: 'Can homeowners test for peace of mind?',
+    answer: "Yes — many homeowners choose lead testing for reassurance about their drinking water quality. You don't need to be a landlord to request testing."
+  },
+  {
+    question: 'Do you replace lead pipes?',
+    answer: 'Yes — if lead is identified or present, we provide professional lead pipe replacement and upgrade to compliant WRAS-approved materials. We handle everything.'
+  },
+  {
+    question: 'How much does lead pipe replacement cost?',
+    answer: 'Replacement costs depend on the extent of lead pipework. We provide fixed quotations after inspection. Contact us for an estimate tailored to your property.'
+  },
+  {
+    question: 'Will my property fail inspection if lead is found?',
+    answer: "Lead discovery doesn't mean failure — it means remediation is required. Once pipes are replaced and re-tested below limits, your property will be compliant."
+  },
+  {
+    question: 'Is WaterSafe approval important?',
+    answer: 'Yes — WaterSafe approval ensures the plumber meets strict industry standards, complies with water regulations, and your testing/documentation is recognized by authorities and water companies.'
+  }
+];
 
 export default function LeadTesting() {
   return (
@@ -601,57 +637,11 @@ export default function LeadTesting() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Lead Testing FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'Is lead testing mandatory for landlords?',
-                  answer: 'Yes — landlords must ensure the water supply is free from lead and safe under the Scottish Repairing Standard. This is a legal requirement, not optional.'
-                },
-                {
-                  question: 'What if my result is under 10 µg/L?',
-                  answer: 'Even if results are below 10 µg/L, you must still remove all lead components (pipes, tanks, fittings) from the system. The law requires elimination of lead sources, not just test results below the limit.'
-                },
-                {
-                  question: 'How long does the testing process take?',
-                  answer: 'Typically 1–2 visits depending on sample collection timing. Visit 1 is inspection, then you leave the bottle for 12 hours standing water, then Visit 2 collects the sample. Lab results typically return in 5–7 days.'
-                },
-                {
-                  question: 'Can homeowners test for peace of mind?',
-                  answer: 'Yes — many homeowners choose lead testing for reassurance about their drinking water quality. You don\'t need to be a landlord to request testing.'
-                },
-                {
-                  question: 'Do you replace lead pipes?',
-                  answer: 'Yes — if lead is identified or present, we provide professional lead pipe replacement and upgrade to compliant WRAS-approved materials. We handle everything.'
-                },
-                {
-                  question: 'How much does lead pipe replacement cost?',
-                  answer: 'Replacement costs depend on the extent of lead pipework. We provide fixed quotations after inspection. Contact us for an estimate tailored to your property.'
-                },
-                {
-                  question: 'Will my property fail inspection if lead is found?',
-                  answer: 'Lead discovery doesn\'t mean failure — it means remediation is required. Once pipes are replaced and re-tested below limits, your property will be compliant.'
-                },
-                {
-                  question: 'Is WaterSafe approval important?',
-                  answer: 'Yes — WaterSafe approval ensures the plumber meets strict industry standards, complies with water regulations, and your testing/documentation is recognized by authorities and water companies.'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={leadTestingFaqs}
+        title="Lead Testing FAQs"
+        description="Common questions about lead water testing, landlord requirements, and pipe replacement in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">

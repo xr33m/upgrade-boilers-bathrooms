@@ -1,7 +1,43 @@
 import { Link } from 'react-router-dom';
 import { Phone, Smartphone, Wifi, Zap, Home, Gauge, AlertCircle, CheckCircle2, AlertTriangle, Wrench, MapPin, Lock, Battery, Droplets } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
+
+const hiveFaqs = [
+  {
+    question: 'Can I install Hive myself?',
+    answer: "It's possible if you're experienced with boiler wiring, but professional installation ensures safe electrical work and optimal performance. We recommend professional installation."
+  },
+  {
+    question: 'Why has my Hive lost connection?',
+    answer: 'Common causes include router changes, WiFi dropouts, hub disconnection, power cycling, or broadband outages. We can diagnose and fix these issues quickly.'
+  },
+  {
+    question: 'Does Hive control individual radiators?',
+    answer: 'Only if Hive TRVs (smart radiator valves) are installed on each radiator you want to control. The main thermostat controls overall heating and hot water.'
+  },
+  {
+    question: 'Will Hive work with older boilers?',
+    answer: 'In most cases, yes — even with boilers 15+ years old. However, some very old or non-standard systems may not be compatible. We assess compatibility beforehand.'
+  },
+  {
+    question: 'Does Hive need internet to work?',
+    answer: 'Yes — broadband is required for full smart functionality. However, basic heating control continues if the WiFi connection is lost temporarily.'
+  },
+  {
+    question: 'What happens if my WiFi goes down?',
+    answer: 'Your heating will continue on its last set schedule. Once WiFi is restored, Hive automatically reconnects and syncs. No loss of heating during outages.'
+  },
+  {
+    question: 'Can Hive reduce my heating bills?',
+    answer: 'Yes — by preventing unnecessary heating, scheduling accurately, and using geolocation to turn heating off when you leave. Savings depend on your habits and home. Typical savings are £50–£110/year.'
+  },
+  {
+    question: 'Is Hive compatible with voice assistants?',
+    answer: 'Yes — Hive works with Amazon Alexa and Google Assistant. You can control heating with voice commands like "Alexa, set heating to 21 degrees."'
+  }
+];
 
 export default function HiveThermostats() {
   return (
@@ -777,57 +813,11 @@ export default function HiveThermostats() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Hive Thermostat FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'Can I install Hive myself?',
-                  answer: 'It\'s possible if you\'re experienced with boiler wiring, but professional installation ensures safe electrical work and optimal performance. We recommend professional installation.'
-                },
-                {
-                  question: 'Why has my Hive lost connection?',
-                  answer: 'Common causes include router changes, WiFi dropouts, hub disconnection, power cycling, or broadband outages. We can diagnose and fix these issues quickly.'
-                },
-                {
-                  question: 'Does Hive control individual radiators?',
-                  answer: 'Only if Hive TRVs (smart radiator valves) are installed on each radiator you want to control. The main thermostat controls overall heating and hot water.'
-                },
-                {
-                  question: 'Will Hive work with older boilers?',
-                  answer: 'In most cases, yes — even with boilers 15+ years old. However, some very old or non-standard systems may not be compatible. We assess compatibility beforehand.'
-                },
-                {
-                  question: 'Does Hive need internet to work?',
-                  answer: 'Yes — broadband is required for full smart functionality. However, basic heating control continues if the WiFi connection is lost temporarily.'
-                },
-                {
-                  question: 'What happens if my WiFi goes down?',
-                  answer: 'Your heating will continue on its last set schedule. Once WiFi is restored, Hive automatically reconnects and syncs. No loss of heating during outages.'
-                },
-                {
-                  question: 'Can Hive reduce my heating bills?',
-                  answer: 'Yes — by preventing unnecessary heating, scheduling accurately, and using geolocation to turn heating off when you leave. Savings depend on your habits and home. Typical savings are £50–£110/year.'
-                },
-                {
-                  question: 'Is Hive compatible with voice assistants?',
-                  answer: 'Yes — Hive works with Amazon Alexa and Google Assistant. You can control heating with voice commands like "Alexa, set heating to 21 degrees."'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={hiveFaqs}
+        title="Hive Thermostat FAQs"
+        description="Common questions about Hive smart thermostat installation, setup, and troubleshooting in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-emerald-900 text-white">
         <div className="container mx-auto px-4 text-center">

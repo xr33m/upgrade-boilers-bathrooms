@@ -660,7 +660,6 @@ export default function GasSafetyCertificates() {
         faqs={gasSafetyFaqs}
         title="CP12 Gas Safety FAQ – Glasgow"
         description="Answers to common questions about landlord gas safety certificates, requirements, and what to expect."
-        imageUrl="https://images.pexels.com/photos/3994899/pexels-photo-3994899.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
     </>
   );

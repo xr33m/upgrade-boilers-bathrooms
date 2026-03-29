@@ -369,7 +369,6 @@ export default function BoilerInstallation() {
         faqs={boilerInstallationFaqs}
         title="Boiler Installation Glasgow – FAQs"
         description="Common questions about boiler installation, warranties, financing, and our installation process."
-        imageUrl="https://images.pexels.com/photos/5691624/pexels-photo-5691624.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
 
       <EnhancedProcessSection

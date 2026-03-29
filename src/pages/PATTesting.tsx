@@ -653,7 +653,6 @@ export default function PATTesting() {
         faqs={patTestingFaqs}
         title="PAT Testing FAQ – Glasgow"
         description="Common questions about portable appliance testing, landlord responsibilities, and electrical safety compliance."
-        imageUrl="https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
     </>
   );

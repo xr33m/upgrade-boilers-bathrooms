@@ -1,7 +1,43 @@
 import { Link } from 'react-router-dom';
 import { Phone, Droplets, AlertCircle, CheckCircle2, AlertTriangle, Zap, Clock, DollarSign, Shield, Wrench, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
+
+const powerFlushingFaqs = [
+  {
+    question: 'How do I know if I need a power flush?',
+    answer: 'Cold spots, noisy pipes, discoloured water when bleeding radiators, and slow heat-up times are strong indicators that your system needs a power flush. We can assess your system with a free consultation.'
+  },
+  {
+    question: 'Is power flushing messy?',
+    answer: 'No — we use controlled equipment and protect surrounding areas. Your home remains clean throughout the process. We manage water disposal responsibly.'
+  },
+  {
+    question: 'Will it fix all heating problems?',
+    answer: 'If contamination is the cause, yes. However, if mechanical components like the pump or thermostat are faulty, additional work may be required. We diagnose the root cause first.'
+  },
+  {
+    question: 'How long do results last?',
+    answer: "With inhibitor treatment and proper maintenance, many years. Most systems don't require another power flush for 5–10 years if looked after with annual inhibitor top-ups."
+  },
+  {
+    question: 'Do I need a magnetic filter after power flushing?',
+    answer: 'Yes, we strongly recommend installing one. A magnetic filter captures residual sludge and protects your boiler for years to come. Many manufacturers now require them for warranty coverage.'
+  },
+  {
+    question: 'Can power flushing damage my boiler?',
+    answer: "No. Power flushing removes harmful sludge that damages boilers. By removing contamination, you're protecting your boiler investment. We assess compatibility beforehand."
+  },
+  {
+    question: 'Should I power flush before a new boiler installation?',
+    answer: 'Absolutely. Installing a new boiler into a contaminated system risks early failure and warranty voidance. We recommend flushing before any new boiler installation.'
+  },
+  {
+    question: "What's the difference between power flushing and chemical flushing?",
+    answer: 'Power flushing uses high-flow equipment for heavy contamination. Chemical flushing uses chemicals with standard circulation for lighter contamination. MagnaCleanse uses magnetic technology. We assess which is best for your system.'
+  }
+];
 
 export default function PowerFlushing() {
   return (
@@ -712,57 +748,11 @@ export default function PowerFlushing() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Power Flushing Glasgow – FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'How do I know if I need a power flush?',
-                  answer: 'Cold spots, noisy pipes, discoloured water when bleeding radiators, and slow heat-up times are strong indicators that your system needs a power flush. We can assess your system with a free consultation.'
-                },
-                {
-                  question: 'Is power flushing messy?',
-                  answer: 'No — we use controlled equipment and protect surrounding areas. Your home remains clean throughout the process. We manage water disposal responsibly.'
-                },
-                {
-                  question: 'Will it fix all heating problems?',
-                  answer: 'If contamination is the cause, yes. However, if mechanical components like the pump or thermostat are faulty, additional work may be required. We diagnose the root cause first.'
-                },
-                {
-                  question: 'How long do results last?',
-                  answer: 'With inhibitor treatment and proper maintenance, many years. Most systems don\'t require another power flush for 5–10 years if looked after with annual inhibitor top-ups.'
-                },
-                {
-                  question: 'Do I need a magnetic filter after power flushing?',
-                  answer: 'Yes, we strongly recommend installing one. A magnetic filter captures residual sludge and protects your boiler for years to come. Many manufacturers now require them for warranty coverage.'
-                },
-                {
-                  question: 'Can power flushing damage my boiler?',
-                  answer: 'No. Power flushing removes harmful sludge that damages boilers. By removing contamination, you\'re protecting your boiler investment. We assess compatibility beforehand.'
-                },
-                {
-                  question: 'Should I power flush before a new boiler installation?',
-                  answer: 'Absolutely. Installing a new boiler into a contaminated system risks early failure and warranty voidance. We recommend flushing before any new boiler installation.'
-                },
-                {
-                  question: 'What\'s the difference between power flushing and chemical flushing?',
-                  answer: 'Power flushing uses high-flow equipment for heavy contamination. Chemical flushing uses chemicals with standard circulation for lighter contamination. MagnaCleanse uses magnetic technology. We assess which is best for your system.'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={powerFlushingFaqs}
+        title="Power Flushing Glasgow – FAQs"
+        description="Common questions about central heating power flushing, costs, and system maintenance in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">

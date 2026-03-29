@@ -1,9 +1,33 @@
 import { Link } from 'react-router-dom';
 import { Phone, Droplet, CheckCircle2, AlertCircle, Wrench, Shield, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import RelatedServices from '../components/RelatedServices';
 import { BUSINESS_INFO } from '../constants/business';
 import { serviceLinks, coldWaterTanksRelatedServices } from '../lib/links';
+
+const coldWaterTankFaqs = [
+  {
+    question: 'How often should a cold water tank be cleaned?',
+    answer: 'Every 1–2 years. Annually for rental properties.'
+  },
+  {
+    question: 'Is chlorination necessary?',
+    answer: 'Yes — it eliminates bacteria and ensures water hygiene compliance.'
+  },
+  {
+    question: 'Can I remove my loft tank?',
+    answer: 'Possibly — if your heating system supports mains pressure. We assess before advising.'
+  },
+  {
+    question: 'Are metal tanks safe?',
+    answer: 'Older metal tanks are prone to corrosion and contamination and are generally recommended for replacement.'
+  },
+  {
+    question: 'What is a WRAS-approved tank?',
+    answer: 'A tank compliant with Water Supply Regulations, fitted with sealed lids and screened outlets.'
+  }
+];
 
 export default function ColdWaterTanks() {
   return (
@@ -452,59 +476,15 @@ export default function ColdWaterTanks() {
               </ul>
             </div>
 
-            <h2 className="text-3xl font-bold text-slate-900 mb-8">
-              Cold Water Tank FAQs
-            </h2>
-
-            <div className="space-y-6 mb-12">
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  How often should a cold water tank be cleaned?
-                </h3>
-                <p className="text-slate-700">
-                  Every 1–2 years. Annually for rental properties.
-                </p>
-              </div>
-
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  Is chlorination necessary?
-                </h3>
-                <p className="text-slate-700">
-                  Yes — it eliminates bacteria and ensures water hygiene compliance.
-                </p>
-              </div>
-
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  Can I remove my loft tank?
-                </h3>
-                <p className="text-slate-700">
-                  Possibly — if your heating system supports mains pressure. We assess before advising.
-                </p>
-              </div>
-
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  Are metal tanks safe?
-                </h3>
-                <p className="text-slate-700">
-                  Older metal tanks are prone to corrosion and contamination and are generally recommended for replacement.
-                </p>
-              </div>
-
-              <div className="bg-slate-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  What is a WRAS-approved tank?
-                </h3>
-                <p className="text-slate-700">
-                  A tank compliant with Water Supply Regulations, fitted with sealed lids and screened outlets.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
+
+      <FAQSection
+        faqs={coldWaterTankFaqs}
+        title="Cold Water Tank FAQs"
+        description="Common questions about cold water tank maintenance, cleaning, and replacement in Glasgow."
+      />
 
       <RelatedServices services={coldWaterTanksRelatedServices} />
 

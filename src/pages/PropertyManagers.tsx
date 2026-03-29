@@ -674,7 +674,6 @@ export default function PropertyManagers() {
         faqs={propertyManagersFaqs}
         title="Property Manager Services FAQ"
         description="Common questions about reactive support, compliance management, emergency response, and portfolio agreements for letting agencies."
-        imageUrl="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
       />
     </>
   );

@@ -1,8 +1,44 @@
 import { Link } from 'react-router-dom';
 import { Phone, Flame, CheckCircle2, AlertTriangle, Wrench, Zap, Shield, MapPin, Heart, Wind } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQSection from '../components/FAQSection';
 import { BUSINESS_INFO } from '../constants/business';
 import GasSafeBadge from '../components/GasSafeBadge';
+
+const gasFireFaqs = [
+  {
+    question: 'Should I service my gas fire every year?',
+    answer: "Yes. Annual servicing ensures safety, efficiency, and compliance with manufacturers' recommendations. It also keeps your fire safe and extends its lifespan."
+  },
+  {
+    question: 'Is soot dangerous?',
+    answer: 'Yes. Soot indicates incomplete combustion and potential carbon monoxide (CO) risk. If you notice black soot around your fire, stop using it and contact a Gas Safe engineer immediately.'
+  },
+  {
+    question: 'Can I repair a gas fire myself?',
+    answer: "No. Gas appliances must only be worked on by Gas Safe registered engineers. It's dangerous, illegal, and will void warranties."
+  },
+  {
+    question: 'Do you service all gas fire models?',
+    answer: 'We service most major brands including Gazco, Valor, Flavel, Baxi, Robinson Willey, and many more. If unsure, send us a photo to confirm before booking.'
+  },
+  {
+    question: 'My fire smells unusual – what should I do?',
+    answer: 'Turn it off immediately and contact a Gas Safe engineer. Unusual smells can indicate combustion problems or ventilation issues.'
+  },
+  {
+    question: 'How much does a gas fire repair cost?',
+    answer: 'Costs vary depending on the fault and parts required. Minor repairs may cost around £100–£200, while larger replacements cost more. We always provide a clear quotation before proceeding.'
+  },
+  {
+    question: 'What if my fire has a gas leak?',
+    answer: 'If you smell gas, turn off the fire, open windows, leave the property, and call the National Gas Emergency Service on 0800 111 999 immediately.'
+  },
+  {
+    question: 'How long is the 12-month guarantee?',
+    answer: "Our workmanship guarantee covers all repairs we carry out for 12 months from the date of service. If the same fault reoccurs, we'll fix it free of charge."
+  }
+];
 
 export default function GasFireRepairs() {
   return (
@@ -624,57 +660,11 @@ export default function GasFireRepairs() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-              Gas Fire Repairs Glasgow – FAQs
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  question: 'Should I service my gas fire every year?',
-                  answer: 'Yes. Annual servicing ensures safety, efficiency, and compliance with manufacturers\' recommendations. It also keeps your fire safe and extends its lifespan.'
-                },
-                {
-                  question: 'Is soot dangerous?',
-                  answer: 'Yes. Soot indicates incomplete combustion and potential carbon monoxide (CO) risk. If you notice black soot around your fire, stop using it and contact a Gas Safe engineer immediately.'
-                },
-                {
-                  question: 'Can I repair a gas fire myself?',
-                  answer: 'No. Gas appliances must only be worked on by Gas Safe registered engineers. It\'s dangerous, illegal, and will void warranties.'
-                },
-                {
-                  question: 'Do you service all gas fire models?',
-                  answer: 'We service most major brands including Gazco, Valor, Flavel, Baxi, Robinson Willey, and many more. If unsure, send us a photo to confirm before booking.'
-                },
-                {
-                  question: 'My fire smells unusual – what should I do?',
-                  answer: 'Turn it off immediately and contact a Gas Safe engineer. Unusual smells can indicate combustion problems or ventilation issues.'
-                },
-                {
-                  question: 'How much does a gas fire repair cost?',
-                  answer: 'Costs vary depending on the fault and parts required. Minor repairs may cost around £100–£200, while larger replacements cost more. We always provide a clear quotation before proceeding.'
-                },
-                {
-                  question: 'What if my fire has a gas leak?',
-                  answer: 'If you smell gas, turn off the fire, open windows, leave the property, and call the National Gas Emergency Service on 0800 111 999 immediately.'
-                },
-                {
-                  question: 'How long is the 12-month guarantee?',
-                  answer: 'Our workmanship guarantee covers all repairs we carry out for 12 months from the date of service. If the same fault reoccurs, we\'ll fix it free of charge.'
-                }
-              ].map((faq, index) => (
-                <div key={index} className="bg-slate-50 p-6 rounded-lg shadow-sm border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <FAQSection
+        faqs={gasFireFaqs}
+        title="Gas Fire Repairs Glasgow – FAQs"
+        description="Common questions about gas fire servicing, repairs, and safety in Glasgow."
+      />
 
       <section className="py-12 md:py-16 bg-orange-900 text-white">
         <div className="container mx-auto px-4 text-center">
