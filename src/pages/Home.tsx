@@ -20,19 +20,18 @@ export default function Home() {
         schema={generateLocalBusinessSchema()}
       />
 
-      <section className="relative overflow-hidden -mt-[8.5rem] md:-mt-[9.5rem] pt-[8.5rem] md:pt-[9.5rem] pb-16 md:pb-24 lg:pb-32 min-h-screen lg:min-h-[75vh] xl:min-h-[80vh] flex items-center">
+      <section className="relative overflow-hidden -mt-[8.5rem] md:-mt-[9.5rem] pt-[8.5rem] md:pt-[9.5rem] pb-8 md:pb-24 lg:pb-32 min-h-[85vh] md:min-h-screen lg:min-h-[75vh] xl:min-h-[80vh] flex items-end md:items-center">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-cover bg-no-repeat bg-[center_bottom] md:bg-[70%_center] lg:bg-[75%_center]" style={{ backgroundImage: 'url(/hero-home-upgrade.webp)', backgroundSize: 'cover' }}></div>
-          <div className="absolute inset-0 bg-black/40 md:bg-primary/30"></div>
+          <div className="absolute inset-0 bg-cover bg-no-repeat bg-[center_20%] md:bg-[70%_center] lg:bg-[75%_center]" style={{ backgroundImage: 'url(/hero-home-upgrade.webp)', backgroundSize: 'cover' }}></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent md:bg-primary/30"></div>
           <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent opacity-60 pointer-events-none"></div>
-
         </div>
 
-        <div className="container mx-auto px-3 md:px-4 relative z-10 w-full">
+        <div className="container mx-auto px-4 md:px-4 relative z-10 w-full">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row gap-8">
-              <div className="flex-1 max-w-2xl">
-                <div className="inline-flex items-center gap-1.5 mb-4 md:mb-6">
+              <div className="flex-1 max-w-2xl text-center md:text-left">
+                <div className="inline-flex items-center gap-1.5 mb-3 md:mb-6 justify-center md:justify-start">
                   <svg className="w-4 h-4 md:w-5 md:h-5" viewBox="0 0 24 24">
                     <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
                     <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
@@ -47,40 +46,41 @@ export default function Home() {
                   ))}
                 </div>
 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 md:mb-6 leading-tight text-white">
-                  <span className="text-secondary">Local</span> Plumber in Glasgow – 24/7 Repairs & Installations
+                <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-3 md:mb-6 leading-tight text-white">
+                  <span className="text-secondary">Local</span> Plumber in Glasgow
+                  <span className="hidden md:inline"> – 24/7 Repairs & Installations</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-white mb-6 md:mb-8 max-w-xl leading-relaxed">
-                  Providing professional plumbing repairs, boiler servicing, emergency call-outs and bathroom plumbing across Glasgow and surrounding areas. Gas Safe registered engineers delivering fast response times and guaranteed workmanship.
+                <p className="text-sm md:text-xl text-white/90 mb-4 md:mb-8 max-w-xl leading-relaxed mx-auto md:mx-0">
+                  Professional plumbing repairs, boiler servicing & emergency call-outs. Gas Safe registered engineers.
                 </p>
 
-                <div className="flex flex-col gap-3 mb-8 md:hidden">
+                <div className="flex flex-row gap-2 mb-4 md:hidden justify-center">
                   <a
                     href="tel:07523172416"
-                    className="bg-accent hover:bg-accent-600 text-white px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
+                    className="bg-accent hover:bg-accent-600 text-white px-4 py-2.5 rounded-lg font-semibold text-sm transition-all shadow-lg"
                   >
-                    Call 07523 172416
+                    Call Now
                   </a>
                   <Link
                     to="/contact"
-                    className="bg-white hover:bg-gray-100 text-slate-900 px-6 py-3 rounded-lg font-bold text-base transition-all duration-300 ease-out shadow-xl hover:shadow-2xl text-center w-full transform hover:scale-105"
+                    className="bg-white hover:bg-gray-100 text-slate-900 px-4 py-2.5 rounded-lg font-semibold text-sm transition-all shadow-lg"
                   >
                     Book Online
                   </Link>
                 </div>
 
-                <div className="flex flex-wrap gap-2 md:gap-4 mb-6 md:mb-8">
-                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
-                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
+                <div className="flex flex-wrap gap-2 md:gap-4 mb-4 md:mb-8 justify-center md:justify-start">
+                  <div className="flex items-center gap-1.5 text-xs md:text-base text-white bg-white/10 backdrop-blur-sm px-2.5 md:px-4 py-1.5 md:py-2 rounded-lg border border-white/20">
+                    <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0" />
                     <span>24/7 Service</span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
-                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
+                  <div className="flex items-center gap-1.5 text-xs md:text-base text-white bg-white/10 backdrop-blur-sm px-2.5 md:px-4 py-1.5 md:py-2 rounded-lg border border-white/20">
+                    <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0" />
                     <span>Free Quotes</span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm md:text-base text-white bg-gradient-to-r from-secondary/20 to-secondary/10 backdrop-blur-sm px-3 md:px-4 py-2 rounded-lg border border-secondary/40 shadow-lg shadow-secondary/30">
-                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
+                  <div className="flex items-center gap-1.5 text-xs md:text-base text-white bg-white/10 backdrop-blur-sm px-2.5 md:px-4 py-1.5 md:py-2 rounded-lg border border-white/20">
+                    <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0" />
                     <span>12mo Guarantee</span>
                   </div>
                 </div>
