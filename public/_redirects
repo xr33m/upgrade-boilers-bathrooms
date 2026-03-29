@@ -1,1 +1,4 @@
 https://www.upgradeboilersandbathrooms.com/* https://upgradeboilersandbathrooms.com/:splat 301!
+
+# SPA fallback - serve index.html for all routes
+/*    /index.html   200

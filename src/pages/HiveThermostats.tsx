@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Smartphone, Wifi, Zap, Home, Gauge, AlertCircle, CheckCircle2, AlertTriangle, Wrench, MapPin, Lock, Battery } from 'lucide-react';
+import { Phone, Smartphone, Wifi, Zap, Home, Gauge, AlertCircle, CheckCircle2, AlertTriangle, Wrench, MapPin, Lock, Battery, Droplets } from 'lucide-react';
 import SEO from '../components/SEO';
 import { BUSINESS_INFO } from '../constants/business';
 
