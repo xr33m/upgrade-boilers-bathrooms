@@ -1,4 +1,5 @@
+# Redirect www to non-www
 https://www.upgradeboilersandbathrooms.com/* https://upgradeboilersandbathrooms.com/:splat 301!
 
-# SPA fallback - serve index.html for all routes
+# SPA fallback - serve index.html for all routes (must be last)
 /*    /index.html   200
