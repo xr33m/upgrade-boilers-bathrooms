@@ -134,7 +134,7 @@ export default function BoilerRepairs() {
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Standard call-out fee: £60 (Mon-Fri, 8am-6pm)</span>
+                      <span>Standard call-out fee: £60 (Mon-Fri, 8am-5pm)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />

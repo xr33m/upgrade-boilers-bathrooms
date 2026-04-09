@@ -135,10 +135,9 @@ export default function Contact() {
                     </div>
                     <div>
                       <div className="font-bold text-lg mb-1">Opening Hours</div>
-                      <div className="text-slate-700">Monday - Friday: 8:00am - 6:00pm</div>
-                      <div className="text-slate-700">Saturday: 9:00am - 5:00pm</div>
-                      <div className="text-slate-700">Sunday: Closed</div>
-                      <div className="text-red-600 font-bold mt-2">24/7 Emergency Service Available</div>
+                      <div className="text-slate-700">Monday - Friday: 8:00am - 5:00pm</div>
+                      <div className="text-slate-700">Saturday: Emergency call out available</div>
+                      <div className="text-slate-700">Sunday: Emergency call out available</div>
                     </div>
                   </div>
                 </div>

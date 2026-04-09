@@ -487,7 +487,7 @@ export default function PrivateLandlords() {
 
             <div className="bg-red-50 border border-red-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
-                We operate 6 days per week with emergency response available.
+                We operate Monday to Friday, 8am-5pm, with emergency call out available on weekends.
               </p>
 
               <div className="bg-white p-4 rounded border border-red-300 mb-6">

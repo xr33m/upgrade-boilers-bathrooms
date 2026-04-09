@@ -338,7 +338,7 @@ export default function PropertyManagers() {
 
             <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg mb-12">
               <p className="text-slate-700 mb-4">
-                We operate 6 days per week, with emergency response procedures in place.
+                We operate Monday to Friday, 8am-5pm, with emergency call out available on weekends.
               </p>
 
               <div className="bg-white p-4 rounded border border-orange-300 mb-4">

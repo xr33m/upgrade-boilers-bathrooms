@@ -135,7 +135,7 @@ export default function BookingConfirmation() {
 
             <div className="space-y-6">
               <p className="text-lg text-slate-600">
-                Available 24/7 for emergency calls. Standard calls Monday-Saturday.
+                Available for emergency calls on weekends. Standard hours Monday-Friday, 8am-5pm.
               </p>
 
               <Link
