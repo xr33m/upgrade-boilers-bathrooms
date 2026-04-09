@@ -1,7 +1,7 @@
 export const DOMAIN = "https://upgradeboilersandbathrooms.com";
 
 export const BUSINESS_INFO = {
-  name: "Upgrade",
+  name: "Upgrade Boilers and Bathrooms",
   phone: "07523 172416",
   email: "upgradeboilersandbathrooms@gmail.com",
   address: {

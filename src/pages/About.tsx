@@ -24,7 +24,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About Glasgow Premier Plumbing & Heating
+              About Upgrade Boilers and Bathrooms
             </h1>
             <p className="text-xl text-blue-100">
               Your trusted local plumbing and heating experts since {BUSINESS_INFO.established}
@@ -41,7 +41,7 @@ export default function About() {
             </h2>
             <div className="prose prose-lg max-w-none text-slate-700 space-y-4 mb-12">
               <p>
-                Glasgow Premier Plumbing & Heating was founded in {BUSINESS_INFO.established} with a simple mission: to provide honest, reliable, and professional plumbing and heating services to homes and businesses across Glasgow.
+                Upgrade Boilers and Bathrooms was founded in {BUSINESS_INFO.established} with a simple mission: to provide honest, reliable, and professional plumbing and heating services to homes and businesses across Glasgow.
               </p>
               <p>
                 Over the past 14 years, we've grown from a small local business to become one of Glasgow's most trusted names in plumbing and heating. Our success is built on a foundation of quality workmanship, exceptional customer service, and a commitment to doing the job right the first time.
