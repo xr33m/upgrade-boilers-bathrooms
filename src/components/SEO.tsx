@@ -8,19 +8,35 @@ interface SEOProps {
   schema?: object;
 }
 
+
+function upsertMeta(attrKey: string, attrValue: string, content: string) {
+  const selector = `meta[${attrKey}="${attrValue}"]`;
+  let el = document.querySelector(selector);
+  if (el) {
+    el.setAttribute('content', content);
+  } else {
+    el = document.createElement('meta');
+    el.setAttribute(attrKey, attrValue);
+    el.setAttribute('content', content);
+    document.head.appendChild(el);
+  }
+}
+
 export default function SEO({ title, description, canonical, schema }: SEOProps) {
   useEffect(() => {
-    document.title = `${title} | ${BUSINESS_INFO.name}`;
+    const fullTitle = `${title} | ${BUSINESS_INFO.name}`;
+    document.title = fullTitle;
 
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', description);
-    } else {
-      const meta = document.createElement('meta');
-      meta.name = 'description';
-      meta.content = description;
-      document.head.appendChild(meta);
+    upsertMeta('name', 'description', description);
+
+    upsertMeta('property', 'og:title', fullTitle);
+    upsertMeta('property', 'og:description', description);
+    if (canonical) {
+      upsertMeta('property', 'og:url', canonical);
     }
+
+    upsertMeta('name', 'twitter:title', fullTitle);
+    upsertMeta('name', 'twitter:description', description);
 
     if (canonical) {
       let linkCanonical = document.querySelector('link[rel="canonical"]');
