@@ -170,7 +170,7 @@ export default function Contact() {
 
                 <form
                   onSubmit={handleSubmit}
-                  action="https://formspree.io/f/YOUR_FORM_ID"
+                  action="https://formspree.io/f/xqegorya"
                   method="POST"
                   className="space-y-6"
                 >
