@@ -10,6 +10,8 @@ export default function Contact() {
     name: '',
     email: '',
     phone: '',
+    address: '',
+    postcode: '',
     service: '',
     message: ''
   });
@@ -40,6 +42,8 @@ export default function Contact() {
           name: '',
           email: '',
           phone: '',
+          address: '',
+          postcode: '',
           service: '',
           message: ''
         });
@@ -219,6 +223,36 @@ export default function Contact() {
                       onChange={(e) => setFormData({...formData, phone: e.target.value})}
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
                       placeholder="0141 123 4567"
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="address" className="block font-semibold mb-2 text-slate-700">
+                      Property Address
+                    </label>
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      value={formData.address}
+                      onChange={(e) => setFormData({...formData, address: e.target.value})}
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
+                      placeholder="123 Main Street, Glasgow"
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="postcode" className="block font-semibold mb-2 text-slate-700">
+                      Postcode
+                    </label>
+                    <input
+                      type="text"
+                      id="postcode"
+                      name="postcode"
+                      value={formData.postcode}
+                      onChange={(e) => setFormData({...formData, postcode: e.target.value.toUpperCase()})}
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-secondary outline-none transition"
+                      placeholder="G1 1AA"
                     />
                   </div>
 
